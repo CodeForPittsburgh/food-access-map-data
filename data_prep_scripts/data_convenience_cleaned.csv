@@ -1,0 +1,673 @@
+"id","name","type","address","street_one","street_two","city","state","zip_code","location_description","date_from","date_to","open_time","close_time","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","SNAP","WIC","FMNP","fresh_produce-healthy","MRFEI_score","latitude","longitude"
+NA,"Avalon Fuel","Convenience Store","901 Ohio River Blvd",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.495759,-80.066508
+NA,"Ez Energy #303/7Eleven #36183H","Convenience Store","209 Ohio River Blvd",NA,NA,NA,"PA",15143,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.545418,-80.194152
+NA,"EZ Energy #311 / 7 Eleven #36191H","Convenience Store","8136 Ohio River Blvd",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.510522,-80.094268
+NA,"Getgo #3646 / Crafton - Ingram","Convenience Store","280 Crafton Ingram Shopping circle",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41.203322,-77.194525
+NA,"Mt NeBlvd Texaco","Convenience Store","1706 Mt Nebo Rd",NA,NA,NA,"PA",15143,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.553281,-80.109158
+NA,"Radokovic Marathon","Convenience Store","1826 Lincoln Highway",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.367923,-79.780429
+NA,"Sunoco #7544","Convenience Store","1201 Airport Blvdulevard",NA,NA,NA,"PA",15231,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.494177,-80.267208
+NA,"Sunoco A Plus Mini Market #8154","Convenience Store","5204 Interbo Ave",NA,NA,NA,"PA",15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.370214,-79.913195
+NA,"Plow & Hearth","Convenience Store","1710 Settlers Ridge Center Dr",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440641,-80.149132
+NA,"S & R Market","Convenience Store","4915 2nd Ave",NA,NA,NA,"PA",15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.529076,-80.025577
+NA,"EZ Energy #307 / 7 Eleven #36187H","Convenience Store","4630 Wm Flynn Highway",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.590622,-79.948086
+NA,"Mega Deli","Convenience Store","995 Greensburg Pike",NA,NA,NA,"PA",15112,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.416874,-79.839453
+NA,"Sheetz #500","Convenience Store","1910 Mt Nebo Rd",NA,NA,NA,"PA",15143,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.552928,-80.115508
+NA,"7 Eleven #35968H","Convenience Store","525 Perry Highway",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.396638,-77.026583
+NA,"7 Eleven #36143A","Convenience Store","601 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442813,-80.001884
+NA,"A & E Deli Food Mart","Convenience Store","105 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.41739,-79.986525
+NA,"Al's Market","Convenience Store","24 Braddock Ave",NA,NA,NA,"PA",15104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.407271,-79.875462
+NA,"Alstan Mini Mart","Convenience Store","2516 Monroeville Blvd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426703,-79.788569
+NA,"American Joe's","Convenience Store","2105 Walnut St",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.340154,-79.859937
+NA,"American Natural","Convenience Store","73 Carson St",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.430917,-80.001402
+NA,"Avalon Mart","Convenience Store","632 California Av",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.501336,-80.067941
+NA,"AW Food Express / Sunoco","Convenience Store","1001 Pikettsburgh St",NA,NA,NA,"PA",15024,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.540809,-79.807543
+NA,"Bett's Market","Convenience Store","819 Brushton Ave",NA,NA,NA,"PA",15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.455264,-79.888216
+NA,"Cash & Carry","Convenience Store","1021 Perry Hwy",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.540405,-80.036133
+NA,"Cash & Carry Convenience Store","Convenience Store","7920 Saltsburg Rd",NA,NA,NA,"PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.477508,-79.75943
+NA,"Clairton Mini Mart","Convenience Store","672 Miller Av",NA,NA,NA,"PA",15025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.290634,-79.883992
+NA,"Clairton Mini-Mart","Convenience Store","540 St Clair Ave",NA,NA,NA,"PA",15025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.293214,-79.88689
+NA,"Co Go's #1780","Convenience Store","3402 Main St",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.386385,-79.902763
+NA,"Co Go's #346","Convenience Store","3439 West Run Rd",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.38845,-79.90976
+NA,"Co Go's #805","Convenience Store","4071 Beechwood Blvd",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.427102,-79.938593
+NA,"Co Go's #820","Convenience Store","2880 Brownsville Rd Ext",NA,NA,NA,"PA",15129,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.279791,-80.001782
+NA,"CR Petroleum","Convenience Store","101 Mile Lock La",NA,NA,NA,"PA",15014,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47.15441,-2.172958
+NA,"De Carlo Fruit Market","Convenience Store","560 Mckeesport Rd",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.276563,-79.878044
+NA,"Edgewood Avenue Express","Convenience Store","253 Edgewood Ave",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.430663,-79.884352
+NA,"Edna's Market & Deli @ Northview Heights","Convenience Store","529 Mt Pleasant Rd",NA,NA,NA,"PA",15214,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.478135,-80.000449
+NA,"Everest Food","Convenience Store","308 Curry Hollow Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.336174,-79.972625
+NA,"Express Mini Mart","Convenience Store","3518 Brownsville Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.374467,-79.975539
+NA,"Fa's Market","Convenience Store","623 Jones Ave",NA,NA,NA,"PA",15104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.404138,-79.861887
+NA,"Fuel On # 25","Convenience Store","5724 Ellsworth Av",NA,NA,NA,"PA",15232,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.455308,-79.931608
+NA,"Fueland","Convenience Store","921 Brodhead Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.518217,-80.222543
+NA,"Fueland #220","Convenience Store","710 Brown Av",NA,NA,NA,"PA",15145,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.427276,-79.836019
+NA,"GetGo #3108","Convenience Store","10525 Frankstown Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457119,-79.877698
+NA,"GetGo #3109","Convenience Store","436 Lincoln Hwy East",NA,NA,NA,"PA",15035,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.380961,-79.8115
+NA,"Glassmere Food Mart #252","Convenience Store","3001 Freeport Rd",NA,NA,NA,"PA",15144,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.595044,-79.76881
+NA,"Homestead Food Mart","Convenience Store","238 8th Av",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.407623,-79.909613
+NA,"Honey Bear / Spee-D Mart","Convenience Store","209 3rd Street",NA,NA,NA,"PA",15034,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.349519,-79.891481
+NA,"International Food Emporium","Convenience Store","4110 Saw Mill Run Blvd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.367213,-79.984027
+NA,"Janoski's Farm Market","Convenience Store","1714 U.S. Route 30",NA,NA,NA,"PA",15026,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.559221,-80.437686
+NA,"Jeets Sunoco","Convenience Store","5457 Perry Hwy",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.513271,-80.030768
+NA,"Jimit Sunoco","Convenience Store","2904 5th Ave",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.358373,-79.831701
+NA,"Jodha Exxon","Convenience Store","2200 Babcock Blvd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.510927,-79.993984
+NA,"Kolos International Food","Convenience Store","114 East St / Mall Plaza",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.406902,-80.087614
+NA,"Kwik E Mart","Convenience Store","212 10th St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444199,-79.995537
+NA,"Large Sunoco","Convenience Store","1344 Clairton Blvd",NA,NA,NA,"PA",15025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.307385,-79.935894
+NA,"Marathon McKeesport","Convenience Store","710 5th Av",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.351443,-79.857948
+NA,"Maruti Convience","Convenience Store","1100 Fawcett Av",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.35267,-79.825732
+NA,"Mary's & Rick's","Convenience Store","200 3rd St",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.403354,-80.089813
+NA,"Murray's Exxon","Convenience Store","1100 Penn Ave",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44133,-79.877715
+NA,"NeighBlvdrhood Dollar","Convenience Store","336 5th Av",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.351125,-79.863412
+NA,"New Eagle Mart","Convenience Store","300 6th Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441932,-80.001828
+NA,"Noble Mart","Convenience Store","2100 Noble St",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.420651,-79.885465
+NA,"Oak Hill Market","Convenience Store","504 Oak Highwayll Dr",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44356,-79.969922
+NA,"One Stop Mini Mart","Convenience Store","2333 Beechwood Blvd",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.432851,-79.914965
+NA,"Phil's Citgo","Convenience Store","5340 Perry Hwy",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.509195,-80.029331
+NA,"Pitt Stop Express","Convenience Store","1980 Painters Run Rd",NA,NA,NA,"PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.363956,-80.086425
+NA,"Pittsburgh Asian Market / Ou's International Co","Convenience Store","707 Penn Ave",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443558,-79.884328
+NA,"Quicky Mart","Convenience Store","668 WasHighwayngton Rd",NA,NA,NA,"PA",15228,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.380538,-80.04456
+NA,"RN Market","Convenience Store","256 S Highwayghland",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457254,-79.925206
+NA,"Rte #286 Exxon","Convenience Store","2405 Golden Mile Highway",NA,NA,NA,"PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.471469,-79.986604
+NA,"Safi Market","Convenience Store","1518 Mifflin St",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.403187,-79.90342
+NA,"SAI Sunoco","Convenience Store","3039 Freeport Rd",NA,NA,NA,"PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.642437,-79.710438
+NA,"Sam Blvdk Korean Grocery","Convenience Store","1737 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450358,-79.985099
+NA,"Sheetz #582","Convenience Store","4723 Wm Penn Highway",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.434846,-79.73331
+NA,"Shell North Versailles","Convenience Store","505 Lincoln Highway",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450809,-80.199382
+NA,"Sheraden Mini Mart","Convenience Store","649 HighwayllsBlvdro St",NA,NA,NA,"PA",15204,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.431433,-79.861903
+NA,"Shop N Go","Convenience Store","2226 Route 837",NA,NA,NA,"PA",15088,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.428336,-79.973438
+NA,"Speedway #2917","Convenience Store","4363 Broadway Blvd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.397285,-79.768965
+NA,"Stop n Shop","Convenience Store","1043 Hamil Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.502514,-79.810806
+NA,"Sunoco","Convenience Store","600 Lysle Blvd",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.351981,-79.859689
+NA,"Sunoco #7139","Convenience Store","1020 Mt Royal Blvd",NA,NA,NA,"PA",15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.516752,-79.959009
+NA,"Sunoco #7362","Convenience Store","19090 Perry Hwy",NA,NA,NA,"PA",16046,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.674019,-80.098542
+NA,"Sunoco #7430","Convenience Store","113 Noble Ave",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.434829,-80.06553
+NA,"Sunoco A Plus Mini Market","Convenience Store","123 N Negley Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.464292,-79.930226
+NA,"Sushi with Gusto","Convenience Store","1551 WasHighwayngton Rd",NA,NA,NA,"PA",15228,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.355489,-80.050351
+NA,"Sweet Peas Convenience Store","Convenience Store","3937 Library Rd",NA,NA,NA,"PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.363119,-80.027195
+NA,"T-Blvdnes BP #02706","Convenience Store","787 Wexford Bayne Rd",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.616571,-80.09131
+NA,"The Hot Spot","Convenience Store","601 Monongahela Av",NA,NA,NA,"PA",15045,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.325977,-79.892457
+NA,"Uni-Mart","Convenience Store","3400 Versailles Av",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.344889,-79.837515
+NA,"Uni-Mart #4682","Convenience Store","551 State St",NA,NA,NA,"PA",15025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.292972,-79.874705
+NA,"Uni-Mart #94608","Convenience Store","1181 Romine Ave",NA,NA,NA,"PA",15133,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.342269,-79.871278
+NA,"Victoria's Dairy","Convenience Store","1716 Lowrie St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.464324,-79.982206
+NA,"Z Corner Store","Convenience Store","520 Pikettsburgh Mills Circle",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.571307,-79.799218
+NA,"7 Eleven #36139A","Convenience Store","285 Mt Lebanon Blvd",NA,NA,NA,"PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.368776,-80.037105
+NA,"7 Eleven #36154H","Convenience Store","1101 Brookline Blvd",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39224,-80.015038
+NA,"7 Eleven #36155","Convenience Store","818 Duquesne Blvd",NA,NA,NA,"PA",15110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.38276,-79.856971
+NA,"B & Z Deli","Convenience Store","3392 Saxonburg Blvd",NA,NA,NA,"PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.548903,-79.913913
+NA,"CVS / Pharmacy #258","Convenience Store","5703 Steubenville Pike",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.451423,-80.134188
+NA,"EZ Energy #306 / 7 Eleven #36186H","Convenience Store","3915 Wm Flynn Highway",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.559163,-79.959751
+NA,"EZ Energy #312 / 7 Eleven Store #36192H","Convenience Store","650 Clairton Blvd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.328839,-79.945503
+NA,"Family Dollar #4675","Convenience Store","27 Duquesne Blvd",NA,NA,NA,"PA",15110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.374361,-79.846658
+NA,"Fast Grab & Go","Convenience Store","7261 Steubenville Pike",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442577,-80.186135
+NA,"Getgo #3280","Convenience Store","1700 Wm Flynn Highway",NA,NA,NA,"PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.538256,-79.961617
+NA,"Oakdale Mini Mart","Convenience Store","7520 Steubenville Pike",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442116,-80.201258
+NA,"Save N Go","Convenience Store","5610 William Flynn Highway",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.63553,-79.939082
+NA,"Sheetz #123","Convenience Store","5300 Wm Flynn Highway",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.614349,-79.946668
+NA,"Speedway #2903","Convenience Store","4311 Steubenville Pike",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43959,-80.093571
+NA,"TJ's Deli Mart #2","Convenience Store","5942 Steubenville Pike",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.448456,-80.142616
+NA,"Tonidale Marathon","Convenience Store","7021 Steubenville Pike",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443867,-80.174208
+NA,"Uni-Mart","Convenience Store","1300 Coraopolis Hights Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.501443,-80.175698
+NA,"EZ Energy #357 / 7 Eleven #36201H","Convenience Store","10594 Perry Highway",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.612704,-80.054105
+NA,"$1 & Up","Convenience Store","744 Brookline Blvd",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39374,-80.020522
+NA,"1 Stop Amish Deli & Gifts","Convenience Store","1906 Lincoln Hwy",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.367305,-79.779211
+NA,"3 D's Tobacco","Convenience Store","3604 5th Ave",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441242,-79.958758
+NA,"5 GB's Fresh Foods","Convenience Store","1100 Chartiers Av",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.465482,-80.068211
+NA,"52nd Street Market","Convenience Store","601 52nd St",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.478808,-79.951957
+NA,"7 Eleven #106 36118A","Convenience Store","1 Bigelow Sq",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44043,-79.99488
+NA,"7 Eleven #167","Convenience Store","643 Liberty Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442605,-80.000205
+NA,"7 Eleven #2701-36160J","Convenience Store","420 Smihfield St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.439202,-79.998948
+NA,"7 Eleven #36117H","Convenience Store","333 Thompson Run Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.527563,-79.988854
+NA,"7 Eleven #36121A","Convenience Store","423 James St",NA,NA,NA,"PA",15145,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.408809,-79.819096
+NA,"7 Eleven #36122A","Convenience Store","22 Grant Av",NA,NA,NA,"PA",15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.50398,-79.948659
+NA,"7 Eleven #36123","Convenience Store","7500 Grand Av",NA,NA,NA,"PA",15225,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.5173,-80.148322
+NA,"7 Eleven #36126A","Convenience Store","987 Greentree Rd",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.418082,-80.045137
+NA,"7 Eleven #36127A","Convenience Store","137 Clever Rd",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46957,-80.100321
+NA,"7 Eleven #36128","Convenience Store","6403 Brownsville Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.321948,-79.994895
+NA,"7 Eleven #36134","Convenience Store","3955 Forbes Av",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443016,-79.95494
+NA,"7 Eleven #36135","Convenience Store","850 Blvdyce Rd",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.328211,-80.125669
+NA,"7 Eleven #36138H","Convenience Store","740 W Ingomar Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.581679,-80.056061
+NA,"7 Eleven #36140A","Convenience Store","1005 Western Ave",NA,NA,NA,"PA",15233,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.451235,-80.019102
+NA,"7 Eleven #36144A","Convenience Store","95 Warrendale Bayne Rd",NA,NA,NA,"PA",15086,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.655507,-80.086794
+NA,"7 Eleven #36146A","Convenience Store","429 Wood St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440324,-80.00103
+NA,"7 Eleven #36152A","Convenience Store","608 5th St",NA,NA,NA,"PA",15088,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.27325,-79.896205
+NA,"7 Eleven #36159A","Convenience Store","1350 Wildwood Rd",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.594933,-79.993623
+NA,"7 Eleven #36193A","Convenience Store","999 Greentree Rd",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.416791,-80.044676
+NA,"7 Eleven Store #36131-A","Convenience Store","10 Prospect Av",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.445258,-80.066088
+NA,"7-Eleven #36124","Convenience Store","1400 Radford Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.363734,-79.967563
+NA,"A & K Convenience Store","Convenience Store","3459 Ward St",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436402,-79.95436
+NA,"A & M Market","Convenience Store","320 Coal St",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.435709,-79.882673
+NA,"Abby's","Convenience Store","2408 Reed St",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444968,-79.971576
+NA,"Abe's Market","Convenience Store","1860 Centre Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442818,-79.980847
+NA,"Aden Market","Convenience Store","1318 Federal St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457262,-80.006901
+NA,"Ak Schwartz Super Market","Convenience Store","1901 5th Ave",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438518,-79.979264
+NA,"Alfreds Deli & Market","Convenience Store","3041 Brereton St",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.456775,-79.968396
+NA,"Allegheny City Market","Convenience Store","1327 Arch St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457244,-80.009625
+NA,"Allison Park Mini Market","Convenience Store","1675 Duncan Av",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.566346,-79.999275
+NA,"American Natural #12","Convenience Store","103 22nd Av",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.397648,-79.902718
+NA,"American Natural #14","Convenience Store","2619 Wexford Bayne Rd",NA,NA,NA,"PA",15143,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.614788,-80.098656
+NA,"American Natural #2","Convenience Store","7338 Butler St",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.487385,-79.919823
+NA,"American Natural #5","Convenience Store","3800 Walnut St",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.32561,-79.839633
+NA,"American Natural #9","Convenience Store","5738 Smithfield St",NA,NA,NA,"PA",15135,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.310955,-79.824816
+NA,"Anlauf's Sunoco","Convenience Store","214 Rodi Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.463141,-79.824297
+NA,"Ann's Market","Convenience Store","2316 Webster Ave",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.448314,-79.975214
+NA,"Anytime Market","Convenience Store","730 Broadway Av",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.472941,-80.074361
+NA,"Arnold's Market","Convenience Store","1498 Center Av",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.515253,-80.045024
+NA,"Arrowhead Snack Bar","Convenience Store","800 Rock Run Rd",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.267835,-79.812587
+NA,"Azhar's Sunoco","Convenience Store","6500 Saltsburg Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.482373,-79.809518
+NA,"Bailie Food Mart","Convenience Store","2316 Bailie Ave",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.341159,-79.848683
+NA,"Bakers Dairy","Convenience Store","7300 Hamilton Ave",NA,NA,NA,"PA",15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.454003,-79.895663
+NA,"Bay Valley Foods Bldg #230 - Co. Store","Convenience Store","1080 River Ave",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.455278,-79.989036
+NA,"Beccari Farm Market","Convenience Store","5095 Thoms Run Rd",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.373971,-80.133093
+NA,"Bell's Market","Convenience Store","603 Braddock Ave",NA,NA,NA,"PA",15104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.403331,-79.868202
+NA,"Ben Avon Mini Mart","Convenience Store","200 Division Av",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.503809,-80.075415
+NA,"Bhangal Mcknight","Convenience Store","4616 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.506003,-80.007421
+NA,"Big Daddy's","Convenience Store","564 Forbes Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.437655,-79.995074
+NA,"Bizi Mart","Convenience Store","2134 Carson St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.428206,-79.974793
+NA,"Blue Eagle Market","Convenience Store","726 Broadway Ave",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.472971,-80.07416
+NA,"Blvdb's Exxon","Convenience Store","2602 Freeport Rd",NA,NA,NA,"PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.633564,-79.713801
+NA,"BP / Bloomfield","Convenience Store","4006 Liberty Ave",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462645,-79.95682
+NA,"BP Connect","Convenience Store","2 Beaver Grade Rd",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.452448,-80.133194
+NA,"BP Fueland #228","Convenience Store","1927 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.395391,-79.986501
+NA,"BP Gas Station","Convenience Store","1001 Evergreen Av",NA,NA,NA,"PA",15209,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.490782,-79.971815
+NA,"BP Gas Station #36182","Convenience Store","100 Fox Chapel Dr",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.489314,-79.882457
+NA,"BP Oil","Convenience Store","231 5th Ave",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.351205,-79.86532
+NA,"BP Oil #07414","Convenience Store","4260 Evergreen Rd",NA,NA,NA,"PA",15214,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.495669,-80.00773
+NA,"BP Oil #67315","Convenience Store","2900 Banksville Rd",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.402949,-80.041463
+NA,"BP South Braddock","Convenience Store","1600 Braddock Av",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426943,-79.890856
+NA,"BP Stop & Go","Convenience Store","638 Brown Av",NA,NA,NA,"PA",15145,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.42596,-79.8345
+NA,"BP/ BFS Foods #64","Convenience Store","3984 Monroeville Blvd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436011,-79.773069
+NA,"BP/ Fueland #216","Convenience Store","625 Ardmore Blvd",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.437049,-79.873803
+NA,"Broadway Dairy Mart","Convenience Store","412 Broadway Ave",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46921,-80.068713
+NA,"Broadway Market","Convenience Store","295 Broadway Av",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467589,-80.067325
+NA,"Bryant Street Market","Convenience Store","5901 Bryant St",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.475878,-79.91957
+NA,"C & C News & Snax","Convenience Store","2 Ppg Pl",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440491,-80.00349
+NA,"CeeBee Market","Convenience Store","202 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.4158,-79.987353
+NA,"Center Point Convenience","Convenience Store","4061 Perrysville Ave",NA,NA,NA,"PA",15214,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.492315,-80.0217
+NA,"Cheneh A - Plus Mini Mart","Convenience Store","5013 Butler St",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.478309,-79.956214
+NA,"Christy's Market","Convenience Store","555 Foundry St",NA,NA,NA,"PA",15215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.50358,-79.937308
+NA,"Chuong's Market","Convenience Store","2208 Arlington Ave",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.417017,-79.975536
+NA,"CIO Stores #14","Convenience Store","1909 Painters Run Rd",NA,NA,NA,"PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.363565,-80.086297
+NA,"Circle K #4200","Convenience Store","2903 Brighton Rd",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.471598,-80.02729
+NA,"Circle K #4201","Convenience Store","501 Main St",NA,NA,NA,"PA",15215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.494777,-79.936723
+NA,"Circle K #4202","Convenience Store","3817 Butler St",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467553,-79.964223
+NA,"Circle K #4235","Convenience Store","200 Market Place Dr",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441153,-80.240396
+NA,"City News & Arcade","Convenience Store","418 Wood St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43978,-80.000753
+NA,"Co Go #1808","Convenience Store","1001 Brookline Blvd",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.392358,-80.017326
+NA,"Co Go's #1817","Convenience Store","2800 Brownsville Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.383403,-79.977468
+NA,"Co Go's #321","Convenience Store","2733 South Park Road",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.327631,-80.031909
+NA,"Co Go's #322","Convenience Store","510 Station St",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.357225,-80.110748
+NA,"Co Go's #329","Convenience Store","1050 Brinton Rd",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429065,-79.874667
+NA,"Co Go's #338","Convenience Store","3767 Brownsville Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.37061,-79.974834
+NA,"Co Go's #496","Convenience Store","721 Island Av",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.473124,-80.062598
+NA,"Co Go's #777","Convenience Store","20 Bailey Av",NA,NA,NA,"PA",15211,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426751,-80.004641
+NA,"Co Go's #786","Convenience Store","2003 S Braddock Ave",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.422453,-79.885302
+NA,"Co Go's #801","Convenience Store","1709 Saw Mill Run Blvd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.395816,-79.997403
+NA,"Co Go's #811","Convenience Store","314 Scenery Dr",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.278022,-79.837547
+NA,"Co Go's #812","Convenience Store","1501 N Canal St",NA,NA,NA,"PA",15215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.496714,-79.926033
+NA,"Co Go's #813","Convenience Store","925 E Carson St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.428967,-79.989023
+NA,"Co Go's #814","Convenience Store","304 Virginia Ave",NA,NA,NA,"PA",15211,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.431339,-80.010762
+NA,"Co Go's #821","Convenience Store","1513 Lincoln Wa",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.349044,-79.817798
+NA,"Cochran A-Plus Sunoco #60568","Convenience Store","1630 Cochran Rd",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.392207,-80.061257
+NA,"CoGo's #1493","Convenience Store","620 Lincoln Av",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.497549,-80.058938
+NA,"CoGo's #1784","Convenience Store","1530 Potomac Av",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.397238,-80.03548
+NA,"ComBlvd Mini Mart","Convenience Store","1235 Muldowney St",NA,NA,NA,"PA",15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.368932,-79.914005
+NA,"Comet News","Convenience Store","540 Braddock Av",NA,NA,NA,"PA",15104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.403638,-79.869559
+NA,"Coraopolis Fast Stop","Convenience Store","879 4th Ave",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.51961,-80.166401
+NA,"Craft A-Plus","Convenience Store","301 Craft Ave",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.435614,-79.96088
+NA,"Croskey's Sunoco","Convenience Store","806 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.498863,-79.85316
+NA,"Crossroads Service Center","Convenience Store","4600 Homestead Duquesne Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.376274,-79.894553
+NA,"Curry Hollow Sunoco","Convenience Store","340 Curry Hollow Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.337461,-79.977244
+NA,"CVS / Pharmacy #10034","Convenience Store","611 Duncan Av",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.567824,-80.02325
+NA,"Daily Mart","Convenience Store","1125 Arlington Ave",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.422044,-79.991713
+NA,"Dar's General Store","Convenience Store","709 Chartiers Av",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.465584,-80.06193
+NA,"Deurali Bazar Inc","Convenience Store","309 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.414053,-79.988023
+NA,"DiLeo's Deli","Convenience Store","1009 9th Av",NA,NA,NA,"PA",15014,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.609868,-79.741569
+NA,"Dipen Ent Inc / Marathon","Convenience Store","3646 Library Rd",NA,NA,NA,"PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.365139,-80.019469
+NA,"DJ's Butcher Block","Convenience Store","4623 Liberty Av",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462454,-79.949999
+NA,"Dollar General #15784","Convenience Store","2301 Brownsville Rd",NA,NA,NA,"PA",15129,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.298348,-79.993658
+NA,"Dollar Tree #00236","Convenience Store","240 Mt NeBlvd Pointe Dr",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.534703,-80.065129
+NA,"Dollar Tree #05038","Convenience Store","4714 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.521242,-80.004588
+NA,"Dollar Tree #06413","Convenience Store","4680 Old William Penn Highway",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438817,-79.741022
+NA,"Dollar Tree #1272","Convenience Store","5990 University Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.521267,-80.219777
+NA,"Dollar Tree #4222","Convenience Store","1020 Village Center Dr",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.568368,-79.803954
+NA,"Dollar Tree #4287","Convenience Store","47 Walsh Rd",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440254,-80.071174
+NA,"Double Car Wash","Convenience Store","2305 O'Neil Blvd",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.351707,-79.829165
+NA,"DuBlvdis B P II","Convenience Store","4731 Buttermilk Hollow Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.359269,-79.907848
+NA,"DuBlvdis BP","Convenience Store","1006 E Carson St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.428491,-79.988222
+NA,"East Park News","Convenience Store","406 E OHighwayo St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.453472,-80.001337
+NA,"Eddies Snacks & Smokes","Convenience Store","262 5th Ave",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440665,-80.000665
+NA,"Eden's Market","Convenience Store","99 Alfred St",NA,NA,NA,"PA",15228,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.380757,-80.044191
+NA,"Eiben Services","Convenience Store","2929 Churchview Ave",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.385355,-79.973001
+NA,"Elizabeth BP","Convenience Store","141 Mckeesport Rd",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.274669,-79.883592
+NA,"Els Convenience Stop","Convenience Store","1614 Penn Ave",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442694,-79.867069
+NA,"Ethnic Foods","Convenience Store","4371 Murray Ave",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.420038,-79.928022
+NA,"Etna Express","Convenience Store","421 Butler St",NA,NA,NA,"PA",15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.498662,-79.944097
+NA,"Express Mini Mart @ BP Fueland","Convenience Store","501 Lowries Run Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.533915,-80.053035
+NA,"Express Uni-Mart","Convenience Store","612 Old Clairton Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.324988,-79.957677
+NA,"Exxon Cheswick","Convenience Store","1003 Freeport Rd",NA,NA,NA,"PA",15024,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.540678,-79.814181
+NA,"EZ Energy #305 / 7 Eleven #36185H","Convenience Store","2269 Noblestown Rd",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.42805,-80.053313
+NA,"EZ Energy #308 / 7 Eleven #36188H","Convenience Store","4775 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.521671,-80.005583
+NA,"EZ Energy #309 / 7 Eleven Store #36189H","Convenience Store","6250 Library Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.293358,-80.031019
+NA,"EZ Energy #315 / 7 Eleven #36195H","Convenience Store","2 Heckle Rd",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.474295,-80.094876
+NA,"EZ Energy #354 / 7 Eleven #36199H","Convenience Store","1102 Perry Highwayghway",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.544999,-80.035607
+NA,"EZ Energy #361 / 7 Eleven #36205H","Convenience Store","6106 Saltsburg Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.484089,-79.818876
+NA,"Family Dollar #7199","Convenience Store","1917 Centre Ave",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443703,-79.980664
+NA,"Fast Eddie's Food-N-Fuel / G-Man Pizza & Deli","Convenience Store","1424 U.S. Route 30",NA,NA,NA,"PA",15026,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.493478,-80.306274
+NA,"Fast Stop","Convenience Store","620 Mcgovern Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.54535,-80.218291
+NA,"Forbes Ave Market","Convenience Store","2005 Forbes Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.437573,-79.977418
+NA,"Fourth St Market","Convenience Store","529 4th St",NA,NA,NA,"PA",15104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.407309,-79.869172
+NA,"Frankstown Shell","Convenience Store","6701 Frankstown Ave",NA,NA,NA,"PA",15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458838,-79.90757
+NA,"Fratangelo Garden","Convenience Store","1014 Brodhead Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.525828,-80.224015
+NA,"Frick Park Market","Convenience Store","7103 Reynolds St",NA,NA,NA,"PA",15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447214,-79.905123
+NA,"Friend's Shell Food Shop","Convenience Store","5735 Baum Blvd",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458897,-79.932637
+NA,"Fueland","Convenience Store","801 Island Av",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.473586,-80.063464
+NA,"Fueland #1","Convenience Store","431 West 7th Ave",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.402631,-79.917951
+NA,"Fulland Green Tree","Convenience Store","2373 Noblestown Rd",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426565,-80.056017
+NA,"Gaby Et Jules @ Market Street Grocery","Convenience Store","435 Market St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441173,-80.002364
+NA,"Garfield Hill Market","Convenience Store","340 N. Aiken Av",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467559,-79.93441
+NA,"Gas n' At","Convenience Store","5700 Homeville Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.366344,-79.871442
+NA,"Get Go #3205","Convenience Store","350 East Main St",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.409689,-80.082978
+NA,"Get It Quick","Convenience Store","500 Garden City Dr",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44872,-79.780666
+NA,"Getgo # 3003","Convenience Store","3247 E Carson St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.423126,-79.960079
+NA,"Getgo #3021","Convenience Store","7675 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.545311,-80.016893
+NA,"GetGo #3038","Convenience Store","5801 Forward Av",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429982,-79.923159
+NA,"GetGo #3043","Convenience Store","140 Towne Center Dr",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.631618,-80.055692
+NA,"GetGo #3060","Convenience Store","4000 Monroeville Blvd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.435393,-79.77265
+NA,"GetGo #3102","Convenience Store","1137 WasHighwayngton Av",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.396745,-80.084329
+NA,"Getgo #3106","Convenience Store","408 Penn Av",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444932,-79.88936
+NA,"GetGo #3107","Convenience Store","4000 Butler St",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.468733,-79.961717
+NA,"GetGo #3117","Convenience Store","117 S 18th St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.427557,-79.980338
+NA,"GetGo #3128","Convenience Store","5281 Library Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.331327,-80.02207
+NA,"GetGo #3140","Convenience Store","4685 Old Wm Penn Hwy",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440985,-79.742885
+NA,"GetGo #3172","Convenience Store","1081 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.488003,-79.883677
+NA,"Getgo #3185","Convenience Store","1200 Hoffman Blvd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.382719,-79.868215
+NA,"GetGo #3188","Convenience Store","1001 Lebanon Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.361538,-79.932066
+NA,"GetGo #3486","Convenience Store","800 Allegheny River Blvd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.506894,-79.843134
+NA,"Getgo #3487","Convenience Store","801 Mt Royal Blvd",NA,NA,NA,"PA",15233,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.51415,-79.95942
+NA,"GetGo #3488","Convenience Store","5603 Babcock Blvd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.546976,-80.02915
+NA,"Getgo #3489","Convenience Store","2401 Ferguson Rd",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.555705,-79.971377
+NA,"Getgo #3600","Convenience Store","2811 Jacks Run Rd",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.338101,-79.807652
+NA,"GetGo #3616","Convenience Store","3601 Saw Mill Run Blvd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.372147,-79.981536
+NA,"Getgo #3641","Convenience Store","3029 WasHighwayngton Pike",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.173242,-80.24199
+NA,"Getgo #3642","Convenience Store","6507 University Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.518266,-80.218658
+NA,"Getgo #3691","Convenience Store","4099 Grandview Dr",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.643031,-79.937868
+NA,"Getgo Elizabeth #3005","Convenience Store","1000 Hayden Blvd",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.264741,-79.879445
+NA,"Glassmere Fuel Service #205","Convenience Store","1967 Saxonburg Blvd",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.629201,-79.855635
+NA,"Good News","Convenience Store","625 Stanwix St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443227,-80.004835
+NA,"Greyhound Frankstown Sunoco A Plus","Convenience Store","6481 Fransktown Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.460783,-79.913953
+NA,"Gulf Gas Station - Bridgeville","Convenience Store","449 Railroad St",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.357899,-80.110312
+NA,"Hampton Sunoco","Convenience Store","4785 Wm Flynn Hwy",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.596714,-79.948208
+NA,"Hanini Market","Convenience Store","3245 Brighton Rd",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.476384,-80.031944
+NA,"Hanini Market","Convenience Store","549 Bessemer Av",NA,NA,NA,"PA",15112,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.395204,-79.839383
+NA,"Hanini Market/ Hanini Subs","Convenience Store","1105 Franklin Av",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.439089,-79.878795
+NA,"Happy Minimart","Convenience Store","1300 Brodhead Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.535015,-80.229455
+NA,"Happy Minimart","Convenience Store","512 E Pikettsburgh - Mckeesport Blvd",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.369823,-79.8292
+NA,"Harvest Valley Farms","Convenience Store","6003 Cunningham Rd",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.663894,-79.934941
+NA,"Harv's Shell Station","Convenience Store","2501 Brighton Rd",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.466959,-80.025229
+NA,"Homewood's Quik Pick","Convenience Store","7201 Frankstown Av",NA,NA,NA,"PA",15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.45752,-79.8961
+NA,"Honey Bear/Spee-D Mart #223","Convenience Store","2131 Ardmore Blvd",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.418907,-79.848982
+NA,"In & Out Market","Convenience Store","300 Helen St",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.474126,-80.057105
+NA,"Indian Grocery Oakland","Convenience Store","319 Craig St",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.4451,-79.948482
+NA,"J & K Plus Store #102","Convenience Store","901 Elizabeth St",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426262,-79.841255
+NA,"J & S Food Mart","Convenience Store","625 W Grant St",NA,NA,NA,"PA",15110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.37177,-79.851733
+NA,"J J's Deli Mart","Convenience Store","2300 Versailles Av",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.345639,-79.849166
+NA,"J&M Dariette","Convenience Store","552 3rd St",NA,NA,NA,"PA",15025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.292983,-79.881361
+NA,"Jack's Market & Coffee Shop","Convenience Store","245 8th Av",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.408016,-79.909637
+NA,"Jade 99 Asian Supermaket","Convenience Store","2112 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.451847,-79.982434
+NA,"Jessie's Westside Market","Convenience Store","3038 Chartiers Av",NA,NA,NA,"PA",15204,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.454017,-80.05974
+NA,"J-N-J Convenience Store","Convenience Store","646 Herron Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.452605,-79.964261
+NA,"Joes Butcher Shop","Convenience Store","502 Broadway Av",NA,NA,NA,"PA",15140,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.401989,-79.777692
+NA,"K-2 Convenience Store","Convenience Store","4900 Penn Av",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.464939,-79.94488
+NA,"Ken's Grocery","Convenience Store","216 Beltzhoover Ave",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.420099,-79.997633
+NA,"Kiev International Food","Convenience Store","4223 Murray Ave",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.422509,-79.928598
+NA,"Kubaa Oriental Grocery","Convenience Store","613 OHighwayo St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.453617,-79.998695
+NA,"Kudla's Service Center","Convenience Store","2733 South Park Road",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.327631,-80.031909
+NA,"Kwik Fill #239 S0001","Convenience Store","152 Mcgovern Blvd",NA,NA,NA,"PA",15046,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.563829,-80.227708
+NA,"Kwik Fill S0171","Convenience Store","400 Allegheny River Blvd",NA,NA,NA,"PA",15139,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.516465,-79.842597
+NA,"L A Grocery","Convenience Store","511 Larimer Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.465579,-79.914188
+NA,"L E Corner Store","Convenience Store","601 Lincoln Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.461804,-79.907894
+NA,"Labad's Mediterranean Cafe & Grocery","Convenience Store","1727 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450316,-79.985441
+NA,"Labriola Italian World","Convenience Store","605 Freeport Rd",NA,NA,NA,"PA",15215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.488444,-79.898703
+NA,"Last Minit Mart in Blawnox","Convenience Store","164 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.491362,-79.865556
+NA,"Lebanon Shops Pharmacy","Convenience Store","300 Mt Lebanon Blvd",NA,NA,NA,"PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.368707,-80.034816
+NA,"Le's Super Grocery Kart","Convenience Store","5482 Penn Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.463967,-79.932666
+NA,"Liberty News","Convenience Store","602 Liberty Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441824,-80.001535
+NA,"Linea Verde - Green Market","Convenience Store","4619 Liberty Av",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462519,-79.950128
+NA,"Los Campos","Convenience Store","11566 Perry Highwayghway",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.625991,-80.054021
+NA,"Lovedale Valero","Convenience Store","2002 Lincoln Blvd",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.278924,-79.874895
+NA,"Lucky Bucks","Convenience Store","125 Virginia Ave",NA,NA,NA,"PA",15211,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429437,-80.008009
+NA,"Marathon Imperial Tri-State Petroleum #213","Convenience Store","150 U.S. Route 30",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440899,-80.238239
+NA,"Marathon Tri-State Petroleum #201","Convenience Store","956 Greentree Rd",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.419694,-80.04666
+NA,"Marathon Tri-State Petroleum #203","Convenience Store","2022 WasHighwayngton Pike",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.173242,-80.24199
+NA,"Marathon Tri-State Petroleum #219","Convenience Store","3500 Forbes Ave",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.439904,-79.95801
+NA,"Marathon Tri-State Petroleum #221","Convenience Store","100 7th Av",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.601875,-79.756348
+NA,"Marathon Tri-State Petroleum #222","Convenience Store","2601 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.537383,-79.839998
+NA,"Marathon Tri-State Petroleum #223","Convenience Store","6680 Frankstown Av",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458544,-79.908615
+NA,"Marathon Tri-State Petroleum #224","Convenience Store","4010 Penn Av",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.464964,-79.95759
+NA,"Market on Middle","Convenience Store","2130 Middle Rd",NA,NA,NA,"PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.548525,-79.934689
+NA,"Marshall's Exxon","Convenience Store","1520 Spring Garden Ave",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.464747,-79.98595
+NA,"Mascari's Duncan Manor Exxon / Staks","Convenience Store","1700 Ferguson Rd",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.565659,-79.9987
+NA,"Mash Mini Mart","Convenience Store","4341 Old Wm Penn Highway",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443278,-79.773673
+NA,"Mauro's Exxon","Convenience Store","7409 Saltsburg Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.477696,-79.784625
+NA,"McKees Rocks Sunoco A Plus","Convenience Store","351 Stanhope St",NA,NA,NA,"PA",15204,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46336,-80.05625
+NA,"Meme's Market","Convenience Store","1608 Walz St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46336,-79.991069
+NA,"Mike's Spot","Convenience Store","815 Universal Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.461123,-79.811884
+NA,"Mini-Mitch Quick Stop","Convenience Store","304 Ross St",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.437105,-79.996495
+NA,"Morningside Market","Convenience Store","1748 CHighwayslett St St",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.485217,-79.92578
+NA,"Mr C's Convenience Store","Convenience Store","350 Center Av",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.516583,-80.02187
+NA,"Natoli's Market","Convenience Store","5045 Bakerstown Rd",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.661682,-80.003907
+NA,"Nelson Community Store","Convenience Store","92 Sylvania Ave",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.417031,-80.00607
+NA,"New Young's Oriental Grocery","Convenience Store","5813 Forward Ave",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.42973,-79.922853
+NA,"Oakhill Convenient Store","Convenience Store","132 Burrows St",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.439166,-79.966686
+NA,"OM Enterprise","Convenience Store","601 Mcneilly Rd",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.383053,-80.020965
+NA,"On the Go Market","Convenience Store","2873 W Liberty Av",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.395561,-80.033092
+NA,"One Stop","Convenience Store","3601 Blvd Of The Allies",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.434751,-79.954267
+NA,"Optima #1386","Convenience Store","107 Walmart Dr",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.387172,-79.82252
+NA,"P & W Mini Mart","Convenience Store","410 Scenery Dr",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.277157,-79.837797
+NA,"Parkway Service B P","Convenience Store","910 Saw Mill Run Blvd",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426572,-80.022275
+NA,"ParMar Store #56","Convenience Store","8197 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.557547,-80.023367
+NA,"Penn Hills Sunoco","Convenience Store","3899 Old William Penn Highway",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444181,-79.81354
+NA,"Penn Sunoco","Convenience Store","4068 Penn Ave",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.465415,-79.955315
+NA,"People's Grocery","Convenience Store","5136 Penn Ave",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.464646,-79.941379
+NA,"Perriello Produce","Convenience Store","208 7th Av",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.600196,-79.761249
+NA,"Pirollo's Delicatessen","Convenience Store","307 Hulton Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.489741,-79.819455
+NA,"Pitcairn Sunoco","Convenience Store","479 Broadway Blvd",NA,NA,NA,"PA",15140,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.401542,-79.778113
+NA,"Plum Convenience","Convenience Store","7615 Saltsburg Rd",NA,NA,NA,"PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.476307,-79.778563
+NA,"Plum Sunoco","Convenience Store","255 Unity Center Rd",NA,NA,NA,"PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.489993,-79.780528
+NA,"PNC C Store","Convenience Store","620 Liberty Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441767,-80.000839
+NA,"PNK Store","Convenience Store","490 North Av",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.456629,-80.002082
+NA,"Podmilsak's Market","Convenience Store","200 Herron Av",NA,NA,NA,"PA",15024,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.542758,-79.814823
+NA,"Popeye's Mini Mart","Convenience Store","1510 Saxonburg Blvd",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.653924,-79.839314
+NA,"Presto Qwik Stop","Convenience Store","5237 Thoms Run Rd",NA,NA,NA,"PA",15142,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.373335,-80.119033
+NA,"Prestogeorge Fine Foods","Convenience Store","1719 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450211,-79.98572
+NA,"Produce Plus Market & Deli","Convenience Store","471 Lincoln Ave",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.494989,-80.054846
+NA,"Quick Stop","Convenience Store","3349 Liberty Ave",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.461868,-79.966514
+NA,"Quick Stop Sunoco","Convenience Store","1640 Saw Mill Run Blvd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.396477,-79.998692
+NA,"Quik Serv","Convenience Store","400 Union Ave",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.50403,-80.061799
+NA,"R & M Variety Store","Convenience Store","1739 Pennsylvania Ave",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.361839,-79.861016
+NA,"Red Paprika Foods","Convenience Store","1900 Grandview Av",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.339959,-79.837052
+NA,"Reyes Tienda Mexicana","Convenience Store","413 Semple St",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43699,-79.954397
+NA,"Rite Aid Pharmacies #10910","Convenience Store","4927 Homeville Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.38208,-79.876636
+NA,"Rocks Express","Convenience Store","700 Frederick St",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.471394,-80.064844
+NA,"Rockwell Market/Rockwell Hall @ Duquesne Univ.","Convenience Store","600 Forbes Av",NA,NA,NA,"PA",15282,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436981,-79.990244
+NA,"Rossi's Market","Convenience Store","64 Forest Grove Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.481197,-80.130734
+NA,"Ruthfred Market","Convenience Store","3400 Suite 4 South Park Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.321783,-80.057607
+NA,"S & S Express Food Mart","Convenience Store","922 Main St",NA,NA,NA,"PA",15215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.494685,-79.932775
+NA,"Salem's Market","Convenience Store","2923 Penn Av",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458405,-79.973699
+NA,"Samba Mini Mart","Convenience Store","2520 Bedford Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450651,-79.972121
+NA,"Sam's Market","Convenience Store","1712 5th Ave",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438268,-79.982097
+NA,"Seoul Mart","Convenience Store","4701 5th Ave",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447245,-79.947201
+NA,"SG Management Services","Convenience Store","9411 University Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.501966,-80.221436
+NA,"Shadyside Market","Convenience Store","5414 Walnut St",NA,NA,NA,"PA",15232,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450679,-79.934926
+NA,"Sheetz #115","Convenience Store","8607 Perry Hwy",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.561828,-80.039532
+NA,"Sheetz #130","Convenience Store","899 Freeport Rd",NA,NA,NA,"PA",15030,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.582036,-79.778802
+NA,"Sheetz #189","Convenience Store","1505 Pikettsburgh St",NA,NA,NA,"PA",15024,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.541803,-79.798793
+NA,"Sheetz #190","Convenience Store","2003 Golden Mile Hwy",NA,NA,NA,"PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.454908,-79.711646
+NA,"Sheetz #253","Convenience Store","251 Curry Hollow Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.336173,-79.970867
+NA,"Sheetz #277","Convenience Store","12000 Perry Hwy",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.634005,-80.059307
+NA,"Sheetz #327","Convenience Store","2100 Mosside Blvd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39754,-79.768583
+NA,"Sheetz #353","Convenience Store","5410 Campbells Run Rd",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.448,-80.157482
+NA,"Sheetz #360","Convenience Store","3954 Wm Penn Hwy",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.437687,-79.774258
+NA,"Sheetz #376","Convenience Store","1000 Clairton Blvd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.320335,-79.942773
+NA,"Sheetz #379","Convenience Store","9002 University Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.503227,-80.222988
+NA,"Sheetz #459","Convenience Store","2175 Hulton Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.526468,-79.817038
+NA,"Sheetz #468","Convenience Store","3457 Wm Penn Highway",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43046,-79.811288
+NA,"Sheetz #476","Convenience Store","3025 Babcock Blvd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.514787,-80.009388
+NA,"Sheetz #515","Convenience Store","4599 Library Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.350845,-80.022411
+NA,"Shenderovich In & Out Market","Convenience Store","1101 Powers Run Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.510035,-79.855995
+NA,"Shenot's Farm Market","Convenience Store","3754 Wexford Run Rd",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.625993,-80.079141
+NA,"Shop N Go One","Convenience Store","6001 Buttermilk Hollow Rd",NA,NA,NA,"PA",15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.362516,-79.907245
+NA,"Shuman's Market","Convenience Store","7210 Frankstown Av",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457053,-79.89605
+NA,"Sil's","Convenience Store","6000 Noblestown Rd",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.398362,-80.187505
+NA,"Smithfield News","Convenience Store","115 Smithfield St",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43772,-80.000475
+NA,"Soergel's Orchards","Convenience Store","2573 Brandt School Rd",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.61395,-80.092426
+NA,"Sophia's","Convenience Store","2918 Walnut St",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.331257,-79.845268
+NA,"Soup Du Jour","Convenience Store","2228 W Hardies Rd",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.594321,-79.969859
+NA,"South Fayette Sunoco","Convenience Store","140 Millers Run Rd",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.357055,-80.119649
+NA,"South Park Convenience Store","Convenience Store","5660 Brownsville Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.330738,-79.987682
+NA,"Speedway #2900","Convenience Store","4830 Wm Penn Highway",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.427386,-79.718529
+NA,"Speedway #2901","Convenience Store","4380 Old Wm Penn Highway",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443721,-79.767945
+NA,"Speedway #2902","Convenience Store","4420 Browns Highwayll Rd",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.419217,-79.92745
+NA,"Speedway #2905","Convenience Store","303 Hulton Rd",NA,NA,NA,"PA",15139,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.526263,-79.842197
+NA,"Speedway #2906","Convenience Store","1700 Lincoln Highway",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.369983,-79.786291
+NA,"Speedway #2910","Convenience Store","5701 Grand Av",NA,NA,NA,"PA",15225,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.511928,-80.131934
+NA,"Speedway #2911","Convenience Store","1200 Long Run Rd",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.333078,-79.812564
+NA,"Speedway #6503","Convenience Store","2325 5th Ave",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.353945,-79.837531
+NA,"Speedy Food Mart","Convenience Store","1602 5th Av",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.513292,-80.153687
+NA,"St Clair Mini Mart","Convenience Store","2520 WasHighwayngton Rd",NA,NA,NA,"PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.318801,-80.088453
+NA,"Stetor's Red Hot Dollar","Convenience Store","706 Monongahela Ave",NA,NA,NA,"PA",15045,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.324036,-79.892756
+NA,"Stop - N - Go","Convenience Store","21 Yost Blvd",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.414006,-79.847312
+NA,"Stop N Shop","Convenience Store","2110 Ardmore Blvd",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.419144,-79.849932
+NA,"Sub Stop-Marathon","Convenience Store","2929 Saw Mill Run Blvd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.377249,-79.98595
+NA,"Sultan Bey","Convenience Store","4601 Centre Av",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.452112,-79.951943
+NA,"Sunoco","Convenience Store","304 Freeport Rd",NA,NA,NA,"PA",15215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.489247,-79.903111
+NA,"Sunoco #7144","Convenience Store","195 N Craig St",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.449447,-79.950929
+NA,"Sunoco #7278","Convenience Store","339 Cochran Rd",NA,NA,NA,"PA",15228,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.382679,-80.052638
+NA,"Sunoco #7279","Convenience Store","3505 Library Rd",NA,NA,NA,"PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.366409,-80.014537
+NA,"Sunoco #7353","Convenience Store","300 Grant Av",NA,NA,NA,"PA",15209,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.479566,-79.972147
+NA,"Sunoco #7359","Convenience Store","5600 Wm Flynn Hwy",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.636567,-79.942271
+NA,"Sunoco #7374","Convenience Store","4638 Clairton Blvd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.355642,-79.980084
+NA,"Sunoco #7375","Convenience Store","310 Cedar Ave",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.45136,-80.000589
+NA,"Sunoco #7414","Convenience Store","4528 OHighwayo River Blvd",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.492161,-80.061419
+NA,"Sunoco #7416","Convenience Store","900 Butler St",NA,NA,NA,"PA",15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.511533,-79.946579
+NA,"Sunoco #7501","Convenience Store","521 Lincoln Hwy",NA,NA,NA,"PA",15112,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.384197,-79.823629
+NA,"Sunoco #7508","Convenience Store","1001 WasHighwayngton Pikeke",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.364368,-80.109853
+NA,"Sunoco / Banksville","Convenience Store","1721 Banksville Rd",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.408932,-80.031892
+NA,"Sunoco / Brookline","Convenience Store","533 Brookline Blvd",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.395893,-80.022597
+NA,"Sunoco A Plus #7517","Convenience Store","3299 Saw Mill Run Blvd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.375975,-79.983538
+NA,"Sunoco A Plus Mini Market","Convenience Store","3100 W Liberty Av",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.391603,-80.038999
+NA,"Sunoco A Plus Mini Market","Convenience Store","7701 Penn Ave",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.446748,-79.893321
+NA,"Sunoco A Plus Mini Market","Convenience Store","104 Clairton Blvd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.338699,-79.959854
+NA,"Sunoco A Plus Mini Market","Convenience Store","514 N Highwayghland Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.466264,-79.922323
+NA,"Sunoco A Plus Mini Market #7372","Convenience Store","7403 WasHighwayngton Ave",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.420313,-79.889086
+NA,"Sunoco A Plus Mini Mart","Convenience Store","427 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.412254,-79.989191
+NA,"Sunoco A Plus Mini Mart","Convenience Store","1969 Lincoln Wa",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.339782,-79.810729
+NA,"Sunoco A Plus Mini Mart","Convenience Store","2350 Centre Ave",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.445465,-79.972421
+NA,"Sunoco A Plus Mini Mart #6968","Convenience Store","600 Rodi Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.449297,-79.827395
+NA,"Sunoco A-Plus Mini Market #7485","Convenience Store","4779 Liberty Ave",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46105,-79.947308
+NA,"Sunoco Choice Tobacco & Food Mart","Convenience Store","1855 Haymaker Rd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39172,-79.765819
+NA,"Sunoco Mini Market","Convenience Store","9100 Perry Hwy",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.572347,-80.036602
+NA,"Sunoco Mini Mart","Convenience Store","6700 University Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.51784,-80.220393
+NA,"Sunoco Mini Mart","Convenience Store","1643 Arlington Ave",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.417998,-79.986695
+NA,"Sunoco Mini Mart #0364070303","Convenience Store","127 Mcmurray Rd",NA,NA,NA,"PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.326526,-80.065544
+NA,"Sunrise Sunoco A Plus","Convenience Store","1329 Babcock Blvd",NA,NA,NA,"PA",15209,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.495733,-79.97691
+NA,"Super Mart","Convenience Store","1761 Pikene Hollow Rd",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.475685,-80.100421
+NA,"Super One Convience Store","Convenience Store","2601 S Braddock Ave",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.415715,-79.876671
+NA,"Super Stop","Convenience Store","430 Kenmawr Ave",NA,NA,NA,"PA",15104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.41182,-79.876268
+NA,"Taste Buds Convenience Store","Convenience Store","1 Virginia Ave",NA,NA,NA,"PA",15211,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429072,-80.00699
+NA,"The Elliott's Town Market","Convenience Store","928 Chartiers Av",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444006,-80.04029
+NA,"TJ's Deli Mart #1","Convenience Store","357 Lincoln Av",NA,NA,NA,"PA",15057,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.371517,-80.229326
+NA,"Today's Market","Convenience Store","612 Allegheny River Blvd",NA,NA,NA,"PA",15139,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.51945,-79.842297
+NA,"Tokyo Japanese Food Store","Convenience Store","5855 Ellsworth Ave",NA,NA,NA,"PA",15232,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457633,-79.929286
+NA,"Trail View","Convenience Store","209 Industry Rd",NA,NA,NA,"PA",15018,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.272498,-79.797693
+NA,"Triangle Mart","Convenience Store","101 Amanda St",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.414525,-79.988346
+NA,"Uni-Mart","Convenience Store","852 5th Av",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.518311,-80.167154
+NA,"Uni-Mart","Convenience Store","1926 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.395132,-79.987094
+NA,"Uni-Mart","Convenience Store","298 Knoedler Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.341799,-79.981533
+NA,"Uni-Mart","Convenience Store","101 Fern Hollow Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.520986,-80.192876
+NA,"Uni-Mart","Convenience Store","2321 Worton Blvd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.360136,-79.87158
+NA,"Uni-Mart","Convenience Store","1601 Lowrie St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462532,-79.982963
+NA,"Uni-Mart","Convenience Store","830 Allegheny River Blvd",NA,NA,NA,"PA",15139,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.524583,-79.840752
+NA,"Uni-Mart #94634","Convenience Store","748 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.408719,-79.991558
+NA,"Up Town Minimart","Convenience Store","1800 Forbes Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.437327,-79.981323
+NA,"Valero / Sitaram Oil Corporation","Convenience Store","2000 Braddock Av",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.422065,-79.88589
+NA,"Valero Gas / Bethel Park","Convenience Store","3405 South Park Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.321473,-80.057088
+NA,"Valero Provost","Convenience Store","244 Provost Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.37529,-79.994278
+NA,"Verona Exxon","Convenience Store","4901 Allegheny River Blvd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.485246,-79.856075
+NA,"Verona Sunoco","Convenience Store","280 Hulton Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.489132,-79.819982
+NA,"Vitamin Gallery","Convenience Store","880 Butler St",NA,NA,NA,"PA",15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.511559,-79.945112
+NA,"W B Convenience","Convenience Store","801 W Main St",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.401268,-80.095411
+NA,"Wagner's Market","Convenience Store","4978 Middle Rd",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.605057,-79.926116
+NA,"Walgreens #09043","Convenience Store","1701 Wm Flynn Hwy",NA,NA,NA,"PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.538724,-79.963405
+NA,"Walgreens #09281","Convenience Store","5956 Centre Av",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.459326,-79.926757
+NA,"Walgreens #10282","Convenience Store","30 Pikene Creek Rd",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.58623,-80.043109
+NA,"Walgreens #10917","Convenience Store","6906 University Blvd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.517729,-80.221197
+NA,"Walgreens #9345","Convenience Store","10707 Frankstown Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.461125,-79.841874
+NA,"Walgreens #9803","Convenience Store","324 Hulton Rd",NA,NA,NA,"PA",15139,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.525375,-79.841699
+NA,"Welmart","Convenience Store","200 Alter Rd",NA,NA,NA,"PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.667086,-79.712426
+NA,"West Liberty BP","Convenience Store","1829 Liberty Ave",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.405626,-80.018414
+NA,"West View Shell","Convenience Store","411 Perry Highway",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.4167,-77.197887
+NA,"West View Sunoco","Convenience Store","100 Rochester Rd",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.520554,-80.025232
+NA,"Wm Penn Hwy Sunoco","Convenience Store","3406 Wm Penn Hwy",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.430551,-79.81547
+NA,"WN Grocery","Convenience Store","1018 W North Ave",NA,NA,NA,"PA",15233,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.453283,-80.020292
+NA,"Zoscak's Food Market","Convenience Store","319 Ann St",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.350695,-79.874877
+NA,"Zozos Marathon","Convenience Store","8716 Peebles Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.567233,-80.007372
+NA,"GetGo #3137","Convenience Store","NA 8-A Quaker Village ShopPikeng Center",NA,NA,NA,"PA",15056,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Aldi #92","Supermarket","5239 Brownsville Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.342387,-79.984112
+NA,"Aldi","Supermarket","7350 Saltsburg Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.477243,-79.785988
+NA,"Aldi #56","Supermarket","2348 Ardmore Blvd",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.415887,-79.848706
+NA,"Aldi #68","Supermarket","4578 Wm Flynn Hi",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.571191,-79.952845
+NA,"Aldi #72","Supermarket","3089 Sussex Av",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.383771,-80.014178
+NA,"Aldi #81","Supermarket","3013 Washington Pi",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.173242,-80.24199
+NA,"Aldi #89","Supermarket","300 Eden Park Bo",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.34505,-79.84648
+NA,"Aldi #93","Supermarket","7221 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.536931,-80.013056
+NA,"Aldi Store #97","Supermarket","127 7th Av",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.407339,-79.912407
+NA,"Aldi #96","Supermarket","1160 Washington Av",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.397454,-80.085297
+NA,"Shop 'n Save #1076 Mt. Washington","Supermarket","125 Virginia Av",NA,NA,NA,"PA",15211,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429437,-80.008009
+NA,"Giant Eagle #605 Elizabeth Township","Supermarket","800 Mckeesport Rd",NA,NA,NA,"PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.27992,-79.875571
+NA,"Giant Eagle #652","Supermarket","318 Cedar Ave",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.451602,-79.999575
+NA,"Shop 'n Save #0212100","Supermarket","4548 Broadway Bo",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22.335921,114.139154
+NA,"Costco #332","Supermarket","202 Costco Dr",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458793,-80.16586
+NA,"Costco #649","Supermarket","501 W Waterfront Dr",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.402736,-79.921653
+NA,"Save A Lot / North Versailles","Supermarket","355 Lincoln Hwy",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.382204,-79.819697
+NA,"Whitehall Asian Supermarket","Supermarket","1406 Radford Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.363877,-79.967841
+NA,"Donatelli's Italian Food Center","Supermarket","4711 Liberty Ave",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46207,-79.949355
+NA,"Shop 'n Save","Supermarket","450 56th St",NA,NA,NA,"PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.483141,-79.948537
+NA,"East End Food Co-Op","Supermarket","7516 Meade St",NA,NA,NA,"PA",15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.448199,-79.895475
+NA,"Kuhn's Market #7","Supermarket","825 Beaver Grade Rd",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.517576,-80.216199
+NA,"Kuhn's Market","Supermarket","4801 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.522828,-80.006531
+NA,"Kuhn's Market","Supermarket","745 Ingomar Rd",NA,NA,NA,"PA",15127,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.593769,-80.006113
+NA,"Kuhn's Market","Supermarket","700 Beulah Rd",NA,NA,NA,"PA",15145,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.427119,-79.834796
+NA,"Family Food Center","Supermarket","2104 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39314,-79.986896
+NA,"Giant Eagle #6379","Supermarket","420 E Waterfront Dr",NA,NA,NA,"PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.412485,-79.910258
+NA,"Giant Eagle #0004","Supermarket","5055 Library Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.33883,-80.024575
+NA,"Giant Eagle #0015","Supermarket","1701 Lincoln Hi",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.371962,-79.786944
+NA,"Giant Eagle #0052","Supermarket","132 Ben Avon Heights Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.521533,-80.069181
+NA,"Giant Eagle #0073","Supermarket","9901 Mountain View Dr",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.33967,-79.949746
+NA,"Giant Eagle #068","Supermarket","5990 University Bo",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.491695,-80.198665
+NA,"Giant Eagle #17","Supermarket","6320 Shakespeare St",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.460094,-79.923852
+NA,"Giant Eagle #2","Supermarket","1800 Mckees Rocks Rd",NA,NA,NA,"PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467816,-80.097642
+NA,"Giant Eagle #24","Supermarket","3239 Washington Pi",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.173242,-80.24199
+NA,"Giant Eagle #25","Supermarket","1029 West View Park Dr",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.516789,-80.038918
+NA,"Giant Eagle #29","Supermarket","1356 Hoffman Bo",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.350968,-79.913673
+NA,"Giant Eagle #31","Supermarket","5260 Grove Road",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.357456,-80.002268
+NA,"Giant Eagle #35","Supermarket","1717 Cochran Rd",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.392634,-80.065436
+NA,"Giant Eagle #37","Supermarket","NA Quaker Village Shopping Center",NA,NA,NA,"PA",15056,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.561532,-80.205346
+NA,"Giant Eagle #38","Supermarket","1901 Murray Av",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.435676,-79.92248
+NA,"Giant Eagle #45","Supermarket","9805 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.584311,-80.038848
+NA,"Giant Eagle #47 / Market District Robinson","Supermarket","100 Settlers Ridge Center Dr",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440641,-80.149132
+NA,"Giant Eagle #60","Supermarket","4010 Monroeville Bo",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.432471,-79.751203
+NA,"Giant Eagle #61","Supermarket","2021 Wharton St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.431009,-79.976705
+NA,"Giant Eagle #63","Supermarket","4250 Murray Ave",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.422266,-79.929584
+NA,"Giant Eagle #64","Supermarket","3812 O'Neil Blvd",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.347243,-79.83109
+NA,"Giant Eagle #65","Supermarket","4110 Brighton Rd",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.489185,-80.044203
+NA,"Giant Eagle #67","Supermarket","8080 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.557915,-80.023156
+NA,"Giant Eagle #74","Supermarket","1165 Mckinney Lane #100",NA,NA,NA,"PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.211943,-76.769826
+NA,"Giant Eagle #76","Supermarket","4680 Old Wm Penn Hwy",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438817,-79.741022
+NA,"Giant Eagle #77","Supermarket","254 Yost Bo",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436883,-79.857683
+NA,"Giant Eagle #78","Supermarket","230 Rodi Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462359,-79.826919
+NA,"Giant Eagle / Market District Pine #43","Supermarket","155 Towne Center Dr",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.632132,-80.054286
+NA,"Giant Eagle / Market District Shadyside #40","Supermarket","5550 Centre Ave",NA,NA,NA,"PA",15232,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.456537,-79.934434
+NA,"Giant Eagle / Market District South Hills #14","Supermarket","7000 Oxford Dr",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.347078,-80.046641
+NA,"Giant Eagle / Market District Waterworks #72","Supermarket","910 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.488233,-79.893913
+NA,"Giant Eagle Express #5103","Supermarket","2611 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.537858,-79.838724
+NA,"Giant Eagle #18","Supermarket","1671 Butler Plank Rd",NA,NA,NA,"PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.537733,-79.965145
+NA,"Shop 'n Save / Gibsonia","Supermarket","5375 Wm Flynn Hi",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.631549,-79.952845
+NA,"GFS Marketplace","Supermarket","510 Clairton Blvd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.333786,-79.947122
+NA,"Gordon Food Service","Supermarket","3620 Wm Penn Hwy",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.431969,-79.800107
+NA,"Shop 'n Save Penn Hills","Supermarket","2820 Universal Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.475924,-79.78621
+NA,"Shop 'n Save","Supermarket","2362 Golden Mile Hi",NA,NA,NA,"PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.471465,-79.986641
+NA,"Giant Eagle #697","Supermarket","9001 Frankstown Rd",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462692,-79.865275
+NA,"Duquesne Save A Lot","Supermarket","9 Duquesne Pz",NA,NA,NA,"PA",15110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.374756,-79.846986
+NA,"Shop 'n Save","Supermarket","799 Castle Shannon Bo",NA,NA,NA,"PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.36758,-80.017161
+NA,"Food Shoppe","Supermarket","5878 Northumberland St",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441526,-79.920551
+NA,"Giant Eagle","Supermarket","1705 S Braddock Ave",NA,NA,NA,"PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.425705,-79.886584
+NA,"Shop 'n Save - Pines Plaza","Supermarket","1130 Perry Hi",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.401873,-77.019558
+NA,"Shop 'n Save / Glenshaw #212403","Supermarket","917 Butler St",NA,NA,NA,"PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.51331,-79.950785
+NA,"Shop 'n Save / Rochester","Supermarket","184 Rochester Rd",NA,NA,NA,"PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.519816,-80.018098
+NA,"Shop 'n Save / Shaler","Supermarket","1620 Babcock Bo",NA,NA,NA,"PA",15209,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.497124,-79.969628
+NA,"Shop 'n Save / Century Square","Supermarket","2381 Mountain View Dr",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.344781,-79.946778
+NA,"Shop 'n Save / Noblestown #2412","Supermarket","2103 Noblestown Rd",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.430663,-80.051961
+NA,"Shop 'n Save - Ross's Village","Supermarket","1886 Homeville Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.373678,-79.873734
+NA,"Kuhn's Market","Supermarket","1130 Highwood St",NA,NA,NA,"PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.468566,-80.02666
+NA,"Kuhn's Market","Supermarket","661 Lincoln Ave",NA,NA,NA,"PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.497135,-80.060313
+NA,"Kuhn's Market #4","Supermarket","3125 Banksville Rd",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.399677,-80.043413
+NA,"Kuhn's Market","Supermarket","2412 Ferguson Rd",NA,NA,NA,"PA",15101,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.554967,-79.972178
+NA,"Shop 'n Save","Supermarket","5001 Library Rd",NA,NA,NA,"PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.341084,-80.024743
+NA,"Shop 'n Save - Wilkins Twp","Supermarket","3335 Wm Penn Hi",NA,NA,NA,"PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43292,-79.817603
+NA,"Shop 'n Save #0212404 Imperial","Supermarket","600 Market Place Dr",NA,NA,NA,"PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440192,-80.241214
+NA,"Giant Eagle #646","Supermarket","51 Walsh Rd",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440451,-80.072306
+NA,"Shop 'n Save - Hill District","Supermarket","1850 Centre Av",NA,NA,NA,"PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442146,-79.981719
+NA,"Sam's Club #4952","Supermarket","2000 Village Center Dr",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.565722,-79.803982
+NA,"Sam's Club #6575","Supermarket","249 Summit Park Dr",NA,NA,NA,"PA",15275,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.449585,-80.177954
+NA,"Sam's Club #6677","Supermarket","3621 Wm Penn Hwy",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436431,-79.799629
+NA,"Sam's Club #6678","Supermarket","289 Mt Nebo Pointe Dr",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.534232,-80.067889
+NA,"Sam's Club #6679","Supermarket","2251 Century Dr",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.343793,-79.949018
+NA,"Save A Lot","Supermarket","4313 Walnut St",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.321825,-79.834567
+NA,"Giant Eagle Store #600","Supermarket","2001 Lincoln Wa",NA,NA,NA,"PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.337364,-79.805396
+NA,"Giant Eagle #641","Supermarket","1025 Washington Pike",NA,NA,NA,"PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.367163,-80.110119
+NA,"Wilkinsburg Save A Lot","Supermarket","725 Ross St",NA,NA,NA,"PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.442803,-79.884174
+NA,"Shop 'n Save / Brownsville Road","Supermarket","1119 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.404781,-79.990531
+NA,"Shop 'n Save","Supermarket","4313 Walnut St",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.321825,-79.834567
+NA,"Shop 'n Save / Heidelberg","Supermarket","2100 Washington Pi",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.173242,-80.24199
+NA,"Giant Eagle #1691","Supermarket","400 Northtowne Sq",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.636471,-79.941762
+NA,"Shop 'n Save","Supermarket","4647 Buttermilk Hollow Rd",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.361016,-79.906553
+NA,"Target #2757","Supermarket","6231 Penn Av",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.460909,-79.921909
+NA,"Target #2787","Supermarket","201 South Hills Village",NA,NA,NA,"PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.340135,-80.054802
+NA,"Shop 'n Save / Russellton","Supermarket","908 Little Deer Creek Valley Rd",NA,NA,NA,"PA",15076,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.60823,-79.833146
+NA,"Trader Joe's #624","Supermarket","9020 Covenant Av",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.570437,-80.022243
+NA,"Trader Joe's #638","Supermarket","6343 Penn Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.459303,-79.919178
+NA,"Trader Joe's #630","Supermarket","1630 Washington Rd. Ste 1",NA,NA,NA,"PA",15228,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.351139,-80.051011
+NA,"Giant Eagle #695","Supermarket","200 Allegheny River Bo",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.498933,-79.818468
+NA,"Wal-Mart Super Center #2281","Supermarket","2351 Century Dr",NA,NA,NA,"PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.341762,-79.946461
+NA,"Wal-Mart Super Center #2300","Supermarket","250 Summit Park Dr",NA,NA,NA,"PA",15275,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447712,-80.176111
+NA,"Wal-Mart Super Center #2588","Supermarket","100 Wal-Mart Dr",NA,NA,NA,"PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.38722,-79.8247
+NA,"Wal-Mart Super Center #3738","Supermarket","4015 Freeport Rd",NA,NA,NA,"PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.646955,-79.713092
+NA,"Wal-Mart Super Center #3838","Supermarket","2010 Village Center Dr",NA,NA,NA,"PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.564069,-79.804052
+NA,"Whole Foods Market #53","Supermarket","5880 Centre Ave",NA,NA,NA,"PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.45852,-79.928707
+NA,"Whole Foods Wexford #10377","Supermarket","10576 Perry Hi",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39721,-77.025796
+NA,"Giant Eagle Market #616","Supermarket","600 Brentwood Towne Sq",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.366498,-79.9829
+NA,"Save A Lot Crafton","Supermarket","NA Crafton Ingram Shopping Center @ Foster Ave",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44177,-80.087015
+NA,"Shop 'n Save McKeesport","Supermarket","815 5th Ave",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.352,-79.856045
+NA,"The Uncommon Market","Supermarket","1798 Highland Rd",NA,NA,NA,"PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.348876,-80.052248
+NA,"Market Outlet","Supermarket","1700 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.4497,-79.985758
+NA,"Karibu International Market LLC","Supermarket","2740 Saw Mill Run Bo",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.378296,-79.991494
+NA,"South Hills IGA","Supermarket","649 Old Clairton Rd",NA,NA,NA,"PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.324262,-79.956892
+NA,"Leonard Labriola's Italian Market","Supermarket","4039 Monroeville Blvd",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43557,-79.768914
+NA,"Lamperts Deli Express","Supermarket","2010 Eden Park Bo",NA,NA,NA,"PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.34505,-79.84648
+NA,"Las Palmas","Supermarket","700 Brookline Blvd",NA,NA,NA,"PA",15226,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.394595,-80.021685
+NA,"Leonard Labriola's Italian Store","Supermarket","112 Northgate Dr",NA,NA,NA,"PA",15086,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.650509,-80.078238
+NA,"Shursave","Supermarket","4401 Liberty Av",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.463648,-79.952803
+NA,"Groceria Italiano","Supermarket","237 Cedarville St",NA,NA,NA,"PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46186,-79.948546
+NA,"Market on Broadway IGA / Las Palmas","Supermarket","1616 Broadway Ave",NA,NA,NA,"PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.410007,-80.024988
+NA,"Market on Forbes IGA","Supermarket","3609 Forbes Ave / 2nd Fl",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440974,-79.958169
+NA,"McGinnis Sisters Market","Supermarket","4311 Northern Pike",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.435043,-79.753389
+NA,"McGinnis Sisters Market","Supermarket","3825 Saw Mill Run Blvd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.369718,-79.98215
+NA,"Murray Avenue Kosher","Supermarket","1916 Murray Ave",NA,NA,NA,"PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.435463,-79.923124
+NA,"Oriental Market","Supermarket","4768 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.519802,-80.004493
+NA,"Pakeeza","Supermarket","4411 Old Wm Penn Hi",NA,NA,NA,"PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.445986,-79.764292
+NA,"Robert Wholey Co","Supermarket","1711 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450111,-79.985875
+NA,"T-Bones","Supermarket","100 Vip Dr / Suite #101",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.616651,-80.09284
+NA,"The Fresh Market","Supermarket","1551 Washington Rd",NA,NA,NA,"PA",15228,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.355489,-80.050351
+NA,"Two Louie's Market","Supermarket","1233 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.446442,-79.991746
+NA,"WFH / Wing Fat Hong Oriental Food Market","Supermarket","2306 Penn Av",NA,NA,NA,"PA",15222,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.452797,-79.981077
+NA,"Bombay Market","Supermarket","4605 Centre Av",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.452129,-79.951792
+NA,"Brownsville Food & Drinks","Supermarket","1810 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.396851,-79.988112
+NA,"Community Super Market","Supermarket","1117 Milltown Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.498635,-79.790045
+NA,"Coraopolis Cash Market","Supermarket","1017 4th Ave",NA,NA,NA,"PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.518306,-80.162798
+NA,"Gorkhali Store","Supermarket","2116 Brownsville Rd",NA,NA,NA,"PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.392709,-79.987056
+NA,"Patsy's Market","Supermarket","483 Center Av",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.50669,-79.839699
+NA,"Safrans Market","Supermarket","429 Walnut St",NA,NA,NA,"PA",15143,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.541022,-80.182322
+NA,"Subha Laxmi Grocery","Supermarket","2950 Brownsville Rd",NA,NA,NA,"PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.381398,-79.976585
+NA,"Community Market","Supermarket","1710 Pacific Av",NA,NA,NA,"PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.623319,-79.723879
+NA,"GFS Marketplace","Supermarket","1 Urbano Wa",NA,NA,NA,"PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44177,-80.087015
+NA,"Leonard Labriola Foods","Supermarket","121 Hulton Rd",NA,NA,NA,"PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.484477,-79.81999
+NA,"Aldi #69","Supermarket","8000 Mcknight Rd",NA,NA,NA,"PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.551152,-80.021213
+NA,"Aldi #77","Supermarket","11800 Perry Hi",NA,NA,NA,"PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.39721,-77.025796
+NA,"Aldi #79","Supermarket","2628 Carson St",NA,NA,NA,"PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.426914,-79.96753
+NA,"Aldi #80","Supermarket","5631 Baum Blvd",NA,NA,NA,"PA",15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458291,-79.935066
+NA,"Wal-Mart #2603","Supermarket","300 Wal-Mart Dr",NA,NA,NA,"PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.623006,-79.946578
+NA,"Wal-Mart #5040","Supermarket","2200 Washington Pi",NA,NA,NA,"PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.173242,-80.24199
+NA,"Wal-Mart #5339","Supermarket","877 Freeport Rd",NA,NA,NA,"PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.488181,-79.888875
+NA,NA,NA,"NA NA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
