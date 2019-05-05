@@ -32,3 +32,11 @@ data_convenience <- dat1 %>%
 write.csv(data_convenience, "data_convenience_cleaned.csv", row.names = FALSE)
 ## write out to google sheets
 # gs_new(title = "data-convenience-cleaned", input = data_convenience)
+
+
+
+
+
+### next dataset
+## NOTE still TBD on how to handle time. come back to this
+
