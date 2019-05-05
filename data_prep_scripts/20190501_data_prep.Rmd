@@ -1,0 +1,128 @@
+---
+title: "Data prep for food hackathon"
+author: "Catalina Moreno"
+date: '`r format(Sys.time(), format = "%B %d, %Y")`'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE, 
+                      message = FALSE,
+                      comment = NA)
+library(tidyverse)
+library(googlesheets)
+```
+
+## Background
+
+Prepare data for PFC hackathon according to the following data model:
+
+
+```{r, data_model}
+## read in data model from google sheets
+# gs_auth(new_user = TRUE) #auth account (one time action)
+data_mod <- gs_read(gs_title("fields_and_descriptions"))
+
+dat_mod_col_names <- data_mod %>% pull(field)
+
+dat_mod_col_names
+```
+
+**Note:** 
+
+* Recommend wait to assign UID until all compiled, then check name and address -- this is unique key
+
+* What is long term ETL? How will pull future data, from shared drive or putting into db?
+
+```{r, prep_future_ready_tables}
+## create empty dataframe according todatamodel
+dat1 <- data.frame(matrix(ncol = length(dat_mod_col_names), nrow = 0))
+colnames(dat1) <- dat_mod_col_names
+```
+
+## data-conveniencesupermarkets
+
+```{r, convenience_1}
+data_convenience <- gs_read(gs_title("data-conveniencesupermarkets"))
+head(data_convenience)
+```
+
+```{r, convenience_2}
+## map data_convenience to dat1
+data_convenience <- dat1 %>% 
+  bind_rows(data_convenience %>% 
+              mutate(address = paste(`Street #`, `Street Name`)) %>% 
+              select(name = Name,
+                     type = Category,
+                     address, 
+                     state = State, 
+                     zip_code = Zip, 
+                     latitude = Lat, 
+                     longitude = Lon)) 
+
+head(data_convenience)
+## write out as .csv 
+write_excel_csv(data_convenience, "data_convenience_cleaned.csv")
+```
+
+**Missing information on hours/days of operation as well as SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score info.**
+
+## Allegheny_County_Farmers_Markets_Locations_2017
+
+```{r, agh_farmers_market_1}
+agh_farm_markets <- gs_read(gs_title("Allegheny_County_Farmers_Markets_Locations_2017"))
+head(agh_farm_markets)
+```
+
+From `Day_Time` variable, need to be able to extract weekday(s), time of day open, months open. Write functions to extract this info (note these could be improved and will require further testing/updates):
+
+```{r, agh_farmers_market_2}
+source("support_funs.R")
+## process and augment weekdays for each row of dataset 
+multi_day_info <- vector("list", length = nrow(agh_farm_markets))
+
+for(i in 1:nrow(agh_farm_markets)) {
+  multi_day_info[[i]] <- weekday_calc(agh_farm_markets$Day_Time[i]) %>% 
+    mutate(FID = agh_farm_markets$FID[i]) ## for join later
+}
+
+
+multi_day_info <- bind_rows(multi_day_info)
+
+## go wide, to match data model:
+multi_day_info <- multi_day_info %>% select(weekday, FID) %>% mutate(value = 1) %>% tidyr::spread(key = "weekday", value = "value") %>% replace_na(, 0)
+
+```
+
+```{r, agh_farmers_market_3}
+## using open time, month functions and left join wide weekday above into one dataframe that fits data model:
+agh_farm_markets <- dat1 %>% 
+  bind_rows(agh_farm_markets %>% 
+              left_join(multi_day_info, by = "FID") %>% 
+              rowwise() %>% 
+              mutate(type = "Farmers Market",
+                     weekday_val = str_trim(str_extract(Day_Time, "^[:alpha:]* ")),
+                     open_time = time_calc(Day_Time)$open_time,
+                     close_time = time_calc(Day_Time)$close_time,
+                     date_from = season_calc(Season)$date_from,
+                     date_to = season_calc(Season)$date_to) %>% ## this may not be robust
+              select(type, weekday_val, open_time, close_time, date_from, date_to,
+                     Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday,
+                address = Address,
+                     name = Name, ## ? is this the correct farmers market name??
+                     city = City,
+                     state = State, 
+                     zip_code = Zip, 
+                     location_description = Location__,
+                     latitude = X, 
+                     longitude = Y)) 
+
+## check
+head(agh_farm_markets)
+
+## write out as .csv 
+write_excel_csv(agh_farm_markets, "agh_farm_markets_cleaned.csv")
+```
+
+**Missing SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score info.**
