@@ -2,7 +2,7 @@
 title: "Data prep for food hackathon"
 author: "Catalina Moreno"
 date: '`r format(Sys.time(), format = "%B %d, %Y")`'
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -31,7 +31,9 @@ dat_mod_col_names
 
 **Note:** 
 
-* Recommend wait to assign UID until all compiled, then check name and address -- this is unique key
+* added open_time1 and open_time2 etc to data model on Google Drive for sites that have morning and afternoon open times
+
+* Recommend to wait to assign UID until all compiled, then check name and address -- this is unique key
 
 * What is long term ETL? How will pull future data, from shared drive or putting into db?
 
@@ -59,7 +61,8 @@ data_convenience <- dat1 %>%
                      state = State, 
                      zip_code = Zip, 
                      latitude = Lat, 
-                     longitude = Lon)) 
+                     longitude = Lon)) #%>%  ## don't know day of operation yet, leave all NA
+  #mutate_at(vars(contains("day")), ~replace(., is.na(.), 0))
 
 head(data_convenience)
 ## write out as .csv 
@@ -91,7 +94,7 @@ for(i in 1:nrow(agh_farm_markets)) {
 multi_day_info <- bind_rows(multi_day_info)
 
 ## go wide, to match data model:
-multi_day_info <- multi_day_info %>% select(weekday, FID) %>% mutate(value = 1) %>% tidyr::spread(key = "weekday", value = "value") %>% replace_na(, 0)
+multi_day_info <- multi_day_info %>% select(weekday, FID) %>% mutate(value = 1) %>% tidyr::spread(key = "weekday", value = "value") %>% mutate_at(vars(contains("day")), ~replace(., is.na(.), 0))
 
 ```
 
@@ -103,11 +106,11 @@ agh_farm_markets <- dat1 %>%
               rowwise() %>% 
               mutate(type = "Farmers Market",
                      weekday_val = str_trim(str_extract(Day_Time, "^[:alpha:]* ")),
-                     open_time = time_calc(Day_Time)$open_time,
-                     close_time = time_calc(Day_Time)$close_time,
+                     open_time1 = time_calc(Day_Time)$open_time,
+                     close_time1 = time_calc(Day_Time)$close_time,
                      date_from = season_calc(Season)$date_from,
                      date_to = season_calc(Season)$date_to) %>% ## this may not be robust
-              select(type, weekday_val, open_time, close_time, date_from, date_to,
+              select(type, weekday_val, open_time1, close_time1, date_from, date_to,
                      Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday,
                 address = Address,
                      name = Name, ## ? is this the correct farmers market name??
@@ -126,3 +129,61 @@ write_excel_csv(agh_farm_markets, "agh_farm_markets_cleaned.csv")
 ```
 
 **Missing SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score info.**
+
+## growpghgardens201712
+
+```{r, readin3}
+growpgh <- gs_read(gs_title("growpghgardens201712_readin"))
+head(growpgh)
+
+```
+
+```{r, growpgh}
+growpgh <- dat1 %>% bind_rows(growpgh %>% select(name = urban_grower, 
+                                                 type = category,
+                                                 address = street_address,
+                                                 city,
+                                                 state,
+                                                 zip_code,
+                                                 latitude, 
+                                                 longitude
+                                                 ))
+
+## write out as .csv 
+write_excel_csv(growpgh, "growpghgardens_cleaned.csv")
+```
+
+
+**check addresses (not necessarily a street address), want to filter city to == Pittsburgh? Missing open day/time, SNAP etc info**
+
+## PA
+
+```{r, readinpa}
+PA <- gs_read(gs_title("PA"))
+head(PA)
+```
+
+Check ADDRESS2
+
+```{r, address2}
+PA %>% filter(!is.na(ADDRESS2)) %>% select(ADDRESS, ADDRESS2)
+PA %>% distinct(County)
+```
+
+```{r, makepa}
+PA <- dat1 %>% 
+  bind_rows(PA %>% filter(County %in% "ALLEGHENY") %>% 
+              mutate(address = paste(ADDRESS, ADDRESS2)) %>% 
+              select(name = STORE_NAME, 
+                          longitude,
+                          latitude, 
+                          address, # check linking together is correct
+                          city = CITY,
+                          state = STATE, 
+                          zip = ZIP5))
+
+write_excel_csv(PA, "PA_ALLEGHENY_cleaned.csv")
+
+```
+
+**Check if should filter beyond Allegheny county; missing open day/time and SNAP etc info**
