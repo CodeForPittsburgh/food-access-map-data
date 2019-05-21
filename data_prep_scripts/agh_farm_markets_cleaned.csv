@@ -1,0 +1,55 @@
+﻿id,name,type,address,street_one,street_two,city,state,zip_code,location_description,date_from,date_to,open_time1,close_time1,open_time2,close_time2,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,SNAP,WIC,FMNP,fresh_produce-healthy,MRFEI_score,latitude,longitude,weekday_val
+NA,5 Generation Bakers—Green Grocer,Farmers Market,1100 Chartiers Avenue,NA,NA,McKees Rocks,PA,15136,NA,June,November,12:00 PM,1:00 PM,NA,NA,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,-80.06817674,40.4656224,Tuesday
+NA,A Child’s World Day Care Center—Green Grocer,Farmers Market,300 Rankin Blvd.,NA,NA,Rankin,PA,15104,NA,June,November,4:30 PM,5:30 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-79.88131958,40.4123638,Thursday
+NA,Alma Illery Medical Center—Green Grocer,Farmers Market,7227 Hamilton Avenue,NA,NA,Pittsburgh,PA,15208,NA,June,November,11:30 AM,12:30 PM,NA,NA,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,-79.89621363,40.45459163,Friday
+NA,Aspinwall Flea Market,Farmers Market,250 Freeport Road,NA,NA,Pittsburgh,PA,15215,Municipal parking lot,NA,NA,7:00 AM,1:00 PM,NA,NA,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,-79.90451748,40.48975482,Sunday
+NA,Bachman’s Greenhouse and Nursery,Farmers Market,2903 Freeport Road,NA,NA,Natrona Heights,PA,15065,NA,June,November,9:00 AM,7:00 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.71123791,40.63929352,Daily
+NA,Bachman’s Greenhouse and Nursery,Farmers Market,Ekastown Road,NA,NA,Natrona Heights,PA,15065,Route 908 & Ekastown Road,June,November,9:00 AM,7:00 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.73028478,40.66720543,Daily
+NA,Beccari’s Farm Market,Farmers Market,5095 Thoms Run Road,NA,NA,Oakdale,PA,15071,NA,Saturday,Sunday 10,11:00 AM,5:30 PM,NA,NA,0,0,1,1,1,1,0,NA,NA,NA,NA,NA,-80.1331257,40.37395672,NA
+NA,Beechview Farmer’s Market—Citiparks,Farmers Market,Broadway Avenue,NA,NA,Pittsburgh,PA,15216,Broadway Avenue & Beechview Avenue,June 22,September 14,4:00 pm,7:00 pm,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-80.02467961,40.41061949,Thursday
+NA,Bethel Park Farmer’s Market,Farmers Market,Fort Couch Rd,NA,NA,Bethel Park,PA,15102,St. Thomas More church parking lot,NA,NA,3:00 PM,7:00 PM,NA,NA,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,-80.052162,40.342564,Tuesday
+NA,Bloomfield Farmer’s Market,Farmers Market,5050 Liberty Avenue,NA,NA,Pittsburgh,PA,15224,NA,June,,9:00 AM,1:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.9443616,40.45908043,Saturday
+NA,Braddock Farms (Grow Pittsburgh),Farmers Market,600 Braddock Avenue,NA,NA,Braddock,PA,15104,6th Street and Braddock Avenue,June,October,10:00 AM,NA,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.86860108,40.40321365,Saturday
+NA,Bridge’s Farm,Farmers Market,7108 Leechburg Road,NA,NA,New Kensington,PA,15068,NA,Sunday 9,00 AM,9:00 AM,6:00 PM,NA,NA,0,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.76441236,40.51764948,NA
+NA,Carrick Dairy District—Citiparks,Farmers Market,1529 Brownsville Road,NA,NA,Pittsburgh,PA,15210,NA,June 21,November 22,3:00 PM,7:00 PM,NA,NA,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,-79.98864725,40.4000385,Wednesday
+NA,Coraopolis Farmer’s Market,Farmers Market,1211 Fifth Avenue,NA,NA,Coraopolis,PA,15108,Presbyterian Church,NA,NA,3:30 PM,6:30 PM,NA,NA,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,-80.16104998,40.51629935,Monday
+NA,Dillner Family Farm,Farmers Market,4140 Sandy Hill Road,NA,NA,Gibsonia,PA,15044,NA,June,November,9:00 AM,6:00 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.9211482,40.66954468,Daily
+NA,Duda’s Farm Market,Farmers Market,Route 51 Hayden Blvd,NA,NA,Elizabeth,PA,15037,NA,Saturday,Sunday 10,10:00 AM,6:00 PM,NA,NA,0,1,1,1,1,1,0,NA,NA,NA,NA,NA,-79.846019,40.220114,NA
+NA,Duda’s Farm Market,Farmers Market,1029 Lebanon Road,NA,NA,West Mifflin,PA,15122,NA,Saturday,Sunday 10,10:00 AM,6:00 PM,NA,NA,0,1,1,1,1,1,0,NA,NA,NA,NA,NA,-79.93272592,40.36008214,NA
+NA,East Liberty Farmer’s Market,Farmers Market,Penn Circle West,NA,NA,Pittsburgh,PA,15206,next to McDonald’s,June,,3:00 PM,7:00 PM,NA,NA,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,-79.92639,40.464192,Monday
+NA,Eichner’s Farm Market,Farmers Market,285 Richard Road,NA,NA,Wexford,PA,15090,NA,Saturday,Sunday 9,9:00 AM,6:00 PM,NA,NA,0,1,1,1,1,1,0,NA,NA,NA,NA,NA,-80.06013824,40.60783736,NA
+NA,Elizabeth Farmer’s Market,Farmers Market,Water Street,NA,NA,Elizabeth,PA,15037,NA,9,00 AM,NA,NA,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.888071,40.272932,NA
+NA,Etna Farmer’s Market,Farmers Market,437 Butler Street,NA,NA,Pittsburgh,PA,15223,NA,June,October,3:00 PM,6:30 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-79.94405475,40.49967994,Thursday
+NA,Family Dollar—Green Grocer,Farmers Market,533 Miller Avenue,NA,NA,Clairton,PA,15025,NA,June,November,3:00 PM,4:00 PM,NA,NA,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,-79.88325569,40.29403623,Wednesday
+NA,Farmer’s Co-Op of East Liberty,Farmers Market,344 North Sheridan,NA,NA,Pittsburgh,PA,15206,next to Home Depot,Year Round,NA,5:00 AM,12:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.9214,40.464422,Saturday
+NA,Farmer’s Market at the University of Pittsburgh,Farmers Market,3259 5th Avenue,NA,NA,Pittsburgh,PA,15213,NA,June, August,10:30 AM,2:00 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-79.96430464,40.43786127,Thursday
+NA,Forest Hills Farmer’s Market,Farmers Market,Ardmore Blvd.,NA,NA,Pittsburgh,PA,15221,Forest Hills Presbyterian Church,June,October,4:00 PM,7:00 PM,NA,NA,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,-79.86113726,40.42497581,Friday
+NA,Fox Chapel Farmer’s Market,Farmers Market,650 Squaw Run Road,NA,NA,Pittsburgh,PA,15238,NA,June,November,3:00 PM,6:00 PM,NA,NA,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,-79.89139054,40.52085421,Wednesday
+NA,GAP Park (Millvale)—Green Grocer,Farmers Market,518 Grant Avenue,NA,NA,Pittsburgh,PA,15209,NA,June,November,4:30 PM,5:30 PM,NA,NA,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,-79.97446199,40.48087771,Tuesday
+NA,Greater Pittsburgh Community Food Bank—Green Grocer,Farmers Market,1 North Linden Street,NA,NA,Duquesne,PA,15110,NA,June,November,2:00 PM,3:00 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-79.84271505,40.37578194,Thursday
+NA,Green Tree Farmer’s Market,Farmers Market,10 W. Manila Avenue,NA,NA,Pittsburgh,PA,15220,Green Tree Park,NA,NA,4:00 PM,7:30 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-80.04704321,40.41876303,Thursdays
+NA,Harvest Farm Market and Bakery,Farmers Market,6003 Cunningham Road,NA,NA,Gibsonia,PA,15044,NA,June,November,10:00 AM,5:00 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.9349403,40.66390655,Daily
+NA,Janoski’s Farm,Farmers Market,1714 Route 30,NA,NA,Clinton,PA,15026,NA,Year Round,NA,8:00 AM,5:00 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-80.33179367,40.49175719,Daily
+NA,JL Kennedy,Farmers Market,344 N. Sheridan Avenue,NA,NA,Pittsburgh,PA,15206,NA,June,November,5:00 AM,12:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.92128142,40.46435133,Saturday
+NA,Jodinko’s Farm Market,Farmers Market,2488 Route 18,NA,NA,Clinton,PA,15026,NA,June,November,9:00 AM,6:00 Pm,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-80.41622261,40.54117285,Daily
+NA,Lawrenceville Farmer’s Market,Farmers Market,39th Street,NA,NA,Pittsburgh,PA,15201,Arsenal Park,June,October 28,1:00 PM,4:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.96184,40.466165,Saturday
+NA,Mallisee Farm,Farmers Market,Saltsburg Road,NA,NA,Pittsburgh,PA,15239,Willow Village,Mid July,September,11:00 AM,5:00 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.771565,40.475225,Daily
+NA,Market Square Farmer’s Market,Farmers Market,222 Fifth Ave,NA,NA,Pittsburgh,PA,15222,Market Square,June,October,10:00 PM,2:00 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-80.00149483,40.44102068,Thursdays
+NA,Mazur Auto Body,Farmers Market,3333 Babcock Blvd.,NA,NA,Pittsburgh,PA,15237,NA,July,October,9:00 AM,5:00 PM,NA,NA,0,1,1,1,1,1,0,NA,NA,NA,NA,NA,-80.01928087,40.53375335,NA
+NA,Mellon Square Farmer’s Market—Citiparks,Farmers Market,529 Smithfield Street,NA,NA,Pittsburgh,PA,15222,NA,May 12,October 27,10:30 AM,1:30 PM,NA,NA,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,-79.99810947,40.44099946,Fridays
+NA,Misera Farms,Farmers Market,Butler Logan Road,NA,NA,Tarentum,PA,15084,NA,June,October,11:00 AM,4:00 PM,NA,NA,1,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.802884,40.583462,Saturday
+NA,Monroeville Lion’s Farmer’s Market,Farmers Market,2399 Tilbrook Road,NA,NA,Monroeville,PA,15146,Monroeville Community Park,NA,NA,9:00 AM,12:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.77191541,40.41877601,Saturday
+NA,Moon Township Farmer’s Market,Farmers Market,1000 Beaver Grade Road,NA,NA,Moon Township,PA,15108,Municipal Building,NA,NA,3:30 PM,6:30 PM,NA,NA,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,-80.20813141,40.50457927,Tuesday
+NA,Mt. Lebanon Lions Farmer’s Market,Farmers Market,975 Washington Road,NA,NA,Pittsburgh,PA,15228,United Lutheran Church parking lot,NA,NA,4:00 PM,7:00 PM,NA,NA,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,-80.04812799,40.37375159,Wednesday
+NA,Mt. Lebanon Uptown Farmer’s Market,Farmers Market,710 Washington Road,NA,NA,Pittsburgh,PA,15228,NA,June,November,9:00 AM,12:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-80.04518726,40.37995582,Saturday
+NA,Northside Farmer’s Market—Citiparks,Farmers Market,East Ohio Street,NA,NA,Pittsburgh,PA,15212,East Park,NA,NA,3:00 PM,7:00 PM,NA,NA,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,-80.00137246,40.45349973,Fridays
+NA,Oakland Farmer’s Market,Farmers Market,Atwood Street,NA,NA,Pittsburgh,PA,15213,NA,June,October,3:00 PM,6:00 PM,NA,NA,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,-79.956838,40.440485,Friday
+NA,Olde World Produce,Farmers Market,1206 Route 51,NA,NA,Jefferson Hills,PA,15025,Ciccanti’s Ristorante parking lot,NA,NA,9:30 AM,5:30 PM,NA,NA,1,1,1,1,1,1,1,NA,NA,NA,NA,NA,-79.93855831,40.31223221,Daily
+NA,Original Farmer’s Night Market,Farmers Market,Route 50 East,NA,NA,McDonald,PA,15057,off I-79,June,November,5:30 PM,9:00 PM,NA,NA,0,1,0,1,0,1,0,NA,NA,NA,NA,NA,-80.117311,40.355634,NA
+NA,Penn Hills Garden Center,Farmers Market,200 Jefferson Road,NA,NA,Pittsburgh,PA,15235,NA,June,October,10:00 AM,2:00 PM,NA,NA,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,-79.82341696,40.46440831,Sunday
+NA,Pennsylvania Market Building,Farmers Market,108 18th Street,NA,NA,Pittsburgh,PA,15222,(Strip District),Sunday 9,00 AM,9:00 AM,4:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-79.98091303,40.42775355,Saturday
+NA,Pleasant Hills Farmer’s Market,Farmers Market,461 Clairton Road,NA,NA,Pittsburgh,PA,15236,Next to Chick Fil A,NA,NA,3:00 PM,7:00 PM,NA,NA,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,-79.94643951,40.33504948,Thursdays
+NA,Robinson Farmer’s Market,Farmers Market,5718 Steubenville Pike,NA,NA,McKees Rocks,PA,15136,"Holy Trinity Catholic Church, upper parking lot",June 5 to October 2,NA,4:00 PM,7:00 PM,NA,NA,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,-80.13522525,40.45239186,Monday
+NA,Ross Township Farmer’s Market,Farmers Market,920 Perry Highway,NA,NA,Pittsburgh,PA,15237,NA,June,,3:00 PM,7:00 PM,NA,NA,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,-80.03586335,40.53370498,Wednesday
+NA,Sewickley Farmer’s Market,Farmers Market,200 Walnut Street,NA,NA,Sewickley,PA,15143,St. James parking lot,June,,9:00 AM,1:00 PM,NA,NA,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,-80.18469267,40.53759754,Saturday
+NA,St. Ursula Parish—Hampton Township,Farmers Market,3937 Kirk Avenue,NA,NA,Allison Park,PA,15101,NA,June,October,1:00 PM,5:00 PM,NA,NA,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,-79.96349959,40.56079645,Friday

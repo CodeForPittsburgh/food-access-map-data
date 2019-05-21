@@ -1,0 +1,81 @@
+﻿id,name,type,address,street_one,street_two,city,state,zip_code,location_description,date_from,date_to,open_time1,close_time1,open_time2,close_time2,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,SNAP,WIC,FMNP,fresh_produce-healthy,MRFEI_score,latitude,longitude
+NA,Angora Gardens,sustainability-fund-site|other,3 Muse Lane,NA,NA,White Oak,Pennsylvania,15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.404686,-79.862095
+NA,Everybody's Garden,sustainability-fund-site|other,301 West Elizabeth Street,NA,NA,Pittsburgh,Pennsylvania,15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.406546,-79.945442
+NA,EvGard Extension,other,NA,NA,NA,Pittsburgh,Pennsylvania,15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.406377,-79.945559
+NA,Glen Hazel Communiuty Garden,other,Johnston Avenue at Roselle Drive,NA,NA,Pittsburgh,Pennsylvania,15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.40604,-79.931253
+NA,Grow Pittsburgh,grow-pittsburgh-site,6587 Hamilton Avenue #2W,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.458481,-79.911381
+NA,Lawrenceville Organic Community Garden,other,"Allegheny Cemetery, 4734 Butler Street",NA,NA,Pittsburgh,Pennsylvania,15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.477158,-79.956114
+NA,Masjid al Mu'min Madinah Garden,sustainability-fund-site|other,159 Winslow Street,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46445,-79.911651
+NA,South Oakland Community Orchard,other,3213 Parkview Avenue,NA,NA,Pittsburgh,Pennsylvania,15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429834,-79.953578
+NA,Thelma Lovette YMCA Garden,other,2114 Centre Avenue,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444369,-79.978126
+NA,Wiggins Garden,other,Near 3026 Wiggins Street,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457618,-79.969499
+NA,The Samuel and Anna Mae Richardson Community Garden,community-farm,5427 Willow Street,NA,NA,Bethel Park,Pennsylvania,15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.323229,-80.0405
+NA,Coraopolis Community Garden,community-farm,411 Broadway Avenue,NA,NA,Coraopolis,Pennsylvania,15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.516753,-80.160618
+NA,Crafton Community Farm,community-farm,117 West Steuben Street,NA,NA,Crafton,Pennsylvania,15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438964,-80.072817
+NA,Community Human Services Teaching Garden,community-farm,370 Lawn Street,NA,NA,Pittsburgh,Pennsylvania,15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.433691,-79.961356
+NA,Landslide Community Farm,community-farm,3 Beelen Street,NA,NA,Pittsburgh,Pennsylvania,15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.43816,-79.97244
+NA,Rosalinda Sauro Sirianni Memorial Garden,community-farm,119 Davis Avenue,NA,NA,Bellevue,Pennsylvania,15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.48879,-80.049169
+NA,Second UP Garden,community-farm,300 Hay Street,NA,NA,Pittsburgh,Pennsylvania,15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438825,-79.888431
+NA,Earl Brooks Community Garden,community-farm,222 Robinson Street,NA,NA,Pittsburgh,Pennsylvania,15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441165,-79.965404
+NA,Garfield Community Farm,community-farm,527 Edlam Way,NA,NA,Pittsburgh,Pennsylvania,15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.469378,-79.935125
+NA,Ballfield Farm,community-farm,Crispen Street,NA,NA,Pittsburgh,Pennsylvania,15214,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46849,-80.016561
+NA,Boxy Caufield Memorial Garden: Allegheny YMCA,community-farm,600 West North Avenue,NA,NA,Pittsburgh,Pennsylvania,15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.454624,-80.012922
+NA,Hazelwood YMCA Community Garden,community-farm,4713 Chatsworth Avenue,NA,NA,Pittsburgh,Pennsylvania,15207,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.413082,-79.944132
+NA,Miss Mary's Garden: Homewood Brushton YMCA,community-farm,7140 Bennett Street,NA,NA,Pittsburgh,Pennsylvania,15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.456529,-79.898291
+NA,Sheridan Avenue Orchard,community-farm,310 Sheridan Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.463474,-79.921924
+NA,Centre Ave YMCA Garden,community-farm|school-garden,2621 Centre Avenue,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447201,-79.967894
+NA,Allison Park Elementary Community Garden,school-garden,803 McGovern Road,NA,NA,Houston,Pennsylvania,15342,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.231664,-80.226758
+NA,Avonworth Middle School,school-garden,258 Joseph's Lane,NA,NA,Pittsburgh,Pennsylvania,15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.532346,-80.078434
+NA,Borland Green Cooperative,school-garden,5806 Black Street,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467393,-79.924427
+NA,Carnegie Elementary School,school-garden,301 Franklin Avenue,NA,NA,Carnegie,Pennsylvania,15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.401334,-80.081874
+NA,Clairton Education Center,school-garden,501 Waddell Avenue,NA,NA,Clairton,Pennsylvania,15025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.294148,-79.885294
+NA,Colfax Elementary,school-garden,2332 Beechwood Boulevard,NA,NA,Pittsburgh,Pennsylvania,15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.433127,-79.915417
+NA,Community Day School of Pittsburgh,school-garden,6424 Forward Avenue,NA,NA,Pittsburgh,Pennsylvania,15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.427442,-79.917825
+NA,Dilworth Traditional Academy,school-garden,6200 Stanton Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.468805,-79.917808
+NA,Fort LeBoeuf Middle School,school-garden,865 Cherry Street,NA,NA,Waterford,Pennsylvania,16441,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41.951436,-79.986455
+NA,Greenock Elementary School,school-garden,1101 Greenock Buena Vista Road,NA,NA,McKeesport,Pennsylvania,15135,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.311881,-79.8029
+NA,Iroquois Elementary School,school-garden,4231 Morse Street,NA,NA,Erie,Pennsylvania,16511,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42.153881,-80.012094
+NA,MAMS Community Garden,school-garden,800 Thurston Road,NA,NA,Meadville,Pennsylvania,16335,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41.633276,-80.124376
+NA,Pittsburgh Arsenal,school-garden,220 40th Street,NA,NA,Pittsburgh,Pennsylvania,15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467734,-79.962522
+NA,Pittsburgh Langley,school-garden,2940 Sheraden Boulevard,NA,NA,Pittsburgh,Pennsylvania,15204,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.453644,-80.054031
+NA,Pittsburgh Linden School Garden,school-garden,725 S Linden Avenue,NA,NA,Pittsburgh,Pennsylvania,15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.445514,-79.916283
+NA,Pittsburgh Miller African Centered Academy,school-garden,2055 Bedford Avenue,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447077,-79.981061
+NA,Pittsburgh Montessori PreK 5,school-garden,201 S Graham Street,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.462489,-79.935596
+NA,Pittsburgh Science and Technology,school-garden,107 Thackeray Avenue,NA,NA,Pittsburgh,Pennsylvania,15260,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.443627,-79.957411
+NA,Pittsburgh Urban Christian School,school-garden,809 Center Street,NA,NA,Pittsburgh,Pennsylvania,15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.441483,-79.882937
+NA,Propel Homestead,school-garden,129 E 10th Avenue,NA,NA,Homestead,Pennsylvania,15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.405408,-79.910342
+NA,SSA Farm at the Junior School,school-garden,400 S. Braddock Avenue,NA,NA,Pittsburgh,Pennsylvania,15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444237,-79.897476
+NA,SSA Farm at the Middle School,school-garden,500 Squaw Run Road East,NA,NA,Pittsburgh,Pennsylvania,15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.52817,-79.880648
+NA,SSA Farm at the Senior School,school-garden,423 Fox Chapel Road,NA,NA,Pittsburgh,Pennsylvania,15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.52247,-79.882689
+NA,St. Paul African Methodist Episcopal Church,school-garden,414 Orchard Place,NA,NA,Pittsburgh,Pennsylvania,15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.41792,-79.995982
+NA,The Environmental Charter Lower School Edible Schoolyard,school-garden,309 South Braddock Avenue,NA,NA,Pittsburgh,Pennsylvania,15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444922,-79.895715
+NA,The Environmental Charter Upper School Living Laboratory,school-garden,829 Milton Street,NA,NA,Pittsburgh,Pennsylvania,15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436015,-79.89694
+NA,The Neighborhood Academy,school-garden,709 N Aiken Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.472894,-79.932793
+NA,Urban League Charter School,school-garden,327 N Negley Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.466733,-79.929864
+NA,Waldorf School of Pittsburgh,school-garden,201 S Winebiddle Street,NA,NA,Pittsburgh,Pennsylvania,15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.463958,-79.942294
+NA,West End Children's Center,school-garden,42 Wabash Street,NA,NA,Pittsburgh,Pennsylvania,15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440192,-80.03457
+NA,Frick Greenhouse,commercial-urban-farm|grow-pittsburgh-site,7227 Reynolds Street,NA,NA,Pittsburgh,Pennsylvania,15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447816,-79.901057
+NA,Shiloh Farm,commercial-urban-farm|grow-pittsburgh-site,7227 Thomas Boulevard,NA,NA,Pittsburgh,Pennsylvania,15208,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.450512,-79.898805
+NA,Garfield Community Farm,commercial-urban-farm,Cornwall St & Wicklow Street,NA,NA,Pittsburgh,Pennsylvania,15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46941,-79.934616
+NA,Bandi Schaum Garden,allegheny-grows-site,2315 Sidney Street,NA,NA,Pittsburgh,Pennsylvania,15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429303,-79.972425
+NA,East Field Cooperative Garden,sustainability-fund-site,5543 Black Street,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.469404,-79.928441
+NA,Elliott Community Garden,sustainability-fund-site,706 Lorenz Avenue,NA,NA,Pittsburgh,Pennsylvania,15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.44501,-80.039497
+NA,Fineview Community Garden,community-garden,13 Carrie Street,NA,NA,Pittsburgh,Pennsylvania,15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.461294,-80.002021
+NA,Frazier Farms Community Garden,sustainability-fund-site|school-garden,3638 Frazier Street,NA,NA,Pittsburgh,Pennsylvania,15213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.429735,-79.954579
+NA,Garden of Etna,sustainability-fund-site,9 Short Alley,NA,NA,Pittsburgh,Pennsylvania,15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.496077,-79.945871
+NA,Garden On Gearing,sustainability-fund-site,409-411 Gearing Avenue,NA,NA,Pittsburgh,Pennsylvania,15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.418085,-80.00523
+NA,Glenn Avenue Community Garden,community-garden,Glenn Avenue & Swissvale Avenue,NA,NA,Pittsburgh,Pennsylvania,15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.444612,-79.875885
+NA,Harmar Street Community Garden,community-garden,331 Harmar Street,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.457406,-79.967969
+NA,Highland Park Community Gardens,community-garden,Stanton Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.472064,-79.913673
+NA,Kincaid Street Community Garden,sustainability-fund-site,5409 Kincaid Street,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.466375,-79.934859
+NA,Kiwanis Community Garden,sustainability-fund-site,2801 Jenny Lind Street,NA,NA,McKeesport,Pennsylvania,15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.339138,-79.844107
+NA,Larimer Community Garden,sustainability-fund-site,300 Larimer Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.46432,-79.91601
+NA,Lawrenceville Community Gardens,community-garden,4200 Sherrod Street,NA,NA,Pittsburgh,Pennsylvania,15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.467567,-79.956557
+NA,Martin Luther King Jr. Community Garden,allegheny-grows-site,219 Kirkpatrick Street,NA,NA,Pittsburgh,Pennsylvania,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.440368,-79.983611
+NA,Morningside Community Garden,community-garden,NA,NA,NA,Pittsburgh,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.486784,-79.923468
+NA,Mt. Oliver Borough Community Garden,allegheny-grows-site|sustainability-fund-site,Transverse Park,NA,NA,Mount Oliver,Pennsylvania,15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.406719,-79.984659
+NA,Penn Hills Community Garden,allegheny-grows-site|sustainability-fund-site,1162 Jefferson Road,NA,NA,Penn Hills,Pennsylvania,15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.447638,-79.798817
+NA,Stanton Heights Allegheny Cemetery Community Garden,sustainability-fund-site,Stanton Avenue,NA,NA,Pittsburgh,Pennsylvania,15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.473711,-79.961237
+NA,The Harry Orlando Memorial Community Garden,community-garden,2205 5th Avenue,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.438247,-79.973943
+NA,The Octopus Garden,community-garden,133 S. Aiken Avenue,NA,NA,Pittsburgh,Pennsylvania,15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.463591,-79.936771
+NA,Tustin Street Community Garden,allegheny-grows-site,2021 Tustin Street,NA,NA,Pittsburgh,Pennsylvania,15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40.436569,-79.977099
