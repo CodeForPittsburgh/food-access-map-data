@@ -1,0 +1,66 @@
+---
+title: "Data wrangling for for food hackathon"
+author: "Sahil"
+date: '`r format(Sys.time(), format = "%B %d, %Y")`'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = F)
+library(tidyverse)
+library(googlesheets)
+library(janitor)
+library(Hmisc)
+```
+
+## Background
+
+Prepare data for PFC hackathon according to the following data model:
+
+
+```{r, data_model}
+## read in data model from google sheets
+
+data_model <- gs_read(gs_title("fields_and_descriptions"))
+data_model_fields<- data_model$field
+data_model_fields
+```
+**No information on type, SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score, available day/s **
+
+## Allegheny County WIC Vendor Locations
+```{r,alghy_county_wic_vendor_locations_1}
+algh_vendor_loc <- gs_read(gs_title("Allegheny_County_WIC_Vendor_Locations"))
+algh_vendor_loc <- clean_names(algh_vendor_loc) %>% drop_na(address) ##cleaning column names to maintain consistency
+head(algh_vendor_loc)
+```
+
+```{r,alghy_county_wic_vendor_locations_2}
+ ## create an empty data frame with required data model and populate them using the data from  
+dat_mod <- setNames(data.frame(matrix(ncol =length(data_model_fields),nrow=0)),data_model_fields) 
+data_alghny_vendor_loc <-  dat_mod %>% bind_rows(algh_vendor_loc %>% mutate(state="PA") %>% select(name,address,city=municipa_1,zip_code=zip_codes,latitude=x,longitude=y,state))
+#identifying the columns for which we have no info at the moment
+   names(data_alghny_vendor_loc)[apply(data_alghny_vendor_loc,2,function(x) all(is.na(x)))]
+   #write out as a csv
+   write.csv(data_alghny_vendor_loc,"algh_county_wic_vendor_loc_cleaned.csv")
+
+```
+
+**No information on type, SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score, date_from, date_to **
+## Allegheny County Summer Food sites
+```{r,alghy_summer_sites_1}
+algh_summer_sites <-  gs_read(gs_title("Allegheny_County_Summer_Food_Sites"))
+algh_summer_sites <- clean_names(algh_summer_sites)
+head(algh_summer_sites)
+```
+
+```{r,alghy_summer_sites_2}
+source("/Users/msahil515/food_hackathon/functions.R")
+#Using functions to transform the columns address, day and time into a form as per the data model and combining them as a new dataframe
+addr_day_time_df <- addr_fun(algh_summer_sites$address) %>% cbind(days_fun(algh_summer_sites$days)) %>% cbind(time_fun(algh_summer_sites$breakfast,algh_summer_sites$lunch_star))
+#populating the empty data frame with required data model structure
+data_algh_summer_sites <- dat_mod %>% bind_rows((addr_day_time_df %>% bind_cols(algh_summer_sites %>%select(latitude=x,longitude=y,zip_code=zip,location_description=additional))))
+#write out as csv
+write.csv(data_algh_summer_sites,"agh_summer_sites_cleaned.csv")
+
+```
+
