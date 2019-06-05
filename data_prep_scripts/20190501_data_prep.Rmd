@@ -110,7 +110,7 @@ agh_farm_markets <- dat1 %>%
                      close_time1 = time_calc(Day_Time)$close_time,
                      date_from = season_calc(Season)$date_from,
                      date_to = season_calc(Season)$date_to) %>% ## this may not be robust
-              select(type, weekday_val, open_time1, close_time1, date_from, date_to,
+              select(type, open_time1, close_time1, date_from, date_to,
                      Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday,
                 address = Address,
                      name = Name, ## ? is this the correct farmers market name??
@@ -180,7 +180,7 @@ PA <- dat1 %>%
                           address, # check linking together is correct
                           city = CITY,
                           state = STATE, 
-                          zip = ZIP5))
+                          zip_code = ZIP5))
 
 write_excel_csv(PA, "PA_ALLEGHENY_cleaned.csv")
 
