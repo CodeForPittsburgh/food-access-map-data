@@ -1,0 +1,33 @@
+---
+title: "merge_datasets"
+author: "Sahil"
+date: "6/5/2019"
+output: html_document
+---
+
+```{r setup, include=T}
+knitr::opts_chunk$set(echo = TRUE)
+#merge datasets
+library(tidyverse)
+
+
+path <- "/Users/msahil515/food.hackathon/data_prep_scripts"
+# read in file names with .csv format in the directory
+datasets_names <- list.files("/Users/msahil515/food.hackathon/data_prep_scripts",pattern = ".csv")
+# create a list with a list of all the cleaned datasets
+dat <- vector("list",length(datasets_names))
+for (i in 1:length(datasets_names)) {
+        dat[[i]] <- read.csv(paste0(path,"/",datasets_names[i]),stringsAsFactors = F)
+          dat[[i]] <- dat[[i]] %>% mutate(latitude=ifelse(latitude==0,NA,latitude))
+}
+
+# bind the datastes
+all_datasets <-bind_rows(dat) %>% unique()
+#check if latitude has 0's
+sum(which(is.na(all_datasets$latitude) & all_datasets$latitude==0))
+names(all_datasets)
+#write out as csv
+write.csv(all_datasets,"/Users/msahil515/food.hackathon/data_prep_scripts/merged_datasets.csv")
+```
+
+

@@ -25,7 +25,7 @@ data_model <- gs_read(gs_title("fields_and_descriptions"))
 data_model_fields<- data_model$field
 data_model_fields
 ```
-**No information on type, SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score, available day/s **
+**No information on type, SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score, available day/s, latitude, longtitude **
 
 ## Allegheny County WIC Vendor Locations
 ```{r,alghy_county_wic_vendor_locations_1}
@@ -37,11 +37,14 @@ head(algh_vendor_loc)
 ```{r,alghy_county_wic_vendor_locations_2}
  ## create an empty data frame with required data model and populate them using the data from  
 dat_mod <- setNames(data.frame(matrix(ncol =length(data_model_fields),nrow=0)),data_model_fields) 
-data_alghny_vendor_loc <-  dat_mod %>% bind_rows(algh_vendor_loc %>% mutate(state="PA") %>% select(name,address,city=municipa_1,zip_code=zip_codes,latitude=x,longitude=y,state))
+data_alghny_vendor_loc <-  dat_mod %>% bind_rows(algh_vendor_loc %>% mutate(state="PA") %>% select(name,address,city=municipa_1,zip_code=zip_codes,state))
+
+#
+
 #identifying the columns for which we have no info at the moment
    names(data_alghny_vendor_loc)[apply(data_alghny_vendor_loc,2,function(x) all(is.na(x)))]
    #write out as a csv
-   write.csv(data_alghny_vendor_loc,"algh_county_wic_vendor_loc_cleaned.csv")
+   write.csv(data_alghny_vendor_loc,"/Users/msahil515/food.hackathon/data_prep_scripts/algh_county_wic_vendor_loc_cleaned.csv",row.names = F)
 
 ```
 
@@ -60,7 +63,7 @@ addr_day_time_df <- addr_fun(algh_summer_sites$address) %>% cbind(days_fun(algh_
 #populating the empty data frame with required data model structure
 data_algh_summer_sites <- dat_mod %>% bind_rows((addr_day_time_df %>% bind_cols(algh_summer_sites %>%select(latitude=x,longitude=y,zip_code=zip,location_description=additional))))
 #write out as csv
-write.csv(data_algh_summer_sites,"agh_summer_sites_cleaned.csv")
+write.csv(data_algh_summer_sites,"/Users/msahil515/food.hackathon/data_prep_scripts/agh_summer_sites_cleaned.csv",row.names = F)
 
 ```
 
