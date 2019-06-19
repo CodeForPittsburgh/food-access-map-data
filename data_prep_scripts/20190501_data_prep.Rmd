@@ -54,7 +54,8 @@ head(data_convenience)
 ## map data_convenience to dat1
 data_convenience <- dat1 %>% 
   bind_rows(data_convenience %>% 
-              mutate(address = paste(`Street #`, `Street Name`)) %>% 
+              mutate(address = ifelse(is.na(`Street Name`), 
+                                      `Street #`, paste(`Street #`, `Street Name`))) %>% 
               select(name = Name,
                      type = Category,
                      address, 
@@ -129,6 +130,8 @@ write_excel_csv(agh_farm_markets, "agh_farm_markets_cleaned.csv")
 ```
 
 **Missing SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score info.**
+
+If Green Grocer -- process name such that "Green Grocer (Store Name Here)
 
 ## growpghgardens201712
 
