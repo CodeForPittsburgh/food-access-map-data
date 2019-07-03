@@ -124,7 +124,17 @@ agh_farm_markets <- dat1 %>%
 
 ## check
 head(agh_farm_markets)
+```
 
+```{r}
+## fix green grocer entries to be of format Green Grocer (name of establishment)
+agh_farm_markets <- agh_farm_markets %>% 
+  rowwise() %>% 
+  mutate(name = ifelse(str_detect(name, "Green Grocer"),
+                                          paste0("Green Grocer (", str_split(str_replace_all(name, "’", ""), "[:punct:]")[[1]][1], ")"), name))
+```
+
+```{r}
 ## write out as .csv 
 write_excel_csv(agh_farm_markets, "agh_farm_markets_cleaned.csv")
 ```
@@ -176,7 +186,8 @@ PA %>% distinct(County)
 ```{r, makepa}
 PA <- dat1 %>% 
   bind_rows(PA %>% filter(County %in% "ALLEGHENY") %>% 
-              mutate(address = paste(ADDRESS, ADDRESS2)) %>% 
+              mutate(address = paste(ADDRESS, ADDRESS2), 
+                     SNAP = 1) %>% 
               select(name = STORE_NAME, 
                           longitude,
                           latitude, 
@@ -190,3 +201,144 @@ write_excel_csv(PA, "PA_ALLEGHENY_cleaned.csv")
 ```
 
 **Check if should filter beyond Allegheny county; missing open day/time and SNAP etc info**
+
+### pfpc - fresh corners
+
+```{r}
+pfpc_fresh_corners <- gs_read(gs_title("PFPC Member Datasets"), ws = "Just Harvest - Fresh Corners Stores")
+head(pfpc_fresh_corners)
+```
+
+Assume type = "Convenience Store"
+
+```{r}
+# dat1 %>% names()
+pfpc_fresh_corners <- dat1 %>% 
+  bind_rows(pfpc_fresh_corners %>% 
+              mutate(food_bucks = ifelse(`Participates in Food Bucks SNAP Incentive Program` %in% "yes", 
+                                         1, 0),
+                     type = "Convenience Store") %>% 
+              select(name = `Corner Store`,
+                     address = Address,
+                     city = City,
+                     zip_code = Zip,
+                     food_bucks,
+                     type))
+
+write_excel_csv(pfpc_fresh_corners, "pfpc_fresh_corners_cleaned.csv")
+```
+
+## pfpc - fresh access markets
+
+Assume type = "Farmers Market"
+
+```{r}
+pfpc_fresh_access_markets <- gs_read(gs_title("PFPC Member Datasets"), ws = "Just Harvest - Fresh Access Markets")
+
+head(pfpc_fresh_access_markets)
+```
+
+assume type = "Farmers Market"
+
+```{r}
+pfpc_fresh_access_markets <- dat1 %>% 
+  bind_rows(pfpc_fresh_access_markets %>% 
+              mutate(uid = 1:n(),
+                     date_from = str_split(Season, "-")[[1]][1],
+                     date_to = str_split(Season, "-")[[1]][2],
+                     food_bucks = ifelse(`Participates in Food Bucks SNAP Incentive program` %in% "yes", 1, 0),
+                     type = "Farmers Market") %>% 
+              select(uid,
+                     name = Market,
+                     address,
+                     street_one,
+                     street_two,
+                     city,
+                     state,
+                     zip_code,
+                     date_from,
+                     date_to,
+                     open_time1, 
+                     close_time1, 
+                     location_description = description,
+                     food_bucks) %>% 
+              left_join(pfpc_fresh_access_markets %>% 
+                          mutate(uid = 1:n(), fill_val = 1) %>% 
+                          select(uid, fill_val, weekday) %>% 
+                          tidyr::spread(key = "weekday", value = "fill_val"),
+                        by = "uid") %>% 
+              select(-uid))
+
+write_excel_csv(pfpc_fresh_access_markets, "pfpc_fresh_market_cleaned.csv")
+              
+```
+
+
+## pfpc green grocer
+
+
+```{r}
+pfpc_green_grocer <- gs_read(gs_title("PFPC Member Datasets"), ws = "GPCFB - Green Grocer")
+
+head(pfpc_green_grocer)
+```
+
+
+```{r}
+pfpc_green_grocer <- dat1 %>% 
+  bind_rows(pfpc_green_grocer %>% 
+              mutate(uid = 1:n(), 
+                     open_time1 = str_split(str_split(`Date/Time`, "\n")[[1]][2], "-")[[1]][1],
+                     close_time1 = str_split(str_split(`Date/Time`, "\n")[[1]][2], "-")[[1]][2],
+                     food_bucks = ifelse(`Participates in Food Bucks SNAP Incentive Program` %in% "yes", 1, 0),
+                     name = paste0("Green Grocer ", "(", name, ")")) %>% 
+              select(name, 
+                     address, 
+                     city, 
+                     state, 
+                     zip_code, 
+                     street_one, 
+                     street_two, 
+                     location_description = Description,
+                     open_time1, 
+                     close_time1, 
+                     food_bucks,
+                     uid) %>% 
+                left_join(pfpc_green_grocer %>% 
+                            mutate(uid = 1:n(), fill_val = 1) %>% 
+                            rowwise() %>% 
+                            mutate(day = str_trim(str_split(`Date/Time`, "\n")[[1]][1])) %>% 
+                            select(uid, day, fill_val) %>% tidyr::spread(key = "day", value = "fill_val"),
+                          by = "uid") %>% 
+              select(-uid))
+
+
+write_excel_csv(pfpc_green_grocer, "pfpc_fresh_green_grocer_cleaned.csv")
+
+```
+
+## pfpc - additional food bucks
+
+```{r}
+pfpc_more_food_bucks <- gs_read(gs_title("PFPC Member Datasets"), ws = "Additional Food Bucks sites")
+
+pfpc_more_food_bucks <- pfpc_more_food_bucks %>% slice(1:3)
+
+head(pfpc_more_food_bucks)
+```
+
+
+```{r}
+pfpc_more_food_bucks <- dat1 %>% 
+  bind_rows(pfpc_more_food_bucks %>% 
+              mutate(food_bucks = 1) %>% 
+              select(name = Name, 
+                     address = Address, 
+                     city, 
+                     state,
+                     zip_code,
+                     food_bucks))
+
+write_excel_csv(pfpc_more_food_bucks, "pfpc_fresh_more_food_bucks_cleaned.csv")
+
+```
