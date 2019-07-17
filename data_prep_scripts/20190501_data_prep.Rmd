@@ -148,19 +148,21 @@ If Green Grocer -- process name such that "Green Grocer (Store Name Here)
 ```{r, readin3}
 growpgh <- gs_read(gs_title("growpghgardens201712_readin"))
 head(growpgh)
-
 ```
 
 ```{r, growpgh}
-growpgh <- dat1 %>% bind_rows(growpgh %>% select(name = urban_grower, 
-                                                 type = category,
-                                                 address = street_address,
-                                                 city,
-                                                 state,
-                                                 zip_code,
-                                                 latitude, 
-                                                 longitude
-                                                 ))
+growpgh <- dat1 %>% 
+  bind_rows(growpgh %>% 
+              mutate(type = "Grow PGH Garden") %>% ## avoid their overly descript category field to simply types for merged dataset
+              select(name = urban_grower,
+                               type, 
+                               address = street_address,
+                               city,
+                               state,
+                               zip_code,
+                               latitude, 
+                               longitude
+                               ))
 
 ## write out as .csv 
 write_excel_csv(growpgh, "growpghgardens_cleaned.csv")
@@ -182,6 +184,8 @@ Check ADDRESS2
 PA %>% filter(!is.na(ADDRESS2)) %>% select(ADDRESS, ADDRESS2)
 PA %>% distinct(County)
 ```
+
+All PA are SNAP, set SNAP = 1. 
 
 ```{r, makepa}
 PA <- dat1 %>% 
@@ -341,4 +345,79 @@ pfpc_more_food_bucks <- dat1 %>%
 
 write_excel_csv(pfpc_more_food_bucks, "pfpc_fresh_more_food_bucks_cleaned.csv")
 
+```
+
+
+## updated 2019 summer food sites
+
+From USDA site, updates weekly on Wednesdays, has API (this is currently using static .csv). 
+
+```{r}
+## read in
+summer_site_2019 <- read_csv("../Summer_Meal_Sites_2019.csv")
+```
+
+```{r}
+## filter to PA, Allegeheny, status = Open
+summer_site_2019 <- summer_site_2019 %>% filter(siteState %in% "PA", County %in% "Allegheny", siteStatus %in% "Open")
+```
+
+```{r}
+## fit to data model
+
+summer_site_2019 <- dat1 %>% 
+  bind_rows(summer_site_2019 %>% 
+              rowwise() %>% 
+              mutate(type = "Summer Food Site",
+                     address = str_split(siteAddress, "[:alpha:]*,")[[1]][1], 
+                     open_to_spec_group = 1) %>% 
+              ungroup() %>% 
+              select(name = siteName,
+                     type, 
+                     address,
+                     city = siteCity,
+                     state = siteState,
+                     zip_code = siteZip,
+                     date_from = startDate,
+                     date_to = endDate,
+                     latitude = X,
+                     longitude = Y,
+                     OBJECTID,
+                     open_to_spec_group) %>% 
+                left_join(summer_site_2019 %>% select(OBJECTID, daysofOperation) %>%
+                            tidyr::separate(daysofOperation, sep = ",", 
+                                            into = c("X1", "X2", "X3", "X4", "X5", "X6", "X7")) %>% 
+                            tidyr::gather(key = "key", value = "value", -OBJECTID) %>% 
+                            filter(!is.na(value)) %>% 
+                            mutate(value2 = ifelse(value %in% "M", "Monday", NA),
+                                   value2 = ifelse(value %in% "T", "Tuesday", value2),
+                                   value2 = ifelse(value %in% "W", "Wednesday", value2),
+                                   value2 = ifelse(value %in% "TH", "Thursday", value2),
+                                   value2 = ifelse(value %in% "F", "Friday", value2),
+                                   value2 = ifelse(value %in% "SA", "Saturday", value2),
+                                   value2 = ifelse(value %in% "S", "Sunday", value2)) %>% 
+                            mutate(value3 = 1) %>% 
+                            tidyr::spread(key = "value2", value = "value3") %>% 
+                            select(OBJECTID, Monday, Tuesday, Wednesday, Thursday,
+                                   Friday, Saturday, Sunday),
+                          by = "OBJECTID") %>% 
+              left_join(summer_site_2019 %>% 
+                          select(OBJECTID, contains("Time")) %>% 
+                          tidyr::gather(key = "key", value = "value", -OBJECTID) %>% 
+                          filter(!is.na(value)) %>% 
+                          group_by(OBJECTID) %>% mutate(timing = paste0("time", 1:n())) %>% 
+                          select(-key) %>% 
+                          tidyr::spread(key = "timing", value = "value") %>% 
+                          mutate(open_time1 = str_split(time1, " ")[[1]][1],
+                                 close_time1 = str_split(time1, " ")[[1]][3],
+                                 open_time2 = str_split(time2, " ")[[1]][1],
+                                 close_time2 = str_split(time2, " ")[[1]][3]) %>% 
+                          select(-time1, -time2), 
+                        by = "OBJECTID") %>% 
+              select(-OBJECTID))
+```
+
+```{r}
+## write out 
+write_excel_csv(summer_site_2019, "agh_summer_sites_cleaned.csv")
 ```
