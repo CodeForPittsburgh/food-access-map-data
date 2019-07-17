@@ -53,30 +53,35 @@ data_alghny_vendor_loc <-  dat_mod %>% bind_rows(algh_vendor_loc %>% mutate(stat
 
 **No information on type, SNAP, WIC, FMNP, fresh_produce-healthy, MRFEI_score, date_from, date_to **
 ## Allegheny County Summer Food sites
+
+07/15/2019 see other data prep script/new summer sites data source (for 2019 from USDA; updates weekly on Wednesdays; has API). 
+
 ```{r,alghy_summer_sites_1}
-algh_summer_sites <-  gs_read(gs_title("Allegheny_County_Summer_Food_Sites"))
-algh_summer_sites <- clean_names(algh_summer_sites)
-head(algh_summer_sites)
+# algh_summer_sites <-  gs_read(gs_title("Allegheny_County_Summer_Food_Sites"))
+# algh_summer_sites <- clean_names(algh_summer_sites)
+# head(algh_summer_sites)
 ```
 
+
+
 ```{r,alghy_summer_sites_2}
-source("functions.R")
+# source("functions.R")
 
 #Using functions to transform the columns address, day and time into a form as per the data model and combining them as a new dataframe
-addr_day_time_df <- addr_fun(algh_summer_sites$address) %>% cbind(days_fun(algh_summer_sites$days)) %>% cbind(time_fun(algh_summer_sites$breakfast,algh_summer_sites$lunch_star))
-
-#populating the empty data frame with required data model structure
-data_algh_summer_sites <- dat_mod %>% 
-  bind_rows((addr_day_time_df %>% 
-               bind_cols(algh_summer_sites %>%
-                           select(latitude=x,
-                                  longitude=y,
-                                  zip_code=zip,
-                                  location_description=additional, 
-                                  name = site,
-                                  open_to_spec_group = open_close)))) ## cgm 07/02 add
-#write out as csv
-write.csv(data_algh_summer_sites,"agh_summer_sites_cleaned.csv",row.names = F)
+# addr_day_time_df <- addr_fun(algh_summer_sites$address) %>% cbind(days_fun(algh_summer_sites$days)) %>% cbind(time_fun(algh_summer_sites$breakfast,algh_summer_sites$lunch_star))
+# 
+# #populating the empty data frame with required data model structure
+# data_algh_summer_sites <- dat_mod %>% 
+#   bind_rows((addr_day_time_df %>% 
+#                bind_cols(algh_summer_sites %>%
+#                            select(latitude=x,
+#                                   longitude=y,
+#                                   zip_code=zip,
+#                                   location_description=additional, 
+#                                   name = site,
+#                                   open_to_spec_group = open_close)))) ## cgm 07/02 add
+# #write out as csv
+# write.csv(data_algh_summer_sites,"agh_summer_sites_cleaned.csv",row.names = F)
 
 ```
 
