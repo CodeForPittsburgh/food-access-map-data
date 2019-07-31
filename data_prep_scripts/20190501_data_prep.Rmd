@@ -48,14 +48,17 @@ colnames(dat1) <- dat_mod_col_names
 ```{r, convenience_1}
 data_convenience <- gs_read(gs_title("data-conveniencesupermarkets"))
 head(data_convenience)
+
+## very last row is all NA
+data_convenience <- data_convenience %>% filter(!`Client ID` %in% "200310290007")
 ```
 
 ```{r, convenience_2}
 ## map data_convenience to dat1
 data_convenience <- dat1 %>% 
   bind_rows(data_convenience %>% 
-              mutate(address = ifelse(is.na(`Street Name`), 
-                                      `Street #`, paste(`Street #`, `Street Name`))) %>% 
+              mutate(address = ifelse(is.na(`Street #`), 
+                                      `Street Name`, paste(`Street #`, `Street Name`))) %>% 
               select(name = Name,
                      type = Category,
                      address, 
@@ -119,8 +122,8 @@ agh_farm_markets <- dat1 %>%
                      state = State, 
                      zip_code = Zip, 
                      location_description = Location__,
-                     latitude = X, 
-                     longitude = Y)) 
+                     latitude = Y, 
+                     longitude = X)) 
 
 ## check
 head(agh_farm_markets)
@@ -190,7 +193,7 @@ All PA are SNAP, set SNAP = 1.
 ```{r, makepa}
 PA <- dat1 %>% 
   bind_rows(PA %>% filter(County %in% "ALLEGHENY") %>% 
-              mutate(address = paste(ADDRESS, ADDRESS2), 
+              mutate(address = ifelse(is.na(ADDRESS2), ADDRESS, paste(ADDRESS, ADDRESS2)), 
                      SNAP = 1) %>% 
               select(name = STORE_NAME, 
                           longitude,
@@ -355,6 +358,7 @@ From USDA site, updates weekly on Wednesdays, has API (this is currently using s
 ```{r}
 ## read in
 summer_site_2019 <- read_csv("../Summer_Meal_Sites_2019.csv")
+max_NA <- function(x) ifelse( !all(is.na(x)), max(x, na.rm=T), NA)
 ```
 
 ```{r}
@@ -380,8 +384,8 @@ summer_site_2019 <- dat1 %>%
                      zip_code = siteZip,
                      date_from = startDate,
                      date_to = endDate,
-                     latitude = X,
-                     longitude = Y,
+                     latitude = Y,
+                     longitude = X,
                      OBJECTID,
                      open_to_spec_group) %>% 
                 left_join(summer_site_2019 %>% select(OBJECTID, daysofOperation) %>%
@@ -399,7 +403,9 @@ summer_site_2019 <- dat1 %>%
                             mutate(value3 = 1) %>% 
                             tidyr::spread(key = "value2", value = "value3") %>% 
                             select(OBJECTID, Monday, Tuesday, Wednesday, Thursday,
-                                   Friday, Saturday, Sunday),
+                                   Friday, Saturday, Sunday) %>%
+                            group_by(OBJECTID) %>%
+                            summarise_all(max_NA),
                           by = "OBJECTID") %>% 
               left_join(summer_site_2019 %>% 
                           select(OBJECTID, contains("Time")) %>% 
