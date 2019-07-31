@@ -119,8 +119,8 @@ agh_farm_markets <- dat1 %>%
                      state = State, 
                      zip_code = Zip, 
                      location_description = Location__,
-                     latitude = X, 
-                     longitude = Y)) 
+                     latitude = Y, 
+                     longitude = X)) 
 
 ## check
 head(agh_farm_markets)
@@ -381,8 +381,8 @@ summer_site_2019 <- dat1 %>%
                      zip_code = siteZip,
                      date_from = startDate,
                      date_to = endDate,
-                     latitude = X,
-                     longitude = Y,
+                     latitude = Y,
+                     longitude = X,
                      OBJECTID,
                      open_to_spec_group) %>% 
                 left_join(summer_site_2019 %>% select(OBJECTID, daysofOperation) %>%
