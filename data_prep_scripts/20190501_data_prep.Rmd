@@ -48,14 +48,17 @@ colnames(dat1) <- dat_mod_col_names
 ```{r, convenience_1}
 data_convenience <- gs_read(gs_title("data-conveniencesupermarkets"))
 head(data_convenience)
+
+## very last row is all NA
+data_convenience <- data_convenience %>% filter(!`Client ID` %in% "200310290007")
 ```
 
 ```{r, convenience_2}
 ## map data_convenience to dat1
 data_convenience <- dat1 %>% 
   bind_rows(data_convenience %>% 
-              mutate(address = ifelse(is.na(`Street Name`), 
-                                      `Street #`, paste(`Street #`, `Street Name`))) %>% 
+              mutate(address = ifelse(is.na(`Street #`), 
+                                      `Street Name`, paste(`Street #`, `Street Name`))) %>% 
               select(name = Name,
                      type = Category,
                      address, 
@@ -190,7 +193,7 @@ All PA are SNAP, set SNAP = 1.
 ```{r, makepa}
 PA <- dat1 %>% 
   bind_rows(PA %>% filter(County %in% "ALLEGHENY") %>% 
-              mutate(address = paste(ADDRESS, ADDRESS2), 
+              mutate(address = ifelse(is.na(ADDRESS2), ADDRESS, paste(ADDRESS, ADDRESS2)), 
                      SNAP = 1) %>% 
               select(name = STORE_NAME, 
                           longitude,
