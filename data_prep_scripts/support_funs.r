@@ -66,4 +66,5 @@ season_calc <- function(entry_val) {
   return(list(date_from = date_from, date_to = date_to))
 }
 
+
 # season_calc(agh_farm_markets$Season[1])
