@@ -1,0 +1,12 @@
+id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude,latlng_source,date_from,date_to,SNAP,WIC,FMNP,fresh_produce,food_bucks,free_distribution,open_to_spec_group,data_issues
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Juba Grocery,2721 Brownsville Rd,Pittsburgh,PA,15227,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Carl's Café,337 5th Ave,Rankin,PA,15104,Allegheny,,,,,,,,,1.0,,1,1,1,0,,
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Farm Fresh Foods,226 N. Negley Ave,Pittsburgh,PA,15206,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,L.A. Grocery,511 Larimer Ave,Pittsburgh,PA,15206,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Bailey Food Mart,2316 Bailie Ave,McKeesport,PA,15132,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,In & Out Corner Market,300 Helen St.,McKees Rocks,PA,15136,Allegheny,,,,,,,,,1.0,,1,1,1,0,,
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Rocks Express,700 Frederick Street,McKees Rocks,PA,15136,Allegheny,,,,,,,,,1.0,,1,1,1,0,,
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Deann's Groceria,207 Brownsville Rd.,Mount Oliver,PA,15210,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Schwartz Market,1901 5th Ave,Pittsburgh,PA,15219,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Produce Marketplace,519 St Clair Ave,Clairton,PA,15025,Allegheny,,,,,,,,,1.0,,1,1,1,0,,
+,Just Harvest,Just Harvest - Fresh Corners Stores.xlsx,,convenience store,Ann's Market,2316 Webster Ave,Pittsburgh,PA,15219,Allegheny,,,,,,,,,,,1,1,0,0,,SNAP missing;
