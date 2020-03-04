@@ -1,0 +1,24 @@
+how will map be able to create reports for specific municipalities?
+
+
+
+townships in TIGER/Line shapefiles?
+
+
+free_distribution, fresh_produce - all others are False
+
+green grocer - less than 20 sites, not free_distribution. being ingested by Cat. not sure which payment types they accept 
+
+
+GroupTypeThree
+
+412 Food Rescue - lots of duplicates between this list and the other
+
+
+send Justin a list of duplicate places with the 412 Food Rescue list, using the Google Places API
+
+
+DSL develop mapping of GroupTypes to open_to_spec_group, send to Justin for review
+
+Justin look into seemingly public sites where "Food Bank - Get Help" is blank and let DSL know
+
