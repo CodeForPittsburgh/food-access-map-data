@@ -10,8 +10,7 @@ source("data_prep_scripts/support_funs.R")
 read_loc <- "food-data/PFPC_data_files/"
 
 ## ----------------------- read in data_model
-# data_mod <- gs_read(gs_title("fields_and_descriptions"))
-data_mod <- readxl::read_excel(paste0(read_loc, "fields_and_descriptions.xlsx"))
+data_mod <- readxl::read_excel(paste0("", "schema.xlsx"))
 
 dat_mod_col_names <- data_mod %>% pull(field)
 
