@@ -6,3 +6,9 @@ suppressWarnings(source("clean_merge_PFPC_data.R"))## loads merged, cleaned data
 
 suppressWarnings(source("geocoding.R"))## runs geocoding (requires google api)
 
+## de-dup
+
+source("")
+
+## write out
+readr::write_csv(food_geo, "merged_datasets.csv")

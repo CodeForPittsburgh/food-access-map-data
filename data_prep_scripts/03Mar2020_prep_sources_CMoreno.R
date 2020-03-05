@@ -3,7 +3,7 @@ read_loc <- "food-data/PFPC_data_files/"
 write_loc <- "food-data/Cleaned_data_files/" ## check if this is how we want to do it
 
 ## ----------------------- read in data_model
-data_mod <- readxl::read_excel("schema.xlsx")
+data_mod <- readxl::read_excel("schema.xlsx", sheet = "master_table")
 
 dat_mod_col_names <- data_mod %>% 
   filter(!str_detect(STATUS, "remove|REMOVE|eliminate")) %>% 
