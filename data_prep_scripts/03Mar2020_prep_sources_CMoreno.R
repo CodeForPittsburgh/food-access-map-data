@@ -120,7 +120,7 @@ pfpc_green_grocer <- dat1 %>%
                      fresh_produce = ifelse(type %in% c("farmer's market", "supermarket"), 1, 0),
                      free_distribution = 0, 
                      open_to_spec_group = 0, 
-                     data_isses = "no lat/long"))
+                     data_issues = "no lat/long"))
 
 write_csv(pfpc_green_grocer, paste0(write_loc, "cleaned_pfpc_green_grocer.csv"))
 rm(dat8b, pfpc_green_grocer)
