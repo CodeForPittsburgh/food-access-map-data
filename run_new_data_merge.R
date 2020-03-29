@@ -1,6 +1,9 @@
 ## purpose: aggregate cleaned data sources
 ## contributors: Catalina Moreno, Drew Levitt, Matthew Chan
-## last updated: 03/03/2020
+## last updated: 03/29/2020
+
+## load lib
+library(tidyverse)
 
 ## enforce data schema
 data_mod <- readxl::read_excel("schema.xlsx", sheet = "master_table")
