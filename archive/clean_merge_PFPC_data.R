@@ -138,15 +138,16 @@ PA <- readxl::read_excel(paste0(read_loc, dat5))
 
 PA <- dat1 %>% 
   bind_rows(PA %>% filter(County %in% "ALLEGHENY") %>% 
-              mutate(address = ifelse(is.na(ADDRESS2), ADDRESS, paste(ADDRESS, ADDRESS2)), 
-                     SNAP = 1) %>% 
+              mutate(address = ifelse(is.na(ADDRESS2), ADDRESS, paste(ADDRESS, ADDRESS2)),
+                     SNAP = 1) %>%
               select(name = STORE_NAME, 
                      longitude,
                      latitude, 
                      address, # check linking together is correct
                      city = CITY,
                      state = STATE, 
-                     zip_code = ZIP5)) %>% 
+                     zip_code = ZIP5,
+                     SNAP)) %>% 
   mutate(source = dat5)
 
 ## -----------------------  pfpc - fresh corners
@@ -222,7 +223,8 @@ pfpc_green_grocer <- dat1 %>%
                      open_time1 = str_split(str_split(`Date/Time`, "\n")[[1]][2], "-")[[1]][1],
                      close_time1 = str_split(str_split(`Date/Time`, "\n")[[1]][2], "-")[[1]][2],
                      food_bucks = ifelse(`Participates in Food Bucks SNAP Incentive Program` %in% "yes", 1, 0),
-                     name = paste0("Green Grocer ", "(", name, ")")) %>% 
+                     name = paste0("Green Grocer ", "(", name, ")"),
+                     type = "Farmers Market") %>% 
               ungroup() %>% 
               select(name, 
                      address, 
@@ -235,7 +237,8 @@ pfpc_green_grocer <- dat1 %>%
                      open_time1, 
                      close_time1, 
                      food_bucks,
-                     uid) %>% 
+                     uid,
+                     type) %>% 
               left_join(pfpc_green_grocer %>% 
                           mutate(uid = 1:n(), fill_val = 1) %>% 
                           rowwise() %>% 
@@ -376,13 +379,26 @@ all_datasets <- data_convenience %>%
   bind_rows(data_alghny_vendor_loc) %>% 
   mutate(id = 1:n()) 
 
-## apply rules
+## label rule step 1: apply rules on data source, assigned in line above
+# one check for Green Grocer type = Farmers Market (saw one instance in PA dataset...)
+all_datasets <- all_datasets %>% 
+  mutate(type = ifelse(str_detect(type, "Green Grocer"), "Farmers Market", type))
+
+## label rule step 2: apply rules now based on type
 all_datasets <- all_datasets %>% 
   mutate(SNAP = ifelse(type %in% "Farmers Market", 1, SNAP),
-         SNAP = ifelse(food_bucks %in% 1, 1, SNAP),
-         FMNP = ifelse(food_bucks %in% 1, 1, FMNP),
-         food_bucks = ifelse(type %in% "Farmers Market", 1, food_bucks))
+         FMNP = ifelse((type %in% "Farmers Market") && (city %in% "Pittsburgh"), 1, SNAP),
+         `fresh_produce-healthy` = ifelse(type %in% "Farmers Market", 1, `fresh_produce-healthy`),
+         food_bucks = ifelse((type %in% "Farmers Market") && (city %in% "Pittsburgh"), 1, food_bucks),
+         `fresh_produce-healthy` = ifelse(type %in% "Supermarket", 1, `fresh_produce-healthy`))
 
+## label rule step 3: apply labels based on other labels
+all_datasets <- all_datasets %>% 
+  mutate(SNAP = ifelse(food_bucks %in% 1, 1, SNAP),
+         FMNP = ifelse(food_bucks %in% 1, 1, FMNP),
+         FMNP = ifelse(WIC %in% 1, 1, FMNP))
+
+## apply rules now based on other labels
 ## fix street one and street two to be address (per 07/03/2019 meeting)
 all_datasets <- all_datasets %>% 
   mutate(address = ifelse(is.na(address) & !is.na(street_one), 
@@ -390,7 +406,7 @@ all_datasets <- all_datasets %>%
                           address)) 
 
 
-## clean up
+## clean up environment
 rm(dat1,
 data_convenience, dat2,
 agh_farm_markets, dat3,
