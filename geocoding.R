@@ -1,13 +1,9 @@
 library(tidyverse)
-library(sf)
 library(ggmap)
-library(tigris)
-library(rgeos)
 library(rstudioapi)
 
 # Google API key needed - paste only string without quotes
-password <- askForPassword(prompt = "Enter Google API Key")
-register_google(key=password)
+register_google(key = askForPassword(prompt = "Enter Google API Key"))
 
 ## Geocoding locations without latitude and longitude
 food <- all_datasets ## link to dataframe from clean data aggregation step
@@ -27,7 +23,13 @@ food <- food %>% mutate(longitude = ifelse(is.na(longitude), lon, longitude),
 
 food <- food %>% select(-lat, -lon)
 
+## clean up workspace
+rm(food_small)
+
 ## March 2020 - turning below steps off for now, as MRFEI is no longer part of the data schema 
+# library(sf)
+# library(tigris)
+# library(rgeos)
 
 # ## Point in polygon - census tract
 # # Get Allegheny County census tracts from Tigris package
