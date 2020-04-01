@@ -40,4 +40,4 @@ suppressWarnings(source("geocoding.R"))## runs geocoding (requires a google api 
 readr::write_csv(food, "merged_datasets.csv")
 
 ## clean up
-rm(de_dup_wrapper, select_info2)
+# rm(de_dup_wrapper, select_info2)
