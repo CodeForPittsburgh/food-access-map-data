@@ -33,14 +33,11 @@ all_datasets <- all_datasets %>% mutate(id = 1:n())
 suppressWarnings(source("geocoding.R"))## runs geocoding (requires a google api key)
 
 ## pass thru curent de-dup
-source("data_prep_scripts/de_dup_fun.R")
-food <- de_dup_wrapper(food)
-
-## re-assign uid
-food <- food %>% mutate(id = 1:n())
+# source("data_prep_scripts/de_dup_fun.R") ## hold off on de-dup to compare directly to google places
+# food <- de_dup_wrapper(food)
 
 ## write out
 readr::write_csv(food, "merged_datasets.csv")
 
 ## clean up
-rm(de_dup_wrapper, select_info2)
+# rm(de_dup_wrapper, select_info2)

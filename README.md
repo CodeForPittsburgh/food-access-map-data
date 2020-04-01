@@ -2,7 +2,7 @@
 
 Data for the food access map:
 
-* `merged_datasets.csv` is the most current version of compiled PFPC data (last update 03/04/2020)
+* `merged_datasets.csv` is the most current version of compiled PFPC data (last update 04/01/2020 w/ de-dup by fuzzystring turned off for now)
 
 
 * Run `run_new_data_merge.R` to generate `merged_datasets.csv`, which calls:
