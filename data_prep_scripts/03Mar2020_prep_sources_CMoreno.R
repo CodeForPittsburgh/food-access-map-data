@@ -81,13 +81,13 @@ PA <- dat1 %>%
   mutate(source_org = "USDA",
          source_file = dat5,
          latlng_source = "agency",
-         food_bucks = ifelse((type %in% "farmer's market") && (city %in% "Pittsburgh"), 1, 0),
+         food_bucks = NA,
          SNAP = 1,
-         WIC = 0,
-         FMNP = ifelse((type %in% "farmer's market") && (city %in% "Pittsburgh") | (WIC %in% 1), 1, 0),
+         WIC = NA,
+         FMNP = NA,
          fresh_produce = ifelse(type %in% c("farmer's market", "supermarket"), 1, 0),
          free_distribution = 0, 
-         open_to_spec_group = NA,
+         open_to_spec_group = 0,
          data_issues = "no type;no phone;no date/time info") %>% 
   ungroup()
 
@@ -123,13 +123,13 @@ pfpc_green_grocer <- dat1 %>%
                      source_org = "GPCFB",
                      source_file = dat8b,
                      latlng_source = "Google",
-                     food_bucks = ifelse((type %in% "farmer's market") && (city %in% "Pittsburgh"), 1, 0),
-                     SNAP = ifelse((food_bucks %in% 1) | (type %in% "farmer's market"), 1, 0), 
+                     food_bucks = 1,
+                     SNAP = 1, 
                      WIC = 0,
-                     FMNP = ifelse((type %in% "farmer's market") && (city %in% "Pittsburgh") | (WIC %in% 1), 1, 0),
+                     FMNP = 1,
                      fresh_produce = ifelse(type %in% c("farmer's market", "supermarket"), 1, 0),
                      free_distribution = 0, 
-                     open_to_spec_group = NA, 
+                     open_to_spec_group = 0, 
                      data_issues = "no lat/long")) %>% 
   ungroup()
 
@@ -155,13 +155,13 @@ algh_vendor_loc <-  dat1 %>%
                      source_org = "WPRDC",
                      latlng_source = "Google",
                      type = NA,
-                     food_bucks = ifelse((type %in% "farmer's market") && (city %in% "Pittsburgh"), 1, 0),
-                     SNAP = ifelse((food_bucks %in% 1) | (type %in% "farmer's market"), 1, 0), 
+                     food_bucks = NA,
+                     SNAP = NA, 
                      WIC = 1,
-                     FMNP = ifelse(((type %in% "farmer's market") && (city %in% "Pittsburgh")) | (WIC %in% 1), 1, 0),
+                     FMNP = NA,
                      fresh_produce = ifelse(type %in% c("farmer's market", "supermarket"), 1, 0),
                      free_distribution = 0,
-                     open_to_spec_group = NA,
+                     open_to_spec_group = 0,
                      data_issues = "lat/long invalid;no date/time info;state assumed PA;missing type")) %>% 
   ungroup()
 
@@ -190,13 +190,13 @@ rowwise() %>%
          source_file = dat4,
          type = "Grow PGH Garden",
          latlng_source = "agency",
-         food_bucks = NA, #ifelse((type %in% "farmer's market") && (city %in% "Pittsburgh"), 1, 0),
-         SNAP = NA, #ifelse((food_bucks %in% 1) | (type %in% "farmer's market"), 1, 0),
-         WIC = NA,
-         FMNP = NA, #ifelse(((type %in% "farmer's market") && (city %in% "Pittsburgh")) | (WIC %in% 1), 1, 0),
-         fresh_produce = NA, #ifelse(type %in% c("farmer's market", "supermarket"), 1, 0),
-         free_distribution = NA, #0,
-         open_to_spec_group = NA,
+         food_bucks = 1, 
+         SNAP = 1, 
+         WIC = 0,
+         FMNP = 1, 
+         fresh_produce = 1, 
+         free_distribution = 0, 
+         open_to_spec_group = 0,
          data_issues = "no date/time;no county info")) %>%
   ungroup()
 
