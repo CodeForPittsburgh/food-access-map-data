@@ -78,9 +78,9 @@ PA <- dat1 %>%
                      zip_code = ZIP5,
                      county = County)) %>% 
   rowwise() %>% 
-  mutate(source_org = "USDA",
+  mutate(source_org = "USDA Food and Nutrition Service",
          source_file = dat5,
-         latlng_source = "agency",
+         latlng_source = "USDA Food and Nutrition Service",
          food_bucks = NA,
          SNAP = 1,
          WIC = NA,
@@ -120,7 +120,7 @@ pfpc_green_grocer <- dat1 %>%
                      food_bucks) %>% 
               rowwise() %>% 
               mutate(type = "farmer's market",
-                     source_org = "GPCFB",
+                     source_org = "Greater Pittsburgh Community Food Bank",
                      source_file = dat8b,
                      latlng_source = "Google",
                      food_bucks = 1,
@@ -152,7 +152,7 @@ algh_vendor_loc <-  dat1 %>%
               rowwise() %>% 
               mutate(state = "PA",
                      source_file = dat11,
-                     source_org = "WPRDC",
+                     source_org = "Western Pennsylvania Regional Data Center",
                      latlng_source = "Google",
                      type = NA,
                      food_bucks = NA,
@@ -186,10 +186,10 @@ growpgh <- dat1 %>%
                      original_id = grower_id,
                      url = url) %>%
 rowwise() %>%
-  mutate(source_org = "WPRDC",
+  mutate(source_org = "Western Pennsylvania Regional Data Center",
          source_file = dat4,
          type = "Grow PGH Garden",
-         latlng_source = "agency",
+         latlng_source = "Western Pennsylvania Regional Data Center",
          food_bucks = 1, 
          SNAP = 1, 
          WIC = 0,
