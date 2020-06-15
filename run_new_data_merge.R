@@ -1,6 +1,6 @@
 ## purpose: aggregate cleaned data sources
-## contributors: Catalina Moreno, Drew Levitt, Matthew Chan
-## last updated: 04/01/2020
+## contributors: Catalina Moreno, Drew Levitt
+## last updated: 06/15/2020
 
 ## load lib
 library(tidyverse)
