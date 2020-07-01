@@ -1,12 +1,12 @@
 # What is the Food Access Map?
-This project's goal is to create an internal and public-facing resource (e.g. an interactive map) for people looking to find healthy, affordable food. Pittsburgh Food Policy Council, an umbrella organization for food-related nonprofits, is the project sponsor. More information about the need for this project can be found here. 
+This project's goal is to create an internal and public-facing resource (e.g. an interactive map) for people looking to find healthy, affordable food. [Pittsburgh Food Policy Council](https://www.pittsburghfoodpolicy.org), an umbrella organization for food-related nonprofits, is the project sponsor. More information about the need for this project can be found [here](https://docs.google.com/presentation/d/1hk3n8cwbKtqxZjHni3JJlvjSSUeCv4dbVIdjq3FiTp8/edit#slide=id.g58c466d72b_0_179). 
 
 There are many food-related nonprofits in the Pittsburgh area, and each maintains datasets about different food access programs and where they are offered (for example, Greater Pittsburgh Food Bank maintains a list of food pantries). The data processing part of this project gathers data from various sources and merges the datasets into a common format.
 
 # How You Can Help
-Volunteers can help in a number of ways, including developing code, fixing bugs, and improving project documentation. A list of outstanding issues can be found on the issues page, but if you can't find an issue you think you can work on, don't hesitate to ask one of us for help figuring out how you can contribute!
+Volunteers can help in a number of ways, including developing code, fixing bugs, and improving project documentation. A list of outstanding issues can be found on the [issues page](https://github.com/CodeForPittsburgh/food-access-map-data/issues), but if you can't find an issue you think you can work on, don't hesitate to ask one of us for help figuring out how you can contribute!
 
-## What Programs You Need Installed (and where to Install them)
+## What Programs You Need Installed
 
 Python: Some of the data processing scripts are written in Python.
 R: Some of the data processing scripts are written in R.
@@ -15,30 +15,31 @@ R: Some of the data processing scripts are written in R.
 There are multiple ways to access and manipulate the data, but for simplicity’s sake, this README will recommend a Python or R. 
 # Get the Data
 ## Python
-Install Python (3, not 2) however you like. The Anaconda distribution is a popular bundle of Python, a package manager (`conda`) that lets you install and update add-ons, and many common packages including `pandas` and `numpy`, which you will need to run the Python scripts.
+Install Python (3, not 2) however you like. The [Anaconda](https://www.anaconda.com/products/individual) distribution is a popular bundle of Python, a package manager (`conda`) that lets you install and update add-ons, and many common packages including `pandas` and `numpy`, which you will need to run the Python scripts.
 
 If you go with a different Python distribution, just make sure you have the following packages installed in your environment:
-pandas
-numpy
-xlrd
-os
+ - pandas
+ - numpy
+ - xlrd
+ - os
 
-You can view and edit Python scripts in any of a wide range of programs, from simple text editors like Notepad++ to full-featured Integrated Development Environments like Visual Studio. If you don’t already have a preference, check out Atom, Notepad++, or VS Code.
+You can view and edit Python scripts in any of a wide range of programs, from simple text editors like Notepad++ to full-featured Integrated Development Environments like Visual Studio. If you don’t already have a preference, check out [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/), or [VS Code](https://code.visualstudio.com/).
 ## R
 It is recommended to use the RStudio IDE to interact with the data. 
 
-Download/Install R
-Download RStudio
-Start an RStudio Project (recommended)
-Install the `tidyverse` package with the following line of code (one-time action):
+1. Download/Install R
+2. Download RStudio
+3. Start an RStudio Project (recommended)
+4. Install the `tidyverse` package with the following line of code (one-time action):
 
 `install.packages(“tidyverse”)`
 
-Start a new R Script or RMarkdown and read in the data with the following line of code:
-`library(tidyverse)`
-`my_data <- read_csv(“https://raw.githubusercontent.com/CodeForPittsburgh/food-access-map-data/master/merged_datasets.csv”)`
-Once you’ve entered this line of code, you now have access to the data. You can use the various functions in base R or the `tidyverse` to explore the data
-For example, you can use the command `names(my_data)` to see the attributes of the data table.
+5. Start a new R Script or RMarkdown and read in the data with the following line of code:  
+`library(tidyverse)`  
+`my_data <- read_csv(“https://raw.githubusercontent.com/CodeForPittsburgh/food-access-map-data/master/merged_datasets.csv”)`  
+
+6. Once you’ve entered this line of code, you now have access to the data. You can use the various functions in base R or the `tidyverse` to explore the data
+7. For example, you can use the command `names(my_data)` to see the attributes of the data table.
 
 # food-access-map-data
 
@@ -61,7 +62,7 @@ Data for the food access map:
 # Extra Resources
 
 ## For An Introduction to R and RStudio
-https://education.rstudio.com/learn/beginner/ 
+[https://education.rstudio.com/learn/beginner/](https://education.rstudio.com/learn/beginner/)
 ## Introduction To Github
-https://guides.github.com/
+[https://guides.github.com/](https://guides.github.com/)
 
