@@ -1,75 +1,48 @@
 library(tidyverse)
-library(ggmap)
 library(rstudioapi)
+library(mapboxapi)
 
-# Google API key needed - paste only string without quotes
-register_google(key = askForPassword(prompt = "Enter Google API Key"))
+#install mapboxapi package from github if not already installed
+#remotes::install_github("walkerke/mapboxapi")
+
+# Mapbox API key needed - paste only string without quotes
+mb_access_token(askForPassword(prompt = "Enter Mapbox API Key"), install = TRUE, overwrite = TRUE)
+readRenviron("~/.Renviron")
+
+df <- list.files("food-data/Cleaned_data_files", full.names = TRUE) %>% 
+  set_names() %>% 
+  map_dfr(read_csv, col_types = cols(.default = "c"), .id = "file_name") %>% 
+  select(file_name, everything())
+
+glimpse(df)
+
+df_geocode <- df %>% 
+  filter(is.na(latitude) | is.na(longitude)) %>% 
+  transmute(address = str_c(address, city, state, zip_code, sep = ", ")) %>% 
+  drop_na(address) %>% 
+  mutate(geocode_data = map(address, mb_geocode),
+         lon = map_dbl(geocode_data, 1),
+         lat = map_dbl(geocode_data, 2))
 
 ## Geocoding locations without latitude and longitude
-food <- all_datasets ## link to dataframe from clean data aggregation step
-
 # create small dataset with items without geography
-food_small <- food %>% filter(is.na(longitude) | is.na(latitude))
-food_small <- food_small %>% mutate(location=paste0(address, ", ", city, ", ", state, " ", zip_code))
 
-# add lat/lon for locations without geography (need google api)
-food_small <- mutate_geocode(food_small, location)
+df_geocode <- all_datasets %>% 
+  filter(is.na(latitude) | is.na(longitude) | latitude==0 | longitude==0) %>% 
+  transmute(address = str_c(address, city, state, zip_code, sep = ", "), id = id) %>% 
+  mutate(geocode_data = map(address, mb_geocode),
+         lon = map_dbl(geocode_data, 1),
+         lat = map_dbl(geocode_data, 2))
+
 
 # replace empty lat/long in original data
-food <- food %>% left_join(food_small %>% select(id, lon, lat), by = "id")
+all_datasets <- all_datasets %>% left_join(df_geocode %>% select(id, lon, lat), by = "id")
 
-food <- food %>% mutate(longitude = ifelse(is.na(longitude), lon, longitude),
-                        latitude = ifelse(is.na(latitude), lat, latitude))
+all_datasets <- all_datasets %>% mutate(longitude = ifelse(is.na(longitude), lon, longitude),
+                                        latitude = ifelse(is.na(latitude), lat, latitude),
+                                        latlng_source = ifelse(is.na(latlng_source), "Mapbox Geocode", latlng_source))
 
-food <- food %>% select(-lat, -lon)
+all_datasets <- all_datasets %>% select(-lat, -lon)
 
 ## clean up workspace
-rm(food_small)
-
-## March 2020 - turning below steps off for now, as MRFEI is no longer part of the data schema 
-# library(sf)
-# library(tigris)
-# library(rgeos)
-
-# ## Point in polygon - census tract
-# # Get Allegheny County census tracts from Tigris package
-# pa_tracts <- tracts(42, cb = TRUE)
-# 
-# # Convert data to sf and set the same crs
-# pa_tracts <- st_as_sf(pa_tracts)
-# food_coord <- st_as_sf(food, coords = c("longitude", "latitude"))
-# st_crs(food_coord) <- st_crs(pa_tracts)
-# 
-# # PGH wards
-# wards <- st_read("food-data/Wards.shp") 
-# ## All of the "Wards" files have to be downloaded. 
-# ## I don't know if you can link to the raw github content.
-# st_crs(wards) <- st_crs(pa_tracts)
-# 
-# # PGH neighborhoods
-# hoods <- st_read("food-data/Neighborhoods_.shp")
-# st_crs(hoods) <- st_crs(pa_tracts)
-# 
-# # PGH council districts
-# districts <- st_read("food-data/City_Council_Districts.shp")
-# st_crs(districts) <- st_crs(pa_tracts)
-# 
-# # Join geographies to data
-# food_geo <-
-#   cbind(food, 
-#         st_join(food_coord, pa_tracts, join = st_intersects)["GEOID"] %>% st_drop_geometry(),
-#         st_join(food_coord, wards, join = st_intersects)["ward"] %>% st_drop_geometry(),
-#         st_join(food_coord, hoods, join = st_intersects)["hood"] %>% st_drop_geometry(),
-#         st_join(food_coord, districts, join = st_intersects)["council"] %>% st_drop_geometry()
-#   )
-# 
-# ## Add MRFEI score to each row
-# mrfei_list <- readxl::read_excel("food-data/PFPC_data_files/2_16_mrfei_data_table.xls")
-# mrfei_list <- mrfei_list %>% filter(state %in% "PA")
-# 
-# # food_geo$MRFEI_score <- mrfei_list[match(food_geo$GEOID, mrfei_list$fips), "mrfei"]
-# 
-# food_geo <- food_geo %>% left_join(mrfei_list %>% select(GEOID = fips, mrfei), by = "GEOID") %>% 
-#   mutate(MRFEI_score = mrfei) %>% select(-mrfei) 
-# 
-# # readr::write_csv(food_geo, "merged_datasets.csv")
+rm(df_geocode, df)
