@@ -5,10 +5,28 @@
 # Outputs a merged dataset 
 
 library(tidyverse)
+library(utils)
 input_filename <- "intermediate_data/merge_duplicates_input_test.csv"
 output_filename <- "intermediate_data/merge_duplicates_output.csv"
 
-sfp <- read_csv("source_field_prioritization.csv")
+#This function and the below two commands set the script as the current working directory
+thisFile <- function() {
+  cmdArgs <- commandArgs(trailingOnly = FALSE)
+  needle <- "--file="
+  match <- grep(needle, cmdArgs)
+  if (length(match) > 0) {
+    # Rscript
+    return(normalizePath(sub(needle, "", cmdArgs[match])))
+  } else {
+    # 'source'd via R console
+    return(normalizePath(sys.frames()[[1]]$ofile))
+  }
+}
+script.dir <- dirname(thisFile())
+setwd(script.dir)
+
+
+sfp <- read_csv("source_field_prioritization_sample_data.csv")
 md <- read_csv(input_filename)
 md$merged_record = '0'
 
