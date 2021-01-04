@@ -1,5 +1,4 @@
-#test_files_exist.py
-from rpy2.robjects.packages import importr
+#test_merge_duplicates.py
 import rpy2.robjects as robjects
 import subprocess
 import os.path
@@ -7,8 +6,30 @@ from os import path
 
 r=robjects.r
 
-# base = importr('base')
-# utils = importr('utils')
+# TODO: Determine if importing and enabling packages is necessary for functionality
+# import rpy2's package module
+import rpy2.robjects.packages as rpackages
+
+# import R's utility package
+utils = rpackages.importr('utils')
+
+# select a mirror for R packages
+utils.chooseCRANmirror(ind=1) # select the first mirror in the list
+
+# select a mirror for R packages
+utils.chooseCRANmirror(ind=1) # select the first mirror in the list
+
+# R package names (can be more than one)
+packnames = ('tidyverse', '')
+
+# R vector of strings
+from rpy2.robjects.vectors import StrVector
+
+# Selectively install what needs to be install.
+# We are fancy, just because we can.
+names_to_install = [x for x in packnames if not rpackages.isinstalled(x)]
+if len(names_to_install) > 0:
+    utils.install_packages(StrVector(names_to_install))
 
 def test_merge_duplicates_exists():
 	assert path.isfile("data_prep_scripts/merge_duplicates.R")
