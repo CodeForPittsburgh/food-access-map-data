@@ -4,8 +4,6 @@
 #  and reconciles disparities in key fields by prioritizing fields based on their source data sets
 # Outputs a merged dataset 
 
-install.packages("tidyverse")
-
 library(tidyverse)
 library(utils)
 input_filename <- "intermediate_data/merge_duplicates_input_test.csv"
