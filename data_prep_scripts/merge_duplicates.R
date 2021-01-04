@@ -3,8 +3,8 @@
 # This script merges duplicate rows -- identified by their duplicate group id's -- together
 #  and reconciles disparities in key fields by prioritizing fields based on their source data sets
 # Outputs a merged dataset 
-#install.packages("devtools")
-#devtools::install_github("tidyverse/tidyverse")
+
+install.packages("tidyverse")
 
 library(tidyverse)
 library(utils)
