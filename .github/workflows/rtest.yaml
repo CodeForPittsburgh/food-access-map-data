@@ -1,0 +1,28 @@
+  
+name: Run R Tests
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: '3.5.3' # The R version to download (if necessary) and use.
+    - name: Install Readr
+      run: Rscript -e 'install.packages("readr")'
+    - name: Install Magrittr
+      run: Rscript -e 'install.packages("magrittr")'
+    - name: Install Testthat
+      run: Rscript -e 'install.packages("testthat")'
+    - name: Get current directory
+      run: pwd
+    - name: Run testthat
+      run: Rscript './run_tests.R'
