@@ -1,4 +1,3 @@
-library("devtools")
 library("testthat")
 
-devtools::test()
+testthat::test_dir("tests")
