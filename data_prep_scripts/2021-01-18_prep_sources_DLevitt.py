@@ -1,6 +1,6 @@
 # Dependencies:
 # * pandas
-# * xlrd
+# * openpyxl
 # * numpy
 # * os
 # * re
@@ -24,7 +24,7 @@ final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 
 in_path = os.path.join(in_dir, 'Additional Food Bucks sites.xlsx')
 out_path = os.path.join(out_dir, 'additional_food_bucks_sites.csv')
 
-df = pd.read_excel(in_path)
+df = pd.read_excel(in_path, engine='openpyxl')
 
 # Drop that last row of non-data
 df = df.iloc[:-1, :]
@@ -32,12 +32,13 @@ df = df.iloc[:-1, :]
 # Assign some columns to schema fields
 df['name'] = df['Name']
 df['address'] = df['Address']
+df['zip_code'] = df['zip_code'].astype(int)
 
 # Set some fields directly
 df['source_org'] = 'The Food Trust'
 df['source_file'] = os.path.basename(in_path)
 # df['type'] = "farmer's market" # no consistent type - how to handle?
-# df['county'] = 'Allegheny' # no consistent county - how to handle?
+df['county'] = 'Allegheny' # no consistent county - how to handle?
 df['food_bucks'] = 1
 df['SNAP'] = 1 # because of food_bucks, see below
 # df['FMNP'] = 1
@@ -159,7 +160,7 @@ df.to_csv(out_path, index = False)
 in_path = os.path.join(in_dir, 'Just Harvest - Fresh Access Markets.xlsx')
 out_path = os.path.join(out_dir, 'just_harvest_fresh_access_markets.csv')
 
-df = pd.read_excel(in_path)
+df = pd.read_excel(in_path, engine='openpyxl')
 
 # Assign some columns to schema fields
 df['name'] = df['Market']
@@ -209,13 +210,16 @@ df.to_csv(out_path, index = False)
 in_path = os.path.join(in_dir, 'Just Harvest - Fresh Corners Stores.xlsx')
 out_path = os.path.join(out_dir, 'just_harvest_fresh_corners.csv')
 
-df = pd.read_excel(in_path)
+df = pd.read_excel(in_path, engine='openpyxl')
+
+# Keep only non-empty rows
+df = df[df['Corner Store'].notnull()]
 
 # Assign some columns to schema fields
 df['name'] = df['Corner Store'].str.strip('\n')
 df['address'] = df['Address']
 df['city'] = df['City']
-df['zip_code'] = df['Zip']
+df['zip_code'] = df['Zip'].astype(int)
 
 # Set some fields directly
 df['source_org'] = 'Just Harvest'
@@ -250,7 +254,7 @@ df.to_csv(out_path, index = False)
 in_path = os.path.join(in_dir, '2019-10-10 PGH Food Bank Site Addresses.xlsx')
 out_path = os.path.join(out_dir, 'greater_pittsburgh_community_food_bank.csv')
 
-df = pd.read_excel(in_path)
+df = pd.read_excel(in_path, engine='openpyxl')
 
 # Drop that one empty row at the end
 df = df[df['AgencyRef'].notna()]
@@ -366,6 +370,46 @@ for col in handled_cols:
 
 # Detect some specific data issues 
 df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
+
+# Write out to CSV
+df.to_csv(out_path, index = False)
+
+
+### Bridgeway Capital HFFI Funds ###
+
+in_path = '../food-data/PFPC_data_files/Bridgeway Capital - HFFI Funds.xlsx'
+out_path = '../food-data/Cleaned_data_files/bridgeway_capital_hffi.csv'
+
+df = pd.read_excel(in_path, engine='openpyxl')
+
+# Keep only non-empty rows
+df = df[df['Store Name'].notnull()]
+
+# Assign some columns to schema fields
+df['name'] = df['Store Name']
+df['address'] = df['Address']
+df['city'] = df['City']
+df['zip_code'] = df['Zip'].astype(int)
+
+# Set some fields directly
+df['source_org'] = 'Pittsburgh Food Policy Council'
+df['source_file'] = os.path.basename(in_path)
+df['type'] = 'supermarket'
+df['state'] = 'PA'
+df['county'] = 'Allegheny'
+df['fresh_produce'] = 1
+df['free_distribution'] = 0
+df['data_issues'] = '' # start with blank field, to populate later
+
+# Reorder and add any missing columns
+df = df.reindex(columns = final_cols)
+
+# Identify which columns we have handled
+handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
+
+# Detect and document missingness in handled columns
+for col in handled_cols:
+    df.loc[df[col].isna(), 'data_issues'] += '{} missing;'.format(col)
 
 # Write out to CSV
 df.to_csv(out_path, index = False)
