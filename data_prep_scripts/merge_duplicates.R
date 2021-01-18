@@ -4,7 +4,7 @@
 #  and reconciles disparities in key fields by prioritizing fields based on their source data sets
 # Outputs a merged dataset 
 
-library(tidyverse)
+library("readr")
 library("here")
 input_filename <- "data_prep_scripts/intermediate_data/merge_duplicates_input_test.csv"
 output_filename <- "data_prep_scripts/intermediate_data/merge_duplicates_output.csv"
