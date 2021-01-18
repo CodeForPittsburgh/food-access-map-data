@@ -4,12 +4,13 @@
 #  and reconciles disparities in key fields by prioritizing fields based on their source data sets
 # Outputs a merged dataset 
 
-library(tidyverse)
-input_filename <- "intermediate_data/merge_duplicates_input_test.csv"
-output_filename <- "intermediate_data/merge_duplicates_output.csv"
+library("readr")
+library("here")
+input_filename <- "data_prep_scripts/intermediate_data/merge_duplicates_input_test.csv"
+output_filename <- "data_prep_scripts/intermediate_data/merge_duplicates_output.csv"
 
-sfp <- read_csv("source_field_prioritization.csv")
-md <- read_csv(input_filename)
+sfp <- read_csv(here::here('data_prep_scripts', 'source_field_prioritization_sample_data.csv'))
+md <- read_csv(here::here(input_filename))
 md$merged_record = '0'
 
 #Obtains field's relative priority for that source (i.e., whether other sources should be relied on for that field instead)
@@ -83,4 +84,4 @@ for (i in 1:length(group_ids)) {
 md <- md[which(!md$group_id %in% group_ids ),]
 #Then merge duplicates with those ids.
 
-md %>% write_csv(output_filename)
+md %>% write_csv(here::here(output_filename))
