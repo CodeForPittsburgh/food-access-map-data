@@ -3,4 +3,4 @@ import os.path
 from os import path
 
 def test_merge_duplicates_exists():
-	assert path.isfile("data_prep_scripts/merge_duplicates.R")
+	assert path.isfile("data_prep_scripts/auto_merge_duplicates.R")
