@@ -59,100 +59,102 @@ for col in handled_cols:
 df.to_csv(out_path, index = False)
 
 
-### Allegheny County Farmers Markets ###
+# ### Allegheny County Farmers Markets ###
+# Commenting out this whole section because Mary Kohl is ingesting 
+# farmers market data from another source and that supersedes this work
 
-in_path = os.path.join(in_dir, 'Allegheny_County_Farmers_Markets_Locations_2019.csv')
-out_path = os.path.join(out_dir, 'allegheny_county_farmers_markets.csv')
+# in_path = os.path.join(in_dir, 'Allegheny_County_Farmers_Markets_Locations_2019.csv')
+# out_path = os.path.join(out_dir, 'allegheny_county_farmers_markets.csv')
 
-df = pd.read_csv(in_path)
+# df = pd.read_csv(in_path)
 
-# Some resources to help with date_from and date_to
+# # Some resources to help with date_from and date_to
 
-month_lengths = {'January': 31,
-                 'February': 28,
-                 'March': 31,
-                 'April': 30,
-                 'May': 31,
-                 'June': 30,
-                 'July': 31,
-                 'August': 31,
-                 'September': 30,
-                 'October': 31,
-                 'November': 30,
-                 'December': 31}
+# month_lengths = {'January': 31,
+#                  'February': 28,
+#                  'March': 31,
+#                  'April': 30,
+#                  'May': 31,
+#                  'June': 30,
+#                  'July': 31,
+#                  'August': 31,
+#                  'September': 30,
+#                  'October': 31,
+#                  'November': 30,
+#                  'December': 31}
 
-def string_to_start_date(string):
-    if string == 'Year Round':
-        return 'January 1'
-    elif ' ' in string:
-        return string
-    else:
-        return string + ' 1'
+# def string_to_start_date(string):
+#     if string == 'Year Round':
+#         return 'January 1'
+#     elif ' ' in string:
+#         return string
+#     else:
+#         return string + ' 1'
 
-def string_to_end_date(string):
-    if string == 'Year Round':
-        return 'December 31'
-    elif ' ' in string:
-        return string
-    else:
-        return string + ' {}'.format(month_lengths[string])
+# def string_to_end_date(string):
+#     if string == 'Year Round':
+#         return 'December 31'
+#     elif ' ' in string:
+#         return string
+#     else:
+#         return string + ' {}'.format(month_lengths[string])
     
-def try_except(function, arg, subscript): # solely necessary in case any data are missing
-    try:
-        return function(arg[subscript])
-    except Exception:
-        return np.nan
+# def try_except(function, arg, subscript): # solely necessary in case any data are missing
+#     try:
+#         return function(arg[subscript])
+#     except Exception:
+#         return np.nan
 
-# Assign some columns to schema fields
-df['name'] = df['Name']
-df['address'] = df['Street_Address']
-df['city'] = df['City']
-df['state'] = df['State']
-df['zip_code'] = df['Zip']
-df['latitude'] = df['Latitude']
-df['longitude'] = df['Longitude']
-df['location_description'] = df['Additional_Directions']
+# # Assign some columns to schema fields
+# df['name'] = df['Name']
+# df['address'] = df['Street_Address']
+# df['city'] = df['City']
+# df['state'] = df['State']
+# df['zip_code'] = df['Zip']
+# df['latitude'] = df['Latitude']
+# df['longitude'] = df['Longitude']
+# df['location_description'] = df['Additional_Directions']
 
-# Set some fields directly
-df['source_org'] = 'Allegheny County Health Department'
-df['source_file'] = os.path.basename(in_path)
-df['type'] = "farmer's market"
-df.loc[df['Name'].str.lower().str.contains('fresh access') | df['Affiliations'].str.lower().str.contains('fresh access'),
-       'type'] = 'fresh access'
-df['county'] = 'Allegheny'
-df['latlng_source'] = df['source_org']
-df['FMNP'] = 1
-df['fresh_produce'] = 1
-df.loc[df['type'] == 'fresh access', 'SNAP'] = 1
-df.loc[df['type'] == 'fresh access', 'food_bucks'] = 1
-df['free_distribution'] = 0
-df['data_issues'] = '' # start with blank field, to populate later
+# # Set some fields directly
+# df['source_org'] = 'Allegheny County Health Department'
+# df['source_file'] = os.path.basename(in_path)
+# df['type'] = "farmer's market"
+# df.loc[df['Name'].str.lower().str.contains('fresh access') | df['Affiliations'].str.lower().str.contains('fresh access'),
+#        'type'] = 'fresh access'
+# df['county'] = 'Allegheny'
+# df['latlng_source'] = df['source_org']
+# df['FMNP'] = 1
+# df['fresh_produce'] = 1
+# df.loc[df['type'] == 'fresh access', 'SNAP'] = 1
+# df.loc[df['type'] == 'fresh access', 'food_bucks'] = 1
+# df['free_distribution'] = 0
+# df['data_issues'] = '' # start with blank field, to populate later
 
-# Calculate date_from and date_to from Season field
-df['Season'] = df['Season'].str.strip(' ') # clean off leading/trailing spaces
-df['Season'] = df['Season'].str.split('-')
-df['date_from'] = df['Season'].apply(lambda x: try_except(string_to_start_date, x, 0))
-df['date_to'] = df['Season'].apply(lambda x: try_except(string_to_end_date, x, -1))
+# # Calculate date_from and date_to from Season field
+# df['Season'] = df['Season'].str.strip(' ') # clean off leading/trailing spaces
+# df['Season'] = df['Season'].str.split('-')
+# df['date_from'] = df['Season'].apply(lambda x: try_except(string_to_start_date, x, 0))
+# df['date_to'] = df['Season'].apply(lambda x: try_except(string_to_end_date, x, -1))
 
-# Someday we will handle opening days/times robustly. For now I will append them to location_description :P
-df.loc[df['location_description'].notna(), 'location_description'] = df['location_description'] + '; ' + df['Day_Time']
-df.loc[df['location_description'].isna(), 'location_description'] = df['Day_Time']
+# # Someday we will handle opening days/times robustly. For now I will append them to location_description :P
+# df.loc[df['location_description'].notna(), 'location_description'] = df['location_description'] + '; ' + df['Day_Time']
+# df.loc[df['location_description'].isna(), 'location_description'] = df['Day_Time']
 
-# Reorder and add any missing columns
-df = df.reindex(columns = final_cols)
+# # Reorder and add any missing columns
+# df = df.reindex(columns = final_cols)
 
-# Identify which columns we have handled
-handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
+# # Identify which columns we have handled
+# handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
 
-# Detect and document missingness in handled columns
-for col in handled_cols:
-    df.loc[df[col].isna(), 'data_issues'] += '{} missing;'.format(col)
+# # Detect and document missingness in handled columns
+# for col in handled_cols:
+#     df.loc[df[col].isna(), 'data_issues'] += '{} missing;'.format(col)
 
-# Detect some specific data issues 
-df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
+# # Detect some specific data issues 
+# df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
 
-# Write out to CSV
-df.to_csv(out_path, index = False)
+# # Write out to CSV
+# df.to_csv(out_path, index = False)
 
 
 ### Just Harvest Fresh Access Markets ###
@@ -249,66 +251,68 @@ for col in handled_cols:
 df.to_csv(out_path, index = False)
 
 
-### Greater Pittsburgh Community Food Bank ###
+# ### Greater Pittsburgh Community Food Bank ###
+# Commenting out this whole section because Oscar Syu is ingesting 
+# food bank data from another source and that supersedes this work
 
-in_path = os.path.join(in_dir, '2019-10-10 PGH Food Bank Site Addresses.xlsx')
-out_path = os.path.join(out_dir, 'greater_pittsburgh_community_food_bank.csv')
+# in_path = os.path.join(in_dir, '2019-10-10 PGH Food Bank Site Addresses.xlsx')
+# out_path = os.path.join(out_dir, 'greater_pittsburgh_community_food_bank.csv')
 
-df = pd.read_excel(in_path, engine='openpyxl')
+# df = pd.read_excel(in_path, engine='openpyxl')
 
-# Drop that one empty row at the end
-df = df[df['AgencyRef'].notna()]
+# # Drop that one empty row at the end
+# df = df[df['AgencyRef'].notna()]
 
-# Keep only active sites
-df = df[df['Food Bank - Inactive In Inventory System'] == 0] # what about all the blanks?
+# # Keep only active sites
+# df = df[df['Food Bank - Inactive In Inventory System'] == 0] # what about all the blanks?
 
-# Assign some columns to schema fields
-df['original_id'] = df['AgencyRef']
-df['name'] = df['AgencyName']
-df['city'] = df['City']
-df['state'] = df['State']
-df['zip_code'] = df['Zip']
-df['county'] = df['County']
-df['latitude'] = df['Google Lat']
-df['longitude'] = df['Google Long']
+# # Assign some columns to schema fields
+# df['original_id'] = df['AgencyRef']
+# df['name'] = df['AgencyName']
+# df['city'] = df['City']
+# df['state'] = df['State']
+# df['zip_code'] = df['Zip']
+# df['county'] = df['County']
+# df['latitude'] = df['Google Lat']
+# df['longitude'] = df['Google Long']
 
-# Set some fields directly
-df['source_org'] = 'Greater Pittsburgh Community Food Bank'
-df['source_file'] = os.path.basename(in_path)
-df['type'] = 'food bank site'
-df['latlng_source'] = df['source_org']
-df['free_distribution'] = 1
-df['data_issues'] = '' # start with blank field, to populate later
-# Per conversation with Justin 2020-03-03, set these booleans to 0 because you don't pay for free food!
-for field in ['SNAP', 'WIC', 'FMNP', 'food_bucks']:
-    df[field] = 0
+# # Set some fields directly
+# df['source_org'] = 'Greater Pittsburgh Community Food Bank'
+# df['source_file'] = os.path.basename(in_path)
+# df['type'] = 'food bank site'
+# df['latlng_source'] = df['source_org']
+# df['free_distribution'] = 1
+# df['data_issues'] = '' # start with blank field, to populate later
+# # Per conversation with Justin 2020-03-03, set these booleans to 0 because you don't pay for free food!
+# for field in ['SNAP', 'WIC', 'FMNP', 'food_bucks']:
+#     df[field] = 0
 
-# Set the fresh_produce flag
-df['GroupTypes'] = df['GroupTypeOne'] + df['GroupTypeTwo'] + df['GroupTypeThree']
-df['fresh_produce'] = 0
-df.loc[df['GroupTypes'].str.contains('Grocery') | df['GroupTypes'].str.contains('Fresh Market'), 'fresh_produce'] = 1
+# # Set the fresh_produce flag
+# df['GroupTypes'] = df['GroupTypeOne'] + df['GroupTypeTwo'] + df['GroupTypeThree']
+# df['fresh_produce'] = 0
+# df.loc[df['GroupTypes'].str.contains('Grocery') | df['GroupTypes'].str.contains('Fresh Market'), 'fresh_produce'] = 1
 
-# Clean up and concatenate address fields
-df['Addr1'] = df['Addr1'].str.replace('  ', ' ').str.strip(' ')
-df['Addr2'] = df['Addr2'].str.replace('  ', ' ').str.strip(' ')
-df.loc[df['Addr2'].notna(), 'address'] = df['Addr1'] + ', ' + df['Addr2']
-df.loc[df['Addr2'].isna(), 'address'] = df['Addr1']
+# # Clean up and concatenate address fields
+# df['Addr1'] = df['Addr1'].str.replace('  ', ' ').str.strip(' ')
+# df['Addr2'] = df['Addr2'].str.replace('  ', ' ').str.strip(' ')
+# df.loc[df['Addr2'].notna(), 'address'] = df['Addr1'] + ', ' + df['Addr2']
+# df.loc[df['Addr2'].isna(), 'address'] = df['Addr1']
 
-# Reorder and add any missing columns
-df = df.reindex(columns = final_cols)
+# # Reorder and add any missing columns
+# df = df.reindex(columns = final_cols)
 
-# Identify which columns we have handled
-handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
+# # Identify which columns we have handled
+# handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
 
-# Detect and document missingness in handled columns
-for col in handled_cols:
-    df.loc[df[col].isna(), 'data_issues'] += '{} missing;'.format(col)
+# # Detect and document missingness in handled columns
+# for col in handled_cols:
+#     df.loc[df[col].isna(), 'data_issues'] += '{} missing;'.format(col)
 
-# Detect some specific data issues 
-df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
+# # Detect some specific data issues 
+# df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
 
-# Write out to CSV
-df.to_csv(out_path, index = False)
+# # Write out to CSV
+# df.to_csv(out_path, index = False)
 
 
 ### Summer Meal Sites ###
