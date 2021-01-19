@@ -65,7 +65,7 @@ merge_all_duplicates_in_dataframe <- function(df, source_field_prioritization) {
   #For each of these group_id values, get ids for all rows whose group_id matches that group_id
   for (i in 1:length(group_ids)) {
     dup_rows <- subset(df, group_id %in% group_ids[i])
-    result <- merge_duplicates(dup_rows, sfp)
+    result <- merge_duplicates(dup_rows, source_field_prioritization)
     result$merged_record <- '1'
     df <- rbind(df, result)
   }
