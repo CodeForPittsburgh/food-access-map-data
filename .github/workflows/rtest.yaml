@@ -16,7 +16,7 @@ jobs:
       with:
         r-version: '3.5.3' # The R version to download (if necessary) and use.
     - name: Install Packages
-      run: Rscript -e 'install.packages(c("readr", "magrittr", "testthat", "here"))'
+      run: Rscript -e 'install.packages(c("readr", "magrittr", "testthat", "here"), Ncpus = 2)'
     - name: Get current directory
       run: pwd
     - name: Run testthat
