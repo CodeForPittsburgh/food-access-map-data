@@ -151,7 +151,7 @@ rowwise() %>%
          source_file = dat4,
          type = "Grow PGH Garden",
          latlng_source = "Western Pennsylvania Regional Data Center",
-         food_bucks = 1, 
+         food_bucks = 0, 
          SNAP = 1, 
          WIC = 0,
          FMNP = 1, 
