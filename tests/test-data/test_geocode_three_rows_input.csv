@@ -1,0 +1,4 @@
+file_name,id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude,latlng_source,date_from,date_to,SNAP,WIC,FMNP,fresh_produce,food_bucks,free_distribution,open_to_spec_group,data_issues
+food-data/Cleaned_data_files/additional_food_bucks_sites.csv,1,The Food Trust,Additional Food Bucks sites.xlsx,NA,NA,Shop 'n Save,336 8th St,New Kensington,PA,15068,NA,NA,NA,NA,,,Mapbox Geocode,NA,NA,1,NA,NA,NA,1,0,NA,NA
+food-data/Cleaned_data_files/additional_food_bucks_sites.csv,2,The Food Trust,Additional Food Bucks sites.xlsx,NA,NA,Dylamato's Market,5414 Second Avenue,Pittsburgh,PA,15207,NA,NA,NA,NA,,,Mapbox Geocode,NA,NA,1,NA,NA,NA,1,0,NA,NA
+food-data/Cleaned_data_files/additional_food_bucks_sites.csv,3,The Food Trust,Additional Food Bucks sites.xlsx,NA,NA,Main Street Farmers Market,139 S Main St,Washington,PA,15301,NA,NA,NA,NA,,,Mapbox Geocode,NA,NA,1,NA,NA,NA,1,0,NA,NA
