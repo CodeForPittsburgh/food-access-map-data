@@ -16,7 +16,7 @@
 suppressPackageStartupMessages(library(dplyr))
 # suppressPackageStartupMessages(library(tidygeocoder))
 
-source("auto_geocode_functions.R")
+source("data_prep_scripts/auto_geocode_functions.R")
 
 args = commandArgs(trailingOnly=TRUE)
 
