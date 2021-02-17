@@ -1,11 +1,5 @@
 name: Run Workflow
 on: workflow_dispatch
-#  push:
-    #branches:
-   #   - master
-  #pull_request:
-  #  branches:
-     # - master
 
 jobs:
   build:
@@ -15,16 +9,6 @@ jobs:
     - uses: r-lib/actions/setup-r@v1
       with:
         r-version: '3.5.3' # The R version to download (if necessary) and use.
-    #- name: setup libcurl
-     # run: sudo apt-get install libcurl4-openssl-dev
-    #- name: setup gdal config
-     # run: sudo apt-get install gdal-bin libgdal-dev
-  #  - name: setup fortran
-   #   run: sudo apt-get install libgfortran3
-  #  - name: setup libudunits
-   #   run: sudo apt-get install libudunits2-dev
-  #  - name: set up libprotobuf
-    #  run: sudo apt install libprotobuf8 
     - name: Install Packages
       run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr", "stringr", "httr"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
     - name: Get current directory
@@ -36,8 +20,8 @@ jobs:
     - name: git add 
       run: |
         git add test_merged_20210119.csv
-        git config --global user.name 'cgmoreno'
-        git config --global user.email 'cgmoreno@users.noreply.github.com'
+        git config --global user.name 'CodeForPittsburgh'
+        git config --global user.email 'CodeForPittsburgh@users.noreply.github.com'
         git commit -m "newly updated merged datasets"
         git push
       
