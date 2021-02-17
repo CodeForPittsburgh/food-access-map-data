@@ -1,11 +1,11 @@
 name: Run Workflow
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+on: workflow_dispatch
+#  push:
+    #branches:
+   #   - master
+  #pull_request:
+  #  branches:
+     # - master
 
 jobs:
   build:
@@ -30,6 +30,8 @@ jobs:
     - name: Get current directory
       run: pwd
     - name: Run workflow as shell script
+      env: 
+        mapbox_key: ${{ secrets.MAPBOX_API_KEY }}
       run: bash 'data_prep_scripts/run.sh'
     - name: git add 
       run: |
