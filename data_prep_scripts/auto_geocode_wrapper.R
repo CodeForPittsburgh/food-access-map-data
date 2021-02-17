@@ -14,7 +14,7 @@
 ## load pkg
 
 suppressPackageStartupMessages(library(dplyr))
-suppressPackageStartupMessages(library(tidygeocoder))
+# suppressPackageStartupMessages(library(tidygeocoder))
 
 source("auto_geocode_functions.R")
 
