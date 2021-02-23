@@ -23,7 +23,6 @@ run_geocode <- function(df) {
   df_geocode <- df_geocode %>% mutate(long = unlist(map(geometry, get_longitude)), lat=unlist(map(geometry, get_latitude)))
   df_geocode <- df_geocode %>% select(-geometry)
   
-  
   # STEP 5
   df <- df %>% left_join(df_geocode %>% select(id, long, lat), by = "id")
   df <- df %>% mutate(longitude = ifelse(is.na(longitude), long, longitude),
@@ -39,7 +38,7 @@ geocode_single <- function(search) {
   r <- GET(url)
   c <- content(r, as="parsed", type="application/json")
   features <- c[[3]]
-  geometry <- paste(features[[1]]$geometry[2][[1]], collapse=";")
+  geometry <- paste(features[[1]]$geometry$coordinates, collapse=";")
   return(geometry)
 }
 
