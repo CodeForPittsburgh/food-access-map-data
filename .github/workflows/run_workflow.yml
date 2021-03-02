@@ -19,7 +19,7 @@ jobs:
       run: bash 'data_prep_scripts/run.sh'
     - name: git add 
       run: |
-        git add test_merged_20210119.csv
+        git add test_merged_20210119.csv date.txt
         git config --global user.name 'CodeForPittsburgh'
         git config --global user.email 'CodeForPittsburgh@users.noreply.github.com'
         git commit -m "newly updated merged datasets"
