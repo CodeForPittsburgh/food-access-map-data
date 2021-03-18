@@ -1,15 +1,18 @@
-#test_dedupe.py
+#test_id_duplicates.py
 
-import os.path
-from os import path
+import sys
+import pandas as pd
 
-def test_id_duplicates_2_rows():
-	return True
+#This is importing the "id_duplicates_function.py" file from the
+#	"data_prep_scripts" directory.
+from data_prep_scripts import id_duplicates_functions as idf
 
-#NAME: test_id_duplicates_same_street_diff_num
-#Test to see if duplicates are detected between two streets, both with only one number different in the number
-
-#NAME: test_id_duplicates_same_street_diff_town
-#Test to see if duplicates are detected between two streets, both with only the town different
-
-#NAME: test_id_duplicates_
+#Each test must begin with "test_"
+def test_id_duplicates_bloomfield():
+	data = pd.read_csv("tests/test-data/test_id_duplicates_bloomfield_input.csv")
+	results = idf.id_duplicates(data)
+	assert (
+		results["group_id"][0] == 0 and #Commenting this line causes the test to pass
+		results["group_id"][1] == 0 and
+		results["group_id"][2] == 0
+		)
