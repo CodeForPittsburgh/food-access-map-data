@@ -12,3 +12,6 @@ toml==0.10.2
 typing-extensions==3.7.4.3
 zipp==3.4.0
 pandas~=1.2.3
+scipy==1.6.1
+fuzzywuzzy==0.18.0
+numpy==1.20.1
