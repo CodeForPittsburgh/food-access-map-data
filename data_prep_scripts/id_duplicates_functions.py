@@ -17,7 +17,6 @@ def combineDisjointedSets(pairs):
         else:
             pointer = pair[0]
             while (len(pairDict[pointer]) == 1):
-
                 pointer = next(iter(pairDict[pointer]))
             pairDict[pointer].add(pair[1])
             pairDict[pair[1]] = {pointer}
@@ -26,6 +25,7 @@ def combineDisjointedSets(pairs):
 
 def specialFuzz(x,y):
     return (fuzz.ratio(x, y) + fuzz.partial_token_sort_ratio(x, y)) / 2
+
 
 def id_duplicates(data):
 	# data = pd.read_csv("../merged_datasets.csv")
