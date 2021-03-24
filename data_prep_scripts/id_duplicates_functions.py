@@ -75,4 +75,36 @@ def id_duplicates(data):
 	for k,x in newpairs2.items():
 	    for xx in x:
 	        data["group_id"][xx] = k
-	return data
+		
+	    data["fuzzy_group_within_cluster"] = ""
+    for k, x in newpairs2.items():
+        for xx in x:
+            data["fuzzy_group_within_cluster"][xx] = k
+
+    data["address"] = data["address"].fillna('')
+    data["address_cleaned"] = data["address"].apply(clean_addr)
+
+    newpairs3 = {}
+
+    groups = [x for x in data["group_by_cluster"].unique() if x != '']
+    for group in groups:
+        clust_group = data["group_by_cluster"] == group
+        addresses = np.array(data[clust_group]["address"].values)
+        addresses = addresses.reshape(-1, 1)
+        ids = np.array(data[data["group_by_cluster"] == group].index)
+        ids = ids.reshape(-1, 1)
+        Y = pdist(addresses, addressMatch)
+        pairwise = list(combinations(range(len(addresses)), 2))
+        for i, y in enumerate(Y):
+            if y == 1:
+                for ii in pairwise[i]:
+                    if group in newpairs3:
+                        newpairs3[group].add(ids[ii][0])
+                    else:
+                        newpairs3[group] = set(ids[ii])
+
+    data["address_match"] = ""
+    for k, x in newpairs3.items():
+        for xx in x:
+            data["address_match"][xx] = k
+    return data
