@@ -6,7 +6,27 @@ from fuzzywuzzy import fuzz
 import numpy as np
 from itertools import combinations
 
+def clean_addr(x):
+    parsed = expand.expand_address(x)
+    return str(parsed[0] if parsed else '')
 
+
+def getJustStreet(x):
+    address = parse_address(x)
+    addressDict = {c: s for s, c in address}
+    hn = addressDict.get("house_number")
+    road = addressDict.get("road")
+    return "{} {}".format(hn, road)
+
+
+def addressMatch(a, b):
+    if (not (isinstance(a[0], str))) or (not (isinstance(a[0], str))):
+        return False
+    aExpand = expand_address(a[0])
+    bExpand = expand_address(b[0])
+    aExpandFormatted = set([getJustStreet(x) for x in aExpand])
+    bExpandFormatted = set([getJustStreet(x) for x in bExpand])
+    return bool(aExpandFormatted.intersection(bExpandFormatted))
 
 def combineDisjointedSets(pairs):
     pairDict = {}
