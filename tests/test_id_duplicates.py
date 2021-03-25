@@ -29,7 +29,7 @@ def test_id_duplicates_windber_no_group():
 def test_id_duplicates_st_catherine_no_group():
 	return true
 
-#Test that two entries, one for "Green Grocer at East Hills Community Center", and one for "Green Grocer/East Hills Community Center" are NOT merged
+#Test that two entries, one for "Green Grocer at East Hills Community Center", and one for "Green Grocer/East Hills Community Center" are merged
 #id's of entries are 1101 and 1170, respectively.
 #Entries with names that include "Green Grocer" should not be grouped together for merge, even if they are duplicates
 def test_id_duplicates_east_hills_green_grocer_no_group():
