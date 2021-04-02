@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+atomicwrites = "==1.4.0"
+attrs = "==20.3.0"
+colorama = "==0.4.4"
+importlib-metadata = "==3.3.0"
+iniconfig = "==1.1.1"
+pluggy = "==0.13.1"
+py = "==1.10.0"
+pyparsing = "==2.4.7"
+pytest = "==6.2.1"
+toml = "==0.10.2"
+typing-extensions = "==3.7.4.3"
+zipp = "==3.4.0"
+pandas = "~=1.2.3"
+scipy = "==1.6.1"
+fuzzywuzzy = "==0.18.0"
+numpy = "==1.20.1"
+wheel = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

@@ -35,7 +35,7 @@ read_clean_data_sources <- function(read_loc) {
   all_datasets <- all_datasets %>% mutate(id = 1:n())
 
   ## write out as stdout
-  write.table(all_datasets, stdout())
+  write.csv(all_datasets, stdout())
 }
 
 ## run function with CLI input

@@ -7,8 +7,12 @@ import fuzzywuzzy
 import string
 from num2words import num2words
 import re
+import sys
+from io import StringIO
 
-dat = pd.read_csv('../../food-access-map-data/merged_datasets.csv')
+dat = pd.read_csv(StringIO(sys.stdin.read()))
+
+# dat = pd.read_csv('../../food-access-map-data/merged_datasets.csv')
 
 # preprocess addresses
 	# strip punctuation from name
@@ -65,4 +69,10 @@ def convert_number_street_names(street):
 #convert street numbers from number to letters
 dat_cleaned['address'] = dat_cleaned['address'].apply((lambda x: ' '.join([convert_number_street_names(w).capitalize() for w in x.split()])))
 
-dat_cleaned.to_csv("merged_datasets_11_9.csv")
+output = dat_cleaned.to_csv(line_terminator='\n')
+
+sys.stdout.write(output)
+
+# Close the file
+
+sys.stdout.close()

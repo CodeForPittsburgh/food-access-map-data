@@ -1,14 +1,34 @@
-#id_duplicates_functions
 import pandas as pd
 from scipy.spatial import cKDTree
 from scipy.spatial.distance import pdist, squareform
 from fuzzywuzzy import fuzz
 import numpy as np
 from itertools import combinations
-# from postal import expand
+from postal import expand
 # from postal.parser import parse_address
 # from postal.expand import expand_address
 from math import isnan
+
+
+def combineDisjointedSets(pairs):
+    pairDict = {}
+    for pair in pairs:
+        if pair[0] not in pairDict:
+            pairDict[pair[0]] = {pair[0], pair[1]}
+            pairDict[pair[1]] = {pair[0]}
+        else:
+            pointer = pair[0]
+            while (len(pairDict[pointer]) == 1):
+
+                pointer = next(iter(pairDict[pointer]))
+            pairDict[pointer].add(pair[1])
+            pairDict[pair[1]] = {pointer}
+    return {k: x for k, x in pairDict.items() if len(x) > 1}
+
+
+def specialFuzz(x, y):
+    return (fuzz.ratio(x, y) + fuzz.partial_token_sort_ratio(x, y)) / 2
+
 
 # def clean_addr(x):
 #     parsed = expand.expand_address(x)
@@ -32,27 +52,10 @@ from math import isnan
 #     bExpandFormatted = set([getJustStreet(x) for x in bExpand])
 #     return bool(aExpandFormatted.intersection(bExpandFormatted))
 
-def combineDisjointedSets(pairs):
-    pairDict = {}
-    for pair in pairs:
-        if pair[0] not in pairDict:
-            pairDict[pair[0]] = {pair[0], pair[1]}
-            pairDict[pair[1]] = {pair[0]}
-        else:
-            pointer = pair[0]
-            while (len(pairDict[pointer]) == 1):
-                pointer = next(iter(pairDict[pointer]))
-            pairDict[pointer].add(pair[1])
-            pairDict[pair[1]] = {pointer}
-    return {k: x for k, x in pairDict.items() if len(x) > 1}
 
+def main():
+    data = pd.read_csv("merged_datasets.csv")
 
-def specialFuzz(x,y):
-    return (fuzz.ratio(x, y) + fuzz.partial_token_sort_ratio(x, y)) / 2
-
-
-def id_duplicates(data):
-    # data = pd.read_csv("../merged_datasets.csv")
     tree = cKDTree(data[['longitude', 'latitude']].astype(float))
     pairs = tree.query_pairs(.001, p=2)
     newpairs = combineDisjointedSets(pairs)
@@ -84,17 +87,13 @@ def id_duplicates(data):
                     else:
                         newpairs2[group] = set(ids[ii])
 
-    data["group_id"] = ""
-    for k,x in newpairs2.items():
-        for xx in x:
-            data["group_id"][xx] = k
-        data["fuzzy_group_within_cluster"] = ""
+    data["fuzzy_group_within_cluster"] = ""
     for k, x in newpairs2.items():
         for xx in x:
             data["fuzzy_group_within_cluster"][xx] = k
 
     data["address"] = data["address"].fillna('')
-    # data["address_cleaned"] = data["address"].apply(clean_addr)
+    data["address_cleaned"] = data["address"].apply(clean_addr)
 
     newpairs3 = {}
 
@@ -105,18 +104,23 @@ def id_duplicates(data):
         addresses = addresses.reshape(-1, 1)
         ids = np.array(data[data["group_by_cluster"] == group].index)
         ids = ids.reshape(-1, 1)
-    #     Y = pdist(addresses, addressMatch)
-    #     pairwise = list(combinations(range(len(addresses)), 2))
-    #     for i, y in enumerate(Y):
-    #         if y == 1:
-    #             for ii in pairwise[i]:
-    #                 if group in newpairs3:
-    #                     newpairs3[group].add(ids[ii][0])
-    #                 else:
-    #                     newpairs3[group] = set(ids[ii])
+        Y = pdist(addresses, addressMatch)
+        pairwise = list(combinations(range(len(addresses)), 2))
+        for i, y in enumerate(Y):
+            if y == 1:
+                for ii in pairwise[i]:
+                    if group in newpairs3:
+                        newpairs3[group].add(ids[ii][0])
+                    else:
+                        newpairs3[group] = set(ids[ii])
 
-    # data["address_match"] = ""
-    # for k, x in newpairs3.items():
-    #     for xx in x:
-    #         data["address_match"][xx] = k
-    return data
+    data["address_match"] = ""
+    for k, x in newpairs3.items():
+        for xx in x:
+            data["address_match"][xx] = k
+
+    data.to_csv("merged_datasets2.csv")
+
+
+if __name__ == "__main__":
+    main()
