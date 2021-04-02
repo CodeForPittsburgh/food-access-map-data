@@ -13,9 +13,9 @@ jobs:
       run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr", "stringr", "httr"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
     - uses: actions/checkout@v2
     - name: Install Python 3
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v2
       with:
-          python-version: 3.6
+          python-version: '3.6'
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
