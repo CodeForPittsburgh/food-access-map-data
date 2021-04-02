@@ -71,7 +71,7 @@ assign_type <- function(name, type) {
 ## apply function to dataset
 fix_type_info <- function(input_dat) {
   ## read.table() bc stdin input
-  all_datasets <- read.table(input_dat) 
+  all_datasets <- read.csv(input_dat) 
   
   all_datasets <- all_datasets %>% 
     rowwise() %>%
@@ -79,7 +79,7 @@ fix_type_info <- function(input_dat) {
     ungroup() 
     
     ## write out as stdout
-    write.table(all_datasets, stdout())
+    write.csv(all_datasets, stdout(), row.names = FALSE)
 }
 
 ## read in stdin() from previous step

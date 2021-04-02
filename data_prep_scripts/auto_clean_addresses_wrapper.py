@@ -10,7 +10,7 @@ import re
 import sys
 from io import StringIO
 
-dat = pd.read_json(StringIO(sys.stdin.read()), lines=True)
+dat = pd.read_csv(StringIO(sys.stdin.read()))
 
 # dat = pd.read_csv('../../food-access-map-data/merged_datasets.csv')
 
@@ -69,7 +69,7 @@ def convert_number_street_names(street):
 #convert street numbers from number to letters
 dat_cleaned['address'] = dat_cleaned['address'].apply((lambda x: ' '.join([convert_number_street_names(w).capitalize() for w in x.split()])))
 
-output = dat_cleaned.to_json(orient="records", lines=True)
+output = dat_cleaned.to_csv(line_terminator='\n')
 
 sys.stdout.write(output)
 

@@ -3,9 +3,9 @@
 import sys
 import id_duplicates_functions
 import pandas as pd
+from io import StringIO
 
-dat = pd.read_json(StringIO(sys.stdin.read()), lines=True)
+dat = pd.read_csv(StringIO(sys.stdin.read()))
 
-print("Running...")
 #auto_id_duplicates_wrapper
-sys.stdout.write(id_duplicates_functions.id_duplicates(dat))
+sys.stdout.write(id_duplicates_functions.id_duplicates(dat).to_csv(line_terminator='\n'))
