@@ -42,16 +42,11 @@ df['original_id'] = df['globalid'].str.strip('{}')
 df['type'] = 'food bank site'
 df['name'] = df['SITE_name']
 #concatenate extra details, including suite number and more descriptions
-df['address'] = df['SITE_address1'] + ' ' + df['SITE_address2']
 df['city'] = df['SITE_city']
 df['state'] = df['SITE_state']
 df['zip_code'] = df['SITE_zip']
 df['county'] = '' #no county given in this dataset
 
-public_notes = df['PublicNotes'].str.replace('\(none\)', '')
-time = df['Time'].str.replace('\(none\)', '')
-SITE_specific_location =  df['SITE_specific_location'].str.replace("\(none\)", '')
-df['location_description'] = (SITE_specific_location + public_notes + time).str.strip(',')
 df['phone'] = df['POC_phone']
 df['url'] = df['SITE_website']
 df['latlng_source'] = df['source_org']
@@ -67,7 +62,8 @@ df['fresh_produce'] = 0
 df.loc[df['PublicNotes'].str.lower().str.contains('grocery') | df['PublicNotes'].str.lower().str.contains('groceries') | df['PublicNotes'].str.contains('fresh') | df['PublicNotes'].str.lower().str.contains('fresh produce'), 'fresh_produce'] = 1
 
 df['free_distribution'] = 1
-df['open_to_spec_group'] = df['Population_Served_filter'].str.replace('everyone,', '').str.replace('everyone', '')
+df['open_to_spec_group'] = df['Population_Served_filter']
+df['open_to_spec_group'] = df['open_to_spec_group'].fillna(0) #fill all others with 0
 df['data_issues'] = '' # start with blank field, to populate later
 # # Per conversation with Justin 2020-03-03, set these booleans to 0 because you don't pay for free food!
 for field in ['SNAP', 'WIC', 'FMNP', 'food_bucks']:
@@ -75,8 +71,15 @@ for field in ['SNAP', 'WIC', 'FMNP', 'food_bucks']:
 
 df['SITE_address1'] = df['SITE_address1'].str.replace('  ', ' ').str.strip(' ')
 df['SITE_address2'] = df['SITE_address2'].str.replace('  ', ' ').str.strip(' ')
-df.loc[df['SITE_address2'].notna(), 'address'] = df['SITE_address1'] + ', ' + df['SITE_address2']
-df.loc[df['SITE_address2'].isna(), 'address'] = df['SITE_address1']
+df['address'] = df['SITE_address1']
+# df.loc[df['SITE_address2'].notna(), 'address'] = df['SITE_address1']
+# df.loc[df['SITE_address2'].isna(), 'address'] = df['SITE_address1']
+
+public_notes = df['PublicNotes'].str.replace('\(none\)', '')
+time = df['Time'].str.replace('\(none\)', '')
+SITE_specific_location =  df['SITE_specific_location'].str.replace("\(none\)", '')
+df['location_description'] = (df['Population_Served_filter'].astype(str).str.replace('nan', '') + ', ' + SITE_specific_location + ', '
+ + public_notes + ', ' + time + ', ' + df['SITE_address2'].astype(str).str.replace('nan', '')).str.strip(',').str.strip(', ')
 
 # Reorder and add any missing columns
 df = df.reindex(columns = final_cols)
@@ -90,8 +93,6 @@ for col in handled_cols:
 
 # Detect some specific data issues
 df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
-
-
 
 
 df.to_csv(out_path, index = False)
