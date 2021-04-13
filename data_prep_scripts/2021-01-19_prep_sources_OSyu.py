@@ -63,7 +63,7 @@ df.loc[df['PublicNotes'].str.lower().str.contains('grocery') | df['PublicNotes']
 
 df['free_distribution'] = 1
 df['open_to_spec_group'] = df['Population_Served_filter']
-df['open_to_spec_group'] = df['open_to_spec_group'].fillna(0) #fill all others with 0
+df['open_to_spec_group'] = df['open_to_spec_group'].apply((lambda x: 0 if ('everyone' in x) else x)) #fill all others with 0
 df['data_issues'] = '' # start with blank field, to populate later
 # # Per conversation with Justin 2020-03-03, set these booleans to 0 because you don't pay for free food!
 for field in ['SNAP', 'WIC', 'FMNP', 'food_bucks']:
@@ -75,11 +75,12 @@ df['address'] = df['SITE_address1']
 # df.loc[df['SITE_address2'].notna(), 'address'] = df['SITE_address1']
 # df.loc[df['SITE_address2'].isna(), 'address'] = df['SITE_address1']
 
-public_notes = df['PublicNotes'].str.replace('\(none\)', '')
-time = df['Time'].str.replace('\(none\)', '')
-SITE_specific_location =  df['SITE_specific_location'].str.replace("\(none\)", '')
-df['location_description'] = (df['Population_Served_filter'].astype(str).str.replace('nan', '') + ', ' + SITE_specific_location + ', '
- + public_notes + ', ' + time + ', ' + df['SITE_address2'].astype(str).str.replace('nan', '')).str.strip(',').str.strip(', ')
+public_notes = df['PublicNotes'].str.replace('\(none\)', '').astype(str).str.replace('nan', '').str.strip(',').str.strip(', ').str.strip('.')
+time = df['Time'].str.replace('\(none\)', '').astype(str).str.strip(',').str.replace('nan', '').str.strip(', ').str.strip('.')
+SITE_specific_location =  df['SITE_specific_location'].str.replace("\(none\)", '').astype(str).str.replace('nan', '').str.strip(',').str.strip(', ').str.strip('.')
+pop_served = df['Population_Served'].astype(str).str.replace('nan', '').str.strip(',').str.strip(', ').str.strip('.')
+df['location_description'] = (pop_served + ', ' + SITE_specific_location + ', '
+ + public_notes + ', ' + time + ', ' + df['SITE_address2'].astype(str).str.replace('nan', '')).str.strip(',').str.strip(', ').str.replace(', , ,', ',').str.replace(', ,', ',')
 
 # Reorder and add any missing columns
 df = df.reindex(columns = final_cols)
