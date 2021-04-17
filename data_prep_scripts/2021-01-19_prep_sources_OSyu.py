@@ -6,11 +6,13 @@ import pandas as pd
 import numpy as np
 import os
 import re
+import urllib.request, json
 
-in_dir = '../food-data/PFPC_data_files'
+#for reading in with csv
+# in_dir = '../food-data/PFPC_data_files'
 out_dir = '../food-data/Cleaned_data_files'
 
-in_path = os.path.join(in_dir,'%5BPUBLIC%5D_COVID19_Food_Access.csv')
+# in_path = os.path.join(in_dir,'%5BPUBLIC%5D_COVID19_Food_Access.csv')
 out_path = os.path.join(out_dir,'greater_pittsburgh_community_food_bank.csv')
 
 month_lengths = {'January': 31,
@@ -31,13 +33,23 @@ final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 
               'longitude', 'latlng_source', 'date_from', 'date_to', 'SNAP', 'WIC', 'FMNP',
               'fresh_produce', 'food_bucks', 'free_distribution', 'open_to_spec_group', 'data_issues']
 
-df = pd.read_csv(in_path)
+#for reading in with csv
+# df = pd.read_csv(in_path)
 
+#read in data from the api
+api = "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer/0/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token="
+
+with urllib.request.urlopen(api) as url:
+    data = json.loads(url.read().decode())
+
+df = pd.json_normalize(data['features'])
+df.columns = [x.replace('attributes.', '').replace('geometry.', '') for x in df.columns]
+df = df.rename(columns={'x':'X', 'y':'Y'})
 # Keep only active sites
 df = df[df['STATUS'] == 'active']
 
 df['source_org'] = 'Greater Pittsburgh Community Food Bank'
-df['source_file'] = os.path.basename(in_path)
+df['source_file'] = '%5BPUBLIC%5D_COVID19_Food_Access.csv'
 df['original_id'] = df['globalid'].str.strip('{}')
 df['type'] = 'food bank site'
 df['name'] = df['SITE_name']
