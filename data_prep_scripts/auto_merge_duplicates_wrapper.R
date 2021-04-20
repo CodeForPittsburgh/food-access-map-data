@@ -9,14 +9,22 @@
 
 library("readr")
 
-sfp_filepath <- commandArgs(TRUE)
+args = commandArgs(trailingOnly=TRUE)
+
+# test if there is at least one argument: if not, return an error
+if (length(args)==0) {
+  stop("Source Field Prioriotization csv must be called as first argument", call.=FALSE)
+} else if (length(args)==1) {
+  sfp_filepath <- args[1]
+}
+
 input_file <- file('stdin', 'r')
 
-sfp <- read_csv(sfp_filepath)
-md <- read_csv(input_file)
+sfp <- read.csv(sfp_filepath)
+md <- read.csv(input_file)
 md$merged_record = '0'
 
-source("merge_duplicates_functions.R")
+source("data_prep_scripts/merge_duplicates_functions.R")
 md <- merge_all_duplicates_in_dataframe(md, sfp)
 
-write.table(md, stdout())
+write.csv(md, stdout(), row.names = FALSE)

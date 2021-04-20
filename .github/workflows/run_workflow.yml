@@ -1,0 +1,36 @@
+name: Run Workflow
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: '3.5.3' # The R version to download (if necessary) and use.
+    - name: Install Packages
+      run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr", "stringr", "httr"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
+    - uses: actions/checkout@v2
+    - name: Install Python 3
+      uses: actions/setup-python@v2
+      with:
+          python-version: '3.6'
+    - name: Install dependencies
+      run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+    - name: Get current directory
+      run: pwd
+    - name: Run workflow as shell script
+      env: 
+        mapbox_key: ${{ secrets.MAPBOX_API_KEY }}
+      run: bash 'data_prep_scripts/run.sh'
+    - name: git add 
+      run: |
+        git add food-data/processed-datasets/.
+        git config --global user.name 'CodeForPittsburgh'
+        git config --global user.email 'CodeForPittsburgh@users.noreply.github.com'
+        git commit -m "newly updated merged datasets"
+        git push
+      
