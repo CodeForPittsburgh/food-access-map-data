@@ -1,2 +1,4 @@
 ~$*.xls*
 .ipynb_checkpoints
+.Rhistory
+.RData
