@@ -17,6 +17,6 @@ Rscript data_prep_scripts/auto_agg_clean_data.R food-data/Cleaned_data_files/ | 
 
 cp food-data/processed-datasets/merged_datasets.csv food-data/processed-datasets/$new_fileName
 
-CURRENTDATE=`date +"%Y-%m-%d %T"`
-echo Updated at: ${CURRENTDATE} > date.txt
+#CURRENTDATE=`date +"%Y-%m-%d %T"`
+#echo Updated at: ${CURRENTDATE} > date.txt
 

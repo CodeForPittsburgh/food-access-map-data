@@ -1,0 +1,18 @@
+﻿id,name,type,address,street_one,street_two,city,state,zip_code,location_description,date_from,date_to,open_time1,close_time1,open_time2,close_time2,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,SNAP,WIC,FMNP,fresh_produce-healthy,MRFEI_score,latitude,longitude,open_to_spec_group,food_bucks
+NA,Green Grocer (Family Support Center),NA,101 Hazlett St,NA,NA,Pittsburgh,PA,15214,Northview Heights,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Three Rivers Manor),NA,125 Rhine Place,NA,NA,Pittsburgh,PA,15212,North Side/Spring Hill,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (GAP Park),NA,NA,Grant Ave,North Ave,Pittsburgh,PA,15209,Millvale,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Sharpsburg Community Library),NA,1212 Main St,NA,NA,Pittsburgh,PA,15215,Sharpsburg,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (UPMC Matild Theiss Health Center),NA,373 Burrows St,NA,NA,Pittsburgh,PA,15213,Oak Hill,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Thelma Lovette YMCA (Upper Parking lot)),NA,2114 Centre Ave,NA,NA,Pittsburgh,PA,15219,Hill District,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Woods Run Library (CLP)),NA,1201 Woods Run Ave,NA,NA,Pittsburgh,PA,15212,North Side/Woods Run,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (5 Generations Bakery),NA,1100 Chartiers Ave,NA,NA,McKees Rocks,PA,15136,McKees Rocks,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Sheraden Library (CLP)),NA,720 Sherwood Ave,NA,NA,Pittsburgh,PA,15204,Sheraden,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Monview Heights),NA,48 Midway Drive,NA,NA,West Mifflin,PA,15122,Whitaker,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Clock Tower),NA,NA,Brownsville Rd,Hayes Ave,Pittsburgh,PA,15210,Mt. Oliver/Knoxville,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Family Dollar Parking Lot),NA,533 Miller Ave,NA,NA,Clairton,PA,15025,Clairton,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Glassport Honor Roll Park),NA,440 Monogahela Ave,NA,NA,Glassport,PA,15045,Glassport,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (A Child's World Daycare Center),NA,300 Rankin Blvd,NA,NA,Rankin,PA,15104,Rankin,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Alma Illery Medical Center),NA,7227 Hamilton Ave,NA,NA,Pittsburgh,PA,15208,Homewood,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (East Hills Community Center),NA,2291 Wilner Drive,NA,NA,Pittsburgh,PA,15221,East Hills,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Green Grocer (Wilmerding Apartments Community Room),NA,314 Commerce St,NA,NA,Wilmerding,PA,15148,Wilmerding,NA,NA,10:30a.m.,11:30 a.m.,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1

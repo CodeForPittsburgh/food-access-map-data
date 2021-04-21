@@ -39,7 +39,7 @@ read_clean_data_sources <- function(read_loc) {
 
  
   ## write out as stdout
-  write.csv(all_datasets, stdout())
+  write.csv(all_datasets, stdout(), row.names = FALSE)
 }
 
 ## run function with CLI input

@@ -1,0 +1,98 @@
+"id","name","type","address","street_one","street_two","city","state","zip_code","location_description","date_from","date_to","open_time1","close_time1","open_time2","close_time2","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","SNAP","WIC","FMNP","fresh_produce-healthy","MRFEI_score","latitude","longitude","open_to_spec_group","food_bucks"
+NA,"Community Market",NA,"1710 Pacific Avenue",NA,NA,"Natrona Heights","PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Community Market",NA,"1117 Mill Town Road",NA,NA,"Verona","PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Coraopolis Cash Market",NA,"1017 4th Avenue",NA,NA,"Coraopolis","PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"5055 Library Road",NA,NA,"Bethel Park","PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"254 Yost Boulevard",NA,NA,"Pittsburgh","PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"600 Towne Square Way",NA,NA,"Pittsburgh","PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"132 Ben Avon Heights Road",NA,NA,"Pittsburgh","PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"5260 Grove Road",NA,NA,"Pittsburgh","PA",15236,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"9901 Mountain View Drive",NA,NA,"West Mifflin","PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"Crafton-Ingram Shopping Center",NA,NA,"Pittsburgh","PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"6320 Shakespeare Street",NA,NA,"Pittsburgh","PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1705 S. Braddock Avenue",NA,NA,"Pittsburgh","PA",15218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"800 Mckeesport Road",NA,NA,"Elizabeth","PA",15037,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"910 Freeport Road",NA,NA,"Pittsburgh","PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"9001 Frankstown Road",NA,NA,"Pittsburgh","PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"4250 Murray Avenue",NA,NA,"Pittsburgh","PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"Parkway Center Mall",NA,NA,"Pittsburgh","PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"420 East Waterfront Drive",NA,NA,"Homestead","PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1800 Mckees Rocks Road",NA,NA,"Mckees Rocks","PA",15136,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"Quaker Village Shopping Center",NA,NA,"Leetsdale","PA",15056,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"3812 O'Neil Boulevard",NA,NA,"Mckeesport","PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"4680 Old William Penn Hwy.",NA,NA,"Monroeville","PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"4010 Monroeville Boulevard",NA,NA,"Monroeville","PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"5990 University Boulevard",NA,NA,"Moon Twp","PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"8050 McKnight Road",NA,NA,"Pittsburgh","PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"318-320 Cedar Avenue",NA,NA,"Pittsburgh","PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1701 Lincoln Highway",NA,NA,"North Versailles","PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"4110 Brighton Road",NA,NA,"Pittsburgh","PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"230 Rodi Road",NA,NA,"Pittsburgh","PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"9805 McKnight Road",NA,NA,"Pittsburgh","PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"155 Towne Centre Drive",NA,NA,"Wexford","PA",15090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"100 Settlers Ridge Center Dr.",NA,NA,"Pittsburgh","PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"5550 Centre Avenue",NA,NA,"Pittsburgh","PA",15232,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1671 Butler Plank Road",NA,NA,"Shaler","PA",15116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"3239 Washington Pike",NA,NA,"Bridgeville","PA",15017,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"2021 Wharton Street",NA,NA,"Mckees Rocks","PA",15203,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1901 Murray Avenue",NA,NA,"Pittsburgh","PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"200 Allegheny River Boulevard",NA,NA,"Verona","PA",15147,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"7000 Oxford Drive",NA,NA,"Bethel Park","PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1717 Cochran Road",NA,NA,"Pittsburgh","PA",15220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1356 Hoffman Boulevard",NA,NA,"West Mifflin","PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"1029 West View Park Drive",NA,NA,"Pittsburgh","PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle",NA,"2001 Lincoln Way",NA,NA,"White Oak","PA",15131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Giant Eagle Express",NA,"2611 Freeport Road",NA,NA,"Pittsburgh","PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Gorkhali Store",NA,"2116 Brownsville Rd.",NA,NA,"Pittsburgh","PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Himalaya Grocery",NA,"3621 Brownsville Road",NA,NA,"Pittsburgh","PA",15227,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"661 Lincoln Avenue",NA,NA,"Pittsburgh","PA",15202,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"745 West Ingomar Road",NA,NA,"Ingomar","PA",15127,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"825 Beaver Grade Road",NA,NA,"Coraopolis","PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"4801 McKnight Road",NA,NA,"Pittsburgh","PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"1130 Highwood St.",NA,NA,"Pittsburgh","PA",15212,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"3125 Banksville Road",NA,NA,"Pittsburgh","PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Kuhn's",NA,"700 Buelah Road",NA,NA,"Turtle Creek","PA",15145,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Las Palmas IGA",NA,"1616 Broadway Ave.",NA,NA,"Pittsburgh","PA",15216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Murray Avenue Kosher",NA,"1916 Murray Avenue",NA,NA,"Pittsburgh","PA",15217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Pittsburgh Commissary",NA,"79 Soldiers Lane",NA,NA,"Moon Twp.","PA",15108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Save A Lot",NA,"25 Foster Avenue",NA,NA,"Pittsburgh","PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Sav-A-Lot",NA,"9 Duquesne Plaza",NA,NA,"Duquesne","PA",15110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Sav-A-Lot",NA,"355 Lincoln Highway",NA,NA,"North Versailles","PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Sav-A-Lot",NA,"725 Ross Ave.",NA,NA,"Pittsburgh","PA",15221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"5001 Library Road",NA,NA,"Bethel Park","PA",15102,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"1119 Brownsville Road",NA,NA,"Pittsburgh","PA",15210,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"4647 Buttermilk Hollow Road",NA,NA,"West Mifflin","PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"799 Castle Shannon Blvd.",NA,NA,"Pittsburgh","PA",15234,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"1850 Centre Ave.",NA,NA,"Pittsburgh","PA",15219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"2381 Mountain View Drive",NA,NA,"West Mifflin","PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save Village",NA,"1886 Homeville Road",NA,NA,"West Mifflin","PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"201 Richland Mall",NA,NA,"Gibsonia","PA",15044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"917 Butler Street",NA,NA,"Pittsburgh","PA",15223,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"4548 Broadway Boulevard",NA,NA,"Monroeville","PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"2100 Washington Pike",NA,NA,"Carnegie","PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"2362 Golden Mile Highway",NA,NA,"Pittsburgh","PA",15239,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"600 Market Place Drive",NA,NA,"Oakdale","PA",15071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"450 56th Street",NA,NA,"Pittsburgh","PA",15201,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"815 Fifth Avenue",NA,NA,"McKeesport","PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"125 Virginia Avenue",NA,NA,"Pittsburgh","PA",15211,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"2103 Noblestown Road",NA,NA,"Pittsburgh","PA",15205,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"4313 Walnut Street",NA,NA,"Mckeesport","PA",15132,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"2820 Universal Road",NA,NA,"Pittsburgh","PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"1130 Perry Highway",NA,NA,"Pittsburgh","PA",15237,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"184 Rochester Road",NA,NA,"Pittsburgh","PA",15229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"908 Little Deer Creek Valley Rd.",NA,NA,"Russelton","PA",15076,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"1620 Babcock Blvd.",NA,NA,"Pittsburgh","PA",15209,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shop N Save",NA,"3335 William Penn Highway",NA,NA,"Pittsburgh","PA",15235,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Shur Save",NA,"4401 Liberty Avenue",NA,NA,"Pittsburgh","PA",15224,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Target",NA,"6231 Penn Ave.",NA,NA,"East Liberty","PA",15206,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Target",NA,"2661 Freeport Road",NA,NA,"Harmarville","PA",15238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Target",NA,"360 East Waterfront Dr.",NA,NA,"Homestead","PA",15120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Target",NA,"4004 Monroeville Rd.",NA,NA,"Monroeville","PA",15146,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Target",NA,"600 Chauvet Drive",NA,NA,"Robinson","PA",15275,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Target",NA,"201 South Hills Village",NA,NA,"Pittsburgh","PA",15241,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Wal Mart",NA,"2200 Washington Pike",NA,NA,"Pittsburgh","PA",15106,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Wal Mart",NA,"4015 Freeport Road",NA,NA,"Natrona Heights","PA",15065,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Wal Mart",NA,"250 Summit Park Drive",NA,NA,"Pittsburgh","PA",15275,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Wal Mart",NA,"100 Wal Mart Drive",NA,NA,"North Versailles","PA",15137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Wal Mart",NA,"2010 Village Center Drive",NA,NA,"Tarentum","PA",15084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,"Wal Mart",NA,"2351 Century Drive",NA,NA,"West Mifflin","PA",15122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
