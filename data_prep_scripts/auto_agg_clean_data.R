@@ -31,9 +31,13 @@ read_clean_data_sources <- function(read_loc) {
     set_names() %>%
     map_dfr(read_csv, col_types = cols(.default = "c"), .id = "file_name")
 
+  ## remove name = NA 04/20/2021 
+  all_datasets <- all_datasets %>% filter(!is.na(name))
+  
   ## assign uid
   all_datasets <- all_datasets %>% mutate(id = 1:n())
 
+ 
   ## write out as stdout
   write.csv(all_datasets, stdout())
 }
