@@ -5,32 +5,32 @@ from scipy.spatial.distance import pdist, squareform
 from fuzzywuzzy import fuzz
 import numpy as np
 from itertools import combinations
-# from postal import expand
-# from postal.parser import parse_address
-# from postal.expand import expand_address
+from postal import expand
+from postal.parser import parse_address
+from postal.expand import expand_address
 from math import isnan
 
-# def clean_addr(x):
-#     parsed = expand.expand_address(x)
-#     return str(parsed[0] if parsed else '')
+def clean_addr(x):
+    parsed = expand.expand_address(x)
+    return str(parsed[0] if parsed else '')
 
 
-# def getJustStreet(x):
-#     address = parse_address(x)
-#     addressDict = {c: s for s, c in address}
-#     hn = addressDict.get("house_number")
-#     road = addressDict.get("road")
-#     return "{} {}".format(hn, road)
+def getJustStreet(x):
+    address = parse_address(x)
+    addressDict = {c: s for s, c in address}
+    hn = addressDict.get("house_number")
+    road = addressDict.get("road")
+    return "{} {}".format(hn, road)
 
 
-# def addressMatch(a, b):
-#     if (not (isinstance(a[0], str))) or (not (isinstance(a[0], str))):
-#         return False
-#     aExpand = expand_address(a[0])
-#     bExpand = expand_address(b[0])
-#     aExpandFormatted = set([getJustStreet(x) for x in aExpand])
-#     bExpandFormatted = set([getJustStreet(x) for x in bExpand])
-#     return bool(aExpandFormatted.intersection(bExpandFormatted))
+def addressMatch(a, b):
+    if (not (isinstance(a[0], str))) or (not (isinstance(a[0], str))):
+        return False
+    aExpand = expand_address(a[0])
+    bExpand = expand_address(b[0])
+    aExpandFormatted = set([getJustStreet(x) for x in aExpand])
+    bExpandFormatted = set([getJustStreet(x) for x in bExpand])
+    return bool(aExpandFormatted.intersection(bExpandFormatted))
 
 def combineDisjointedSets(pairs):
     pairDict = {}
@@ -105,18 +105,18 @@ def id_duplicates(data):
         addresses = addresses.reshape(-1, 1)
         ids = np.array(data[data["group_by_cluster"] == group].index)
         ids = ids.reshape(-1, 1)
-    #     Y = pdist(addresses, addressMatch)
-    #     pairwise = list(combinations(range(len(addresses)), 2))
-    #     for i, y in enumerate(Y):
-    #         if y == 1:
-    #             for ii in pairwise[i]:
-    #                 if group in newpairs3:
-    #                     newpairs3[group].add(ids[ii][0])
-    #                 else:
-    #                     newpairs3[group] = set(ids[ii])
+        Y = pdist(addresses, addressMatch)
+        pairwise = list(combinations(range(len(addresses)), 2))
+        for i, y in enumerate(Y):
+            if y == 1:
+                for ii in pairwise[i]:
+                    if group in newpairs3:
+                        newpairs3[group].add(ids[ii][0])
+                    else:
+                        newpairs3[group] = set(ids[ii])
 
-    # data["address_match"] = ""
-    # for k, x in newpairs3.items():
-    #     for xx in x:
-    #         data["address_match"][xx] = k
+    data["address_match"] = ""
+    for k, x in newpairs3.items():
+        for xx in x:
+            data["address_match"][xx] = k
     return data
