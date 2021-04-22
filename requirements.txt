@@ -19,3 +19,4 @@ scipy==1.5.4
 six==1.15.0
 tqdm==4.59.0
 usaddress==0.5.10
+postal==1.1.9
