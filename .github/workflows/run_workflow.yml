@@ -23,6 +23,7 @@ jobs:
           cd libpostal
           ./bootstrap.sh
           make -j4
+          ./configure --datadir=.
           sudo make install
           sudo ldconfig
     - name: Install dependencies
