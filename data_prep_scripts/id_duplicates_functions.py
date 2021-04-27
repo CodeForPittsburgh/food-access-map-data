@@ -10,9 +10,9 @@ from itertools import combinations
 # from postal.expand import expand_address
 from math import isnan
 
-# def clean_addr(x):
-#     parsed = expand.expand_address(x)
-#     return str(parsed[0] if parsed else '')
+def clean_addr(x):
+    parsed = expand.expand_address(x)
+    return str(parsed[0] if parsed else '')
 
 
 # def getJustStreet(x):
@@ -105,18 +105,18 @@ def id_duplicates(data):
         addresses = addresses.reshape(-1, 1)
         ids = np.array(data[data["group_by_cluster"] == group].index)
         ids = ids.reshape(-1, 1)
-    #     Y = pdist(addresses, addressMatch)
-    #     pairwise = list(combinations(range(len(addresses)), 2))
-    #     for i, y in enumerate(Y):
-    #         if y == 1:
-    #             for ii in pairwise[i]:
-    #                 if group in newpairs3:
-    #                     newpairs3[group].add(ids[ii][0])
-    #                 else:
-    #                     newpairs3[group] = set(ids[ii])
+#         Y = pdist(addresses, addressMatch)
+#         pairwise = list(combinations(range(len(addresses)), 2))
+#         for i, y in enumerate(Y):
+#             if y == 1:
+#                 for ii in pairwise[i]:
+#                     if group in newpairs3:
+#                         newpairs3[group].add(ids[ii][0])
+#                     else:
+#                         newpairs3[group] = set(ids[ii])
 
-    # data["address_match"] = ""
-    # for k, x in newpairs3.items():
-    #     for xx in x:
-    #         data["address_match"][xx] = k
+#     data["address_match"] = ""
+#     for k, x in newpairs3.items():
+#         for xx in x:
+#             data["address_match"][xx] = k
     return data
