@@ -69,7 +69,7 @@ def convert_number_street_names(street):
 #convert street numbers from number to letters
 dat_cleaned['address'] = dat_cleaned['address'].apply((lambda x: ' '.join([convert_number_street_names(w).capitalize() for w in x.split()])))
 
-output = dat_cleaned.to_csv(line_terminator='\n')
+output = dat_cleaned.to_csv(line_terminator='\n', index = False)
 
 sys.stdout.write(output)
 
