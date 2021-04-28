@@ -1,6 +1,7 @@
 """
 Data Prep Script by Mary Kohl
 Adapted from 2020-06-07_prep_sources_DLevitt.py
+Updated 2021-04027 by CMoreno to update rules to assign labels
 """
 
 import pandas as pd
@@ -34,6 +35,9 @@ final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 
 
 df = pd.read_excel(in_path)
 
+## multiple entries for date/time in some cases, take first (this could be improved if source did have have separate rows for Vendor Schedule)
+df.dropna(subset = ["Market Name"], inplace=True)
+
 df['name'] = df['Market Name']
 df['address'] = df['Address1']
 df['city'] = df['City']
@@ -42,7 +46,7 @@ df['zip_code'] = df['Zip']
 df['latitude'] = df['Latitude (String)']
 df['longitude'] = df['Longitude (String)']
 df['location_description'] = df['Vendor Schedule']
-df['type'] = df['Market Type']
+df['type'] = "farmer's market" #df['Market Type'] to match schema, this type applies to farmers markets and green grocer
 df['county'] = df['Farm Market County']
 df['phone'] = df['Market Phone']
 df['data_issues'] = ''
@@ -50,7 +54,18 @@ df['data_issues'] = ''
 df['source_org'] = 'FMNP Markets'
 df['source_file'] = os.path.basename(in_path)
 df['latlng_source'] = df['source_org']
+
+## apply rules that apply to both farmers market and green grocer
 df['FMNP'] = 1
+df['fresh_produce'] = 1
+df['free_distribution'] = 0
+df['open_to_spec_group'] = 0
+
+
+# apply rules specific to green grocer (per 05/19/2020 communication with Sarah B.)
+df.loc[df['name'].str.lower().str.contains('green grocer'),'SNAP'] = 1
+df.loc[df['name'].str.lower().str.contains('green grocer'),'WIC'] = 0
+df.loc[df['name'].str.lower().str.contains('green grocer'),'food_bucks'] = 1
 
 schedule = df['Vendor Schedule'].str.strip(' ')
 
@@ -73,7 +88,7 @@ df['date_to'] = date_to
 df['date_from'] = date_from
 
 df = df.reindex(columns = final_cols)
-df.dropna(subset = ["name"], inplace=True)
+
 
 # Identify which columns we have handled
 handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
