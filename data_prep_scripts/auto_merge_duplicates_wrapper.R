@@ -27,4 +27,4 @@ md$merged_record = '0'
 source("data_prep_scripts/merge_duplicates_functions.R")
 md <- merge_all_duplicates_in_dataframe(md, sfp)
 
-write.csv(md, stdout(), row.names = FALSE)
+write.csv(md, stdout(), quote = FALSE, row.names = FALSE)
