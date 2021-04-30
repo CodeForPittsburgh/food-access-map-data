@@ -1,4 +1,4 @@
-file_name,id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude
+file_name,idField,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude
 food-data/Cleaned_data_files//additional_food_bucks_sites.csv,2,The Food Trust,Additional Food Bucks sites.xlsx,,,Main Street Farmers Market,139 S Main Street,Washington,PA,15301,Allegheny,,,,40.172985,-80.246581
 food-data/Cleaned_data_files//bridgeway_capital_hffi.csv,4,Pittsburgh Food Policy Council,Bridgeway Capital - HFFI Funds.xlsx,,supermarket,52nd Street Market,601 52nd Street,Pittsburgh,PA,15201,Allegheny,,,,40.478792,-79.951927
 food-data/Cleaned_data_files//bridgeway_capital_hffi.csv,5,Pittsburgh Food Policy Council,Bridgeway Capital - HFFI Funds.xlsx,,supermarket,Perry's Honeydripper,7006 Frankstown Avenue,Pittsburgh,PA,15208,Allegheny,,,,40.458207,-79.900861
