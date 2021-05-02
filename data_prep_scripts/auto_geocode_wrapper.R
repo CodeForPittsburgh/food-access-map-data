@@ -31,7 +31,7 @@ if (length(args)==0) {
 input <- file('stdin', 'r')
 
 ## read.table() bc stdin input
-all_datasets <- read.csv(input)
+all_datasets <- read.csv(input, stringsAsFactors = FALSE)
 
 ## run function with datatable input
 all_datasets <- run_geocode(all_datasets)
