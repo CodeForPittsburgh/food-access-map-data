@@ -4,4 +4,9 @@
 .RData
 .Rproj.user
 
-__pycache__
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env/
