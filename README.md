@@ -15,15 +15,26 @@ R: Some of the data processing scripts are written in R.
 There are multiple ways to access and manipulate the data, but for simplicity’s sake, this README will recommend a Python or R. 
 # Get the Data
 ## Python
-Install Python (3, not 2) however you like. The [Anaconda](https://www.anaconda.com/products/individual) distribution is a popular bundle of Python, a package manager (`conda`) that lets you install and update add-ons, and many common packages including `pandas` and `numpy`, which you will need to run the Python scripts.
+This project uses [Python3](https://www.python.org/), [pipenv](https://pypi.org/project/pipenv/) and [pytest](https://docs.pytest.org/en/6.2.x/).
 
-If you go with a different Python distribution, just make sure you have the following packages installed in your environment:
- - pandas
- - numpy
- - xlrd
- - os
+Required packages are listed in `Pipfile` and can be installed using
 
-You can view and edit Python scripts in any of a wide range of programs, from simple text editors like Notepad++ to full-featured Integrated Development Environments like Visual Studio. If you don’t already have a preference, check out [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/), or [VS Code](https://code.visualstudio.com/).
+```$ pipenv install```
+
+This installs the packages in a virtual environment, a python convention which allows different projects to have different dependencies, with different versions.
+
+You can run a single command inside the virtual environment using `pipenv run`, or open a shell using
+
+```$ pipenv shell```
+
+Tests are stored in the `tests/` directory, and include any file in the form `test_*.py`, you can run them using
+
+```$ pytest```
+
+When you're done with the virtual environment, you can leave it using
+
+```$ exit```
+
 ## R
 It is recommended to use the RStudio IDE to interact with the data. 
 
