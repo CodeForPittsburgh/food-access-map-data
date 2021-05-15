@@ -2,10 +2,10 @@ name: Run Python Tests
 on:
   push:
     branches:
-      - master
+      - '**'        # matches every branch
   pull_request:
     branches:
-      - master
+      - '**'        # matches every branch
 
 jobs:
   build:
