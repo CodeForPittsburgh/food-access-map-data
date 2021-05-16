@@ -6,7 +6,6 @@ on:
   pull_request:
     branches:
       - '**'        # matches every branch
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,6 +18,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Run tests with pytest
-        run: pytest
+          pip install pipenv
+      - name: Run tests
+        run: |
+          pipenv install --dev
+          pipenv run pytest
