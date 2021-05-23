@@ -71,6 +71,15 @@ Data for the food access map:
 	+ **auto_id_duplicates_wrapper.py**  --		Identifies duplicate rows
 	+ **auto_merge_duplicates_wrapper.py**  --	Merges duplicate rows, resolving conflicts on critical information by prioritizing some data sources
 
+# Data Sources for Food Access Map
+
+* FMNP Markets
+* Greater Pittsburgh Community Food Bank
+* Just Harvest
+* Pittsburgh Food Policy Council
+* USDA Food and Nutrition Service
+* Western Pennsylvania Regional Database
+
 # Extra Resources
 
 ## For An Introduction to R and RStudio
