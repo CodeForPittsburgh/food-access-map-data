@@ -2,10 +2,11 @@ name: Run Python Tests
 on:
   push:
     branches:
-      - '**'        # matches every branch
+      - master
   pull_request:
     branches:
-      - '**'        # matches every branch
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,12 +15,10 @@ jobs:
       - name: Install Python 3
         uses: actions/setup-python@v1
         with:
-          python-version: 3.6.13
+          python-version: 3.7
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pipenv
-      - name: Run tests
-        run: |
-          pipenv install --dev
-          pipenv run pytest
+          pip install -r requirements.txt
+      - name: Run tests with pytest
+        run: pytest
