@@ -1,4 +1,4 @@
-name: Run Workflow
+name: Generate Merged Dataset
 on: workflow_dispatch
 
 jobs:
