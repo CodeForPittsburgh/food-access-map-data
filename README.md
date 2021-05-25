@@ -73,12 +73,13 @@ Data for the food access map:
 
 # Data Sources for Food Access Map
 
-* FMNP Markets
+* Farmers Market Nutritional Program
 * Greater Pittsburgh Community Food Bank
 * Just Harvest
 * Pittsburgh Food Policy Council
 * USDA Food and Nutrition Service
-* Western Pennsylvania Regional Database
+
+Sources are obtained and prepared for additional processing via our data prep scripts. The source rules for utilizing those scripts can be found [here](https://github.com/CodeForPittsburgh/food-access-map-data/blob/master/data_prep_scripts/source_rules.md).
 
 # Extra Resources
 
