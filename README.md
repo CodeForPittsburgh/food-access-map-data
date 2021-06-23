@@ -79,6 +79,17 @@ Data for the food access map:
 * Pittsburgh Food Policy Council
 * USDA Food and Nutrition Service
 
+# Data Labels
+These labels are listed in merged_datasets.csv and are used to denote particular unique traits of the food source.
+
+* SNAP - Whether the site accepts SNAP
+* WIC - Whether the site accepts WIC
+* FMNP - [**TO BE DETERMINED**]
+* fresh_produce - Whether the site offers fresh produce
+* food_bucks - Whether the site accepts food bucks
+* free_distribution - [**TO BE DETERMINED**]
+* open_to_spec_group - [**TO BE DETERMINED**]
+
 Sources are obtained and prepared for additional processing via our data prep scripts. The source rules for utilizing those scripts can be found [here](https://github.com/CodeForPittsburgh/food-access-map-data/blob/master/data_prep_scripts/source_rules.md).
 
 # Extra Resources
