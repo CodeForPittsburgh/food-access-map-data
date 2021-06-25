@@ -73,13 +73,24 @@ Data for the food access map:
 
 # Data Sources for Food Access Map
 
-* Farmers Market Nutritional Program
-* Greater Pittsburgh Community Food Bank
-* Just Harvest
-* Pittsburgh Food Policy Council
-* USDA Food and Nutrition Service
+* Farmers Market Nutritional Program - Established by Congress in 1992, to provide fresh, unprepared, locally grown fruits and vegetables to WIC participants, and to expand the awareness, use of, and sales at farmers’ markets
+* Greater Pittsburgh Community Food Bank - Food bank for the Greater Pittsburgh Area
+* Just Harvest - "Nonprofit organization that reduces hunger through sustainable, long-term approaches that lift up those in need"
+* Pittsburgh Food Policy Council - "The mission of the Pittsburgh Food Policy Council is to build a food system that benefits our communities, economy, and environment in ways that are just, equitable and sustainable"
+* USDA Food and Nutrition Service - Agency of US Department of Agriculture responsible for administering the nation’s domestic nutrition assistance programs
 
 Sources are obtained and prepared for additional processing via our data prep scripts. The source rules for utilizing those scripts can be found [here](https://github.com/CodeForPittsburgh/food-access-map-data/blob/master/data_prep_scripts/source_rules.md).
+
+# Data Labels
+These labels are listed in merged_datasets.csv and are used to denote particular unique traits of the food source.
+
+* SNAP - Whether the site accepts SNAP
+* WIC - Whether the site accepts WIC
+* FMNP - Whether the site accepts farmers market nutrition program
+* fresh_produce - Whether the site offers fresh produce
+* food_bucks - Whether the site accepts food bucks
+* free_distribution - Whether the site offers free food assistance
+* open_to_spec_group - Whether the site is only open to special groups
 
 # Extra Resources
 

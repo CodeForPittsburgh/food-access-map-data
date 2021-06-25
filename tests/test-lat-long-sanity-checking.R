@@ -18,3 +18,4 @@ test_that("Geocode excludes rows that even after geocoding are substantially out
   expect_equal(round(output$longitude, digits=2), round(exp_output$longitude, digits=2))
   expect_equal(round(output$latitude, digits=2), round(exp_output$latitude, digits=2))
 })
+
