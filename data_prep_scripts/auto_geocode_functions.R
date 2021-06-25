@@ -11,7 +11,7 @@ library(httr)
 run_geocode <- function(df) {
   # STEP 1 - Obtain only rows in the data frame where lat/long values are NA or significantly outside the Boundaries of allegheny county
   df_filter <- df %>% 
-    filter(is.na(latitude) | is.na(longitude) | latitude < -79 | latitude > -81 | longitude < 40 | longitude > 41) 
+    filter(is.na(latitude) | is.na(longitude) | !between(longitude, -82, -78) | !between(latitude, 39, 42)) 
   
   # STEP 2 - Create dataframe composed only of the row id and the concatenated address
   df_transmute <- df_filter %>% transmute(id = id, address = str_c(address, city, state, zip_code, sep = ", "))
@@ -25,14 +25,13 @@ run_geocode <- function(df) {
   
   # STEP 5 - Join geocoded latitude and longitude back into corresponding row, and clean up dataframe
   df <- df %>% left_join(df_geocode %>% select(id, long, lat), by = "id")
-  df <- df %>% mutate(longitude = ifelse(is.na(longitude), long, longitude),
-                      latitude = ifelse(is.na(latitude), lat, latitude),
+  df <- df %>% mutate(longitude = ifelse(is.na(longitude)| !between(longitude, -82, -78), long, longitude),
+                      latitude = ifelse(is.na(latitude) | !between(latitude, 39, 42) , lat, latitude),
                       latlng_source = ifelse(is.na(latlng_source), "Mapbox Geocode", latlng_source))
   df <- df %>% select(-lat, -long) 
   
   # Step 6 - Exclude rows whose latitude and longitude is outside of boundaries even after geocoding.
-  df_exclude <- df %>% 
-    filter(latitude >= -79 & latitude <= -81 & longitude >= 40 & longitude <= 41) 
+  df_exclude <- df %>% filter(between(longitude, -82, -78) & between(latitude, 39, 42)) 
   return(df_exclude)
 }
 
