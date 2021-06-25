@@ -1,0 +1,8 @@
+file_name,id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude,latlng_source,date_from,date_to,SNAP,WIC,FMNP,fresh_produce,food_bucks,free_distribution,open_to_spec_group,data_issues
+food-data/Cleaned_data_files/additional_food_bucks_sites.csv,1,The Food Trust,Additional Food Bucks sites.xlsx,NA,NA,Shop 'n Save,336 8th St,New Kensington,PA,15068,NA,NA,NA,NA,27,-79.763981,Mapbox Geocode,NA,NA,1,NA,NA,NA,1,0,NA,NA
+food-data/Cleaned_data_files/additional_food_bucks_sites.csv,2,The Food Trust,Additional Food Bucks sites.xlsx,NA,NA,Empire State Building,20 W 34th St,New York,NY,10001,NA,NA,NA,NA,,,,NA,NA,1,NA,NA,NA,1,0,NA,NA
+food-data/Cleaned_data_files/additional_food_bucks_sites.csv,3,The Food Trust,Additional Food Bucks sites.xlsx,NA,NA,Disneyland,1313 Disneyland Dr,Anaheim,CA,92802,NA,NA,NA,NA,,,,NA,NA,1,NA,NA,NA,1,0,NA,NA
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

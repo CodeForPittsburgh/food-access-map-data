@@ -30,7 +30,10 @@ run_geocode <- function(df) {
                       latlng_source = ifelse(is.na(latlng_source), "Mapbox Geocode", latlng_source))
   df <- df %>% select(-lat, -long) 
   
-  return(df)
+  # Step 6 - Exclude rows whose latitude and longitude is outside of boundaries even after geocoding.
+  df_exclude <- df %>% 
+    filter(latitude >= -79 & latitude <= -81 & longitude >= 40 & longitude <= 41) 
+  return(df_exclude)
 }
 
 geocode_single <- function(search) {
