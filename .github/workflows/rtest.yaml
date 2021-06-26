@@ -2,10 +2,10 @@ name: Run R Tests
 on:
   push:
     branches:
-      - master
+      - '**'        # i.e. "Every branch"
   pull_request:
     branches:
-      - master    
+      - '**'        # i.e. "Every branch"
   workflow_dispatch:
     inputs:
     name:

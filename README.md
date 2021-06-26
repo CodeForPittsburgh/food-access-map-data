@@ -3,6 +3,11 @@ This project's goal is to create an internal and public-facing resource (e.g. an
 
 There are many food-related nonprofits in the Pittsburgh area, and each maintains datasets about different food access programs and where they are offered (for example, Greater Pittsburgh Food Bank maintains a list of food pantries). The data processing part of this project gathers data from various sources and merges the datasets into a common format.
 
+# Where is the Map located?
+
+The map is located at the following address: 
+https://www.arcgis.com/apps/instant/nearby/index.html?appid=6315c774b49540689eac60bce9e0c8bd
+
 # How You Can Help
 Volunteers can help in a number of ways, including developing code, fixing bugs, and improving project documentation. A list of outstanding issues can be found on the [issues page](https://github.com/CodeForPittsburgh/food-access-map-data/issues), but if you can't find an issue you think you can work on, don't hesitate to ask one of us for help figuring out how you can contribute!
 
@@ -15,15 +20,26 @@ R: Some of the data processing scripts are written in R.
 There are multiple ways to access and manipulate the data, but for simplicity’s sake, this README will recommend a Python or R. 
 # Get the Data
 ## Python
-Install Python (3, not 2) however you like. The [Anaconda](https://www.anaconda.com/products/individual) distribution is a popular bundle of Python, a package manager (`conda`) that lets you install and update add-ons, and many common packages including `pandas` and `numpy`, which you will need to run the Python scripts.
+This project uses [Python3](https://www.python.org/), [pipenv](https://pypi.org/project/pipenv/) and [pytest](https://docs.pytest.org/en/6.2.x/).
 
-If you go with a different Python distribution, just make sure you have the following packages installed in your environment:
- - pandas
- - numpy
- - xlrd
- - os
+Required packages are listed in `Pipfile` and can be installed using
 
-You can view and edit Python scripts in any of a wide range of programs, from simple text editors like Notepad++ to full-featured Integrated Development Environments like Visual Studio. If you don’t already have a preference, check out [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/), or [VS Code](https://code.visualstudio.com/).
+```$ pipenv install```
+
+This installs the packages in a virtual environment, a python convention which allows different projects to have different dependencies, with different versions.
+
+You can run a single command inside the virtual environment using `pipenv run`, or open a shell using
+
+```$ pipenv shell```
+
+Tests are stored in the `tests/` directory, and include any file in the form `test_*.py`, you can run them using
+
+```$ pytest```
+
+When you're done with the virtual environment, you can leave it using
+
+```$ exit```
+
 ## R
 It is recommended to use the RStudio IDE to interact with the data. 
 
@@ -47,17 +63,34 @@ Data for the food access map:
 
 * `merged_datasets.csv` is the most current version of compiled PFPC data (last update 04/01/2020 w/ de-dup by fuzzystring turned off for now)
 
+* To regenerate merged_datasets.csv with new data, run the "[Generate Merged Dataset](https://github.com/CodeForPittsburgh/food-access-map-data/actions/workflows/generate_merged_dataset.yml)" Github Action. This calls "data_prep_scripts/run.sh", which runs the following scripts in order.
+	+ **auto_agg_clean_data.R**   --		Reads in previously prepared data sources and aggregates them to a single data frame.
+	+ **auto_text_process_name.R**  --		Assigns types (like Chain Grocery Store, Farmer's Market, etc) to different addresses
+	+ **auto_geocode_wrapper.R**  --		Uses geocoding to obtain latitude and longitude coordinates for addresses without them
+	+ **auto_clean_addresses_wrapper.py**  --	Cleans up addresses to a standardized format
+	+ **auto_id_duplicates_wrapper.py**  --		Identifies duplicate rows
+	+ **auto_merge_duplicates_wrapper.py**  --	Merges duplicate rows, resolving conflicts on critical information by prioritizing some data sources
 
-* Run `run_new_data_merge.R` to generate `merged_datasets.csv`, which calls:
+# Data Sources for Food Access Map
 
-	+ prepared data sources in `food-data/Cleaned_data_files/`
+* Farmers Market Nutritional Program - Established by Congress in 1992, to provide fresh, unprepared, locally grown fruits and vegetables to WIC participants, and to expand the awareness, use of, and sales at farmers’ markets
+* Greater Pittsburgh Community Food Bank - Food bank for the Greater Pittsburgh Area
+* Just Harvest - "Nonprofit organization that reduces hunger through sustainable, long-term approaches that lift up those in need"
+* Pittsburgh Food Policy Council - "The mission of the Pittsburgh Food Policy Council is to build a food system that benefits our communities, economy, and environment in ways that are just, equitable and sustainable"
+* USDA Food and Nutrition Service - Agency of US Department of Agriculture responsible for administering the nation’s domestic nutrition assistance programs
 
-	+ `name_text_processing_script.R`
-	
-	+ `geocoding.R` 
+Sources are obtained and prepared for additional processing via our data prep scripts. The source rules for utilizing those scripts can be found [here](https://github.com/CodeForPittsburgh/food-access-map-data/blob/master/data_prep_scripts/source_rules.md).
 
-	
-[Map of data in merged_datasets.csv](https://wprdc-maps.carto.com/u/wprdc/builder/64b812f6-45fa-4f27-a239-6e61a870d1de/embed)
+# Data Labels
+These labels are listed in merged_datasets.csv and are used to denote particular unique traits of the food source.
+
+* SNAP - Whether the site accepts SNAP
+* WIC - Whether the site accepts WIC
+* FMNP - Whether the site accepts farmers market nutrition program
+* fresh_produce - Whether the site offers fresh produce
+* food_bucks - Whether the site accepts food bucks
+* free_distribution - Whether the site offers free food assistance
+* open_to_spec_group - Whether the site is only open to special groups
 
 # Extra Resources
 
