@@ -24,7 +24,7 @@ suppressPackageStartupMessages(library(stringr))
 
 #read in data from stdin
 all_datasets <- file('stdin', 'r') %>% 
-  read.csv()
+  read.csv(stringsAsFactors = FALSE)
 
 #create series of regex assigned to categories of type
 supermarket <- c("ALDI", 
@@ -98,17 +98,17 @@ farmers_markets <- c("JUST HARVEST") %>%
 
 #series of case_when statements to determine type
 #test whether the type is missing and whether we can detect the avove regex in the name
-all_datasets <- all_datasets %>% 
+all_datasets <- all_datasets %>%
   mutate(name = str_to_upper(name),
          name = str_squish(name),
-         type_old = type) %>% 
+         type_old = type) %>%
   mutate(type = case_when(is.na(type_old) & str_detect(name, "GREEN GROCER") ~ type_old,
                           is.na(type_old) & str_detect(name, convenience_store) ~ "convenience store",
                           is.na(type_old) & str_detect(name, supermarket) ~ "supermarket",
                           is.na(type_old) & str_detect(name, farmers_markets) ~ "farmer's market",
                           type_old == "farmer's market" ~ "farmer's market",
                           #for all other cases, keep the existing type
-                          TRUE ~ type_old)) %>% 
+                          TRUE ~ type_old)) %>%
   select(-type_old)
 
 write.csv(all_datasets, stdout(), row.names = FALSE)
