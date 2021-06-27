@@ -49,7 +49,7 @@ SNAP <- dat0 %>%
                      original_id)) %>% 
   rowwise() %>%
   mutate(source_org = "USDA Food and Nutrition Service",
-         source_file = dat1,
+         source_file = "https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/Store_Locations/FeatureServer",
          latlng_source = "USDA Food and Nutrition Service",
          food_bucks = NA,
          SNAP = 1,
