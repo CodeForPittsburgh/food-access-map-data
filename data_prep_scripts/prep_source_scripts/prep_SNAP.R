@@ -1,5 +1,4 @@
-## script to clean up original data sources (by fitting to schema); data provided by PFPC
-## specific sources include 1) PA SNAP 2) Grow PGH
+## script to clean up original PA SNAP source (by fitting to schema); data pulled from USDA website
 
 ## load libs / set up
 library(tidyverse)

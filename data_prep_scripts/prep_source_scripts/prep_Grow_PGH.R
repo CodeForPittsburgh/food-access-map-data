@@ -1,5 +1,4 @@
-# script to clean up original data sources (by fitting to schema); data provided by PFPC
-## specific sources include 1) PA SNAP 2) Grow PGH
+# script to clean up original Grow PGH (by fitting to schema); data provided by Grow PGH via Rayden Sorock 06-25-2021
 
 ## load libs / set up
 library(tidyverse)
@@ -22,7 +21,7 @@ dat0 <- data_mod %>%
   slice(-1)
 
 ##  ----------------- growgardenpgh
-dat2 <- "GP garden directory_listing-20210322.csv" 
+dat2 <- "GP_garden_directory_listing-20210322.csv" 
 growpgh <- read_csv(paste0(read_loc1, dat2)) 
 
 growpgh <- dat0 %>%
