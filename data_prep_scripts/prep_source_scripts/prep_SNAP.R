@@ -1,12 +1,9 @@
 ## script to clean up original data sources (by fitting to schema); data provided by PFPC
 ## specific sources include 1) PA SNAP 2) Grow PGH
 
-## load libs
+## load libs / set up
 library(tidyverse)
-
-## data sources for new scheme
-read_loc1 <- "food-data/PFPC_data_files/" ## original file source
-write_loc <- "food-data/Cleaned_data_files/" ## check if this is how we want to do it
+write_loc <- "food-data/Cleaned_data_files/"
 
 ## ----------------------- read in data_model
 data_mod <- readxl::read_excel("schema.xlsx", sheet = "master_table") %>% 
@@ -32,10 +29,9 @@ request <- httr::GET(dat1)
 object <- httr::content(request, as = "text", encoding = "UTF-8") %>% 
   jsonlite::fromJSON()
 
-# object$features %>% str()
 
 SNAP <- object$features$attributes %>% 
-  as_tibble() #%>% mutate_all(as.character)
+  as_tibble() 
 
 SNAP <- dat0 %>% 
   bind_rows(SNAP %>% filter(State %in% "PA", 
@@ -67,44 +63,6 @@ SNAP <- dat0 %>%
   ungroup()
 
 write_csv(SNAP, paste0(write_loc, "cleaned_PA_SNAP.csv"))
-rm(dat1, SNAP)
-
-
-##  ----------------- growgardenpgh
-dat2 <- "growpghgardens201712_readin.xlsx"
-growpgh <- readxl::read_excel(paste0(read_loc1, dat2)) 
-
-growpgh <- dat0 %>%
-  bind_rows(growpgh %>%
-              mutate(state = ifelse(state %in% "Pennsylvania", "PA", state),
-                     original_id = as.character(grower_id),
-                     zip_code = as.character(zip_code)) %>%
-              select(name = urban_grower,
-                     address = street_address,
-                     city,
-                     state,
-                     zip_code,
-                     latitude,
-                     longitude,
-                     original_id,
-                     url = url)) %>%
-  rowwise() %>%
-  mutate(source_org = "Western Pennsylvania Regional Data Center",
-         source_file = dat2,
-         type = "Grow PGH Garden",
-         latlng_source = "Western Pennsylvania Regional Data Center",
-         food_bucks = 0, 
-         SNAP = 1, 
-         WIC = 0,
-         FMNP = 1, 
-         fresh_produce = 1, 
-         free_distribution = 0, 
-         open_to_spec_group = 0,
-         data_issues = "no date/time;no county info") %>%
-  ungroup()
-
-write_csv(growpgh, paste0(write_loc, "cleaned_growpgh.csv"))
-rm(dat2, growpgh)
 
 ###--- clean up
-rm(dat0, data_mod, read_loc1, write_loc)
+rm(dat0, data_mod, write_loc, dat1, SNAP)
