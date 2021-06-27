@@ -49,7 +49,7 @@ df = df.rename(columns={'x':'X', 'y':'Y'})
 df = df[df['STATUS'] == 'active']
 
 df['source_org'] = 'Greater Pittsburgh Community Food Bank'
-df['source_file'] = '%5BPUBLIC%5D_COVID19_Food_Access.csv'
+df['source_file'] = 'https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer' #%5BPUBLIC%5D_COVID19_Food_Access.csv'
 df['original_id'] = df['globalid'].str.strip('{}')
 df['type'] = 'food bank site'
 df['name'] = df['SITE_name']
