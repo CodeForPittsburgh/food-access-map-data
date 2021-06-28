@@ -136,41 +136,19 @@ def test_manor(group_id):
     assert(all_different([1065,1119,1425], group_id))
 
 
-#TODO(wspk): no longer seems to exist?
-#Test that two entries, one for "Windber Area Community Kitchen", and one for "Windber Area Community Kitchen - Wackpack Program" are NOT grouped together for merge
-#id's of entries are 1745 and 1746, respectively.
-def test_id_duplicates_windber_no_group():
-	return True
-
-#TODO(wspk): no longer seems to exist?
-#Test that two entries, one for "St. Catherine of Siena Food Pantry", and one for "St. Catherine of Siena Fresh Market" are NOT grouped together for merge
-#id's of entries are 1660 and 1661, respectively.
-def test_id_duplicates_st_catherine_no_group():
-	return True
-
-
-#Test that two entries, one for "Giant Eagle 78", and one for "Giant Eagle" are grouped together
-#id's of entries are 963 and 36, respectively.
-def test_id_duplicates_giant_eagle_group():
-	return True
-
 #Test that two entries, one for "Bailie Food Mart", and one for "Bailey Food Mart" are grouped together
-#id's of entries are 650 and 1778, respectively.
-def test_id_duplicates_Bailey_Bailie_group():
-	return True
+#                                 name             address   latitude  longitude
+#1269                 Bailey Food Mart  2316 Bailie Avenue  40.341113 -79.848597
+#554                  Bailie Food Mart  2316 Bailey Avenue  40.341465 -79.849228
+def test_id_duplicates_Bailey_Bailie_group(group_id):
+    assert(match([1269, 554], group_id))
+
 
 #Test that three entries for "Bellevue Farmers Market", "Belllevue Farmers Market", and "BELLEVUE" are grouped together
-#id's of entries are 272,1753, and 1144, respectively
+#                                 name                address     latitude   longitude
+# 1049                        BELLEVUE  34 North Balph Avenue   40.4962663 -80.0569321
+# 188          Bellevue Farmers Market      34 N Balph Avenue      40.4967  -80.054756
+# 1244        Belllevue Farmers Market      34 N Balph Avenue    40.496526  -80.054299
 #BELLEVUE may be a challenging one to merge. Let us know if passing it is especially difficult
 def test_id_duplicates_Bellevue_group():
-	return True
-
-#Test that two entries, both for "North Versailles Save A Lot" are grouped together
-#id's of entries are 567 and 572, respectively.
-def test_id_duplicates_North_Versailles_group():
-	return True
-
-#Test that two entries, for "Community Human Services - Food Pantry", and "Community Human Services Teaching Garden" are NOT grouped together for merge
-#id's of entries are 1291, 115, respectively
-def test_id_duplicates_Community_Human_Services_no_group():
-	return True
+	assert(match([1049, 188, 1244], group_id))
