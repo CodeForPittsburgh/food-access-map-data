@@ -37,8 +37,8 @@ test_that("Whatever test verifies", {
 
 0. Make sure you have python installed on your local machine
 1. Open Git Bash, CMD Prompt, or your preferred command line interface in the root of the local food-access-map-data directory (should look something like ".../food-access-map-data/").
-2. Run "pipenv shell". This should open a shell environment with the necessary python modules installed.
-3. Run "pytest". This should automatically run all python tests indicated with "test_TESTNAME.py" in all subdirectories, but realistically, such tests should only be located in the "test" subdirectory.
+2. Run "pip install -r requirements.txt" This should install all required modules from the "requirements.txt" file in the root folder.
+4. Run "pytest". This should automatically run all python tests indicated with "test_TESTNAME.py" in all subdirectories, but realistically, such tests should only be located in the "test" subdirectory.
 
 ## Running Testthat on Local Machine
 
