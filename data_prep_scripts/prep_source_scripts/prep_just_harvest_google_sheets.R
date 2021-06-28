@@ -22,33 +22,56 @@ googlesheets4::gs4_auth()
 #follow in-browser instructions
 
 schema_cols <- c('id', 'source_org', 'source_file', 'original_id', 'type', 'name', 'address', 'city', 
-'state', 'zip_code', 'county', 'location_description', 'phone', 'url', 'latitude', 
-'longitude', 'latlng_source', 'date_from', 'date_to', 'SNAP', 'WIC', 'FMNP', 
-'fresh_produce', 'food_bucks', 'free_distribution', 'open_to_spec_group', 'data_issues')
+                 'state', 'zip_code', 'county', 'location_description', 'phone', 'url', 'latitude', 
+                 'longitude', 'latlng_source', 'date_from', 'date_to', 'SNAP', 'WIC', 'FMNP', 
+                 'fresh_produce', 'food_bucks', 'free_distribution', 'open_to_spec_group', 'data_issues')
 
 gs_path <- "https://docs.google.com/spreadsheets/d/1DuzaXafd-2eH5oBlL8JVGZLi_f7Ccj2npqyPoGiusQM/edit?ts=60d28fc9#gid=820493315"  
 
 jh_sheet_names <- sheet_names(gs_path)
 
-sheet_ids <- as_sheets_id(gs_path)
-
-sheet_ids
-
-food_data <- read_sheet(gs_path, sheet = sheet_names(gs_path)[1])
-
-food_data <- food_data %>% 
+#fresh corners
+fresh_corners <- read_sheet(gs_path, sheet = jh_sheet_names[1]) %>% 
   rename(name = `Corner Store`,
          address = Address,
          city = City,
-         zip_code = Zip) %>% 
-  mutate(zip_code = as.character(zip_code))
+         zip_code = Zip,
+         SNAP = `Participates in Food Bucks SNAP Incentive Program`) %>% 
+  mutate(zip_code = as.character(zip_code)) %>% 
+  select(-c(Area, Notes)) %>% 
+  mutate(SNAP = case_when(SNAP == "yes" ~ 1,
+                          TRUE ~ 0)) %>% 
+  select(any_of(schema_cols))
+
+glimpse(fresh_corners)
+
+#fresh access market
+fresh_access_market <- read_sheet(gs_path, sheet = jh_sheet_names[2]) %>% 
+  rename(name = Market,
+         SNAP = `Participates in Food Bucks SNAP Incentive program`) %>%
+  mutate(zip_code = as.character(zip_code)) %>% 
+  separate(Season, into = c("date_from", "date_to"), sep = "-") %>% 
+  mutate(SNAP = case_when(SNAP == "yes" ~ 1,
+                          TRUE ~ 0)) %>% 
+  mutate(location_description = str_c("Date Time: ", `Date/Time`,
+                                      "|",
+                                      "Weekday: ", weekday,
+                                      "|",
+                                      "Open Time: ", open_time1,
+                                      "|",
+                                      "Close Time: ", close_time1,
+                                      "|",
+                                      "Description: ", description,
+                                      sep = "")) %>% 
+  select(any_of(schema_cols))
+
+#combine
+just_harvest_data <- list(fresh_corners, fresh_access_market) %>% 
+  bind_rows()
+
+just_harvest_data
 
 glimpse(food_data)
-
-test_file <-dat0 %>% 
-  bind_rows(food_data)
-
-View(test_file)
 
 # test_file %>% 
 #   write_csv("food-data/Cleaned_data_files/just_harvest.csv")
