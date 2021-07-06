@@ -1,5 +1,4 @@
 
-
 ## script to clean up original PA WIC source (by fitting to schema); data pulled from PA WIC website
 
 ## load libs / set up
@@ -57,4 +56,4 @@ WIC <- dat0 %>%
 write_csv(WIC, paste0(write_loc, "cleaned_PA_WIC.csv"))
 
 ###--- clean up
-rm(dat0, data_mod, write_loc, dat1, WIC)
+rm(dat0, data_mod, write_loc, WIC)
