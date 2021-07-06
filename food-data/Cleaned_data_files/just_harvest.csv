@@ -1,0 +1,34 @@
+id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude,latlng_source,date_from,date_to,open_to_spec_group,data_issues,SNAP
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Juba Grocery,2721 Brownsville Rd,Pittsburgh,PA,15227,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Carl's Café,337 5th Ave,Rankin,PA,15104,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Farm Fresh Foods,226 N. Negley Ave,Pittsburgh,PA,15206,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,L.A. Grocery,511 Larimer Ave,Pittsburgh,PA,15206,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Bailey Food Mart,2316 Bailie Ave,McKeesport,PA,15132,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,In & Out Corner Market,300 Helen St.,McKees Rocks,PA,15136,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Rocks Express,700 Frederick Street,McKees Rocks,PA,15136,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Deann's Groceria,207 Brownsville Rd.,Mount Oliver,PA,15210,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Schwartz Market,1901 5th Ave,Pittsburgh,PA,15219,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Produce Marketplace,519 St Clair Ave,Clairton,PA,15025,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Ann's Market,2316 Webster Ave,Pittsburgh,PA,15219,Allegheny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Beechview Farmers Market,1563 Beechview Ave,NA,PA,15216,Allegheny,NA,NA,NA,NA,NA,NA,June 20th,September 12th,NA,missing city,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Belllevue Farmers Market,34 N Balph Ave,Bellevue,PA,15202,Allegheny,NA,NA,NA,NA,NA,NA,June 5th,October 30th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Bloomfield Saturday Market,5050 Liberty Ave,Pittsburgh,PA,15224,Allegheny,NA,NA,NA,NA,NA,NA,May 18th,November 2nd,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Carrick Farmers Market,1529 Brownsville Road,Pittsburgh,PA,15210,Allegheny,NA,NA,NA,NA,NA,NA,June 19th,November 27th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,East Liberty Farmers Market,NA,Pittsburgh,PA,15206,Allegheny,Street 1: Broad St|Street 2: Station St|Date Time: Mondays 3pm-7pm|Weekday: Monday|Open Time: 1899-12-30 15:00:00|Close Time: 1899-12-30 19:00:00|Description: Garland Parklet Lot. N. Euclid,NA,NA,NA,NA,NA,May 13th,November 25th,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Garfield Farm Stand,NA,Pittsburgh,PA,15224,Allegheny,NA,NA,NA,NA,NA,NA,June 5th,September 25th,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Green Tree Farmers Market,905 Greentree Road,Pittsburgh,PA,15220,Allegheny,NA,NA,NA,NA,NA,NA,May 23rd,October 31st,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Homewood Farmers Market,7139 Fransktown Ave,Pittsburgh,PA,15208,Allegheny,NA,NA,NA,NA,NA,NA,July 27th,October 26th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Homewood Farmers Market,7139 Fransktown Ave,Pittsburgh,PA,15208,Allegheny,NA,NA,NA,NA,NA,NA,July 3rd,July 31st,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Larimer Farmers Market,NA,Pittsburgh,PA,NA,Allegheny,Street 1: Larimer Ave|Street 2: Carver St|Date Time: 4th Sundays 3pm-7pm|Weekday: Sunday|Open Time: 1899-12-30 16:00:00|Close Time: 1899-12-30 19:00:00|Description: 4th Sunday,NA,NA,NA,NA,NA,June 23rd,November 24th,NA,missing address; missing zip code,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Lawrenceville Farmers Market,NA,Pittsburgh,PA,15201,Allegheny,Street 1: 40th St|Street 2: Butler St|Date Time: Tuesdays 4pm-7pm|Weekday: Tuesday|Open Time: 1899-12-30 10:00:00|Close Time: 1899-12-30 14:00:00|Description: Arsenal Park,NA,NA,NA,NA,NA,June 4th,October 29tth,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Market Square Farmers Market,NA,Pittsburgh,PA,15222,Allegheny,NA,NA,NA,NA,NA,NA,May 16th,October 31st,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Mellon Square Farmers Market,NA,Pittsburgh,PA,15222,Allegheny,"Street 1: Smithfield St|Street 2: Sixth Ave|Date Time: Fridays 10:30am-1:30pm|Weekday: Friday|Open Time: 1899-12-30 15:00:00|Close Time: 1899-12-30 18:00:00|Description: Mellon Square Park,",NA,NA,NA,NA,NA,May 10th,October 25th,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Moon Township Farmers Market,1000 Beaver Grade Road,Moon,PA,15108,Allegheny,NA,NA,NA,NA,NA,NA,June 5th,September 25th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,North Side Farmers Market,NA,Pittsburgh,PA,15101,Allegheny,NA,NA,NA,NA,NA,NA,May 17th,November 22nd,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Peters Township Farmers Market,905 East McMurray Rd,Venetia,PA,15367,Allegheny,NA,NA,NA,NA,NA,NA,May 22nd,September 25th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,South Side Farmers Market,NA,Pittsburgh,PA,15203,Allegheny,NA,NA,NA,NA,NA,NA,May 14th,November 26th,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Squirrel Hill Farmers Market,NA,Pittsburgh,PA,15217,Allegheny,NA,NA,NA,NA,NA,NA,May 12th,November 24th,NA,missing address,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Swissvale Farmers Market,7301 Schoyer Ave,Swissvale,PA,15218,Allegheny,NA,NA,NA,NA,NA,NA,June 1st,October 26th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Wilkinsburg Thursday Open Market,225 Penn Avenue,Wilkinsburg,PA,15221,Allegheny,NA,NA,NA,NA,NA,NA,June 13th,November 14th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Braddock Farm Stand,1000 Braddock Ave,Braddock,PA,15104,Allegheny,NA,NA,NA,NA,NA,NA,June 1st,October 26th,NA,,1
+NA,Just Harvest,Just Harvest Google Sheets,NA,NA,Shiloah Farm Stand,NA,Pittsburgh,PA,15208,Allegheny,NA,NA,NA,NA,NA,NA,June 6th,October 31sr,NA,missing address,1
