@@ -1,0 +1,83 @@
+id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude,latlng_source,date_from,date_to,open_to_spec_group,data_issues,food_bucks,SNAP,WIC,FMNP,fresh_produce,free_distribution
+NA,PA WIC,wicresults.json,Bethel Park Shop N Save,NA,Bethel Park Shop N Save,5001 LIBRARY RD ,BETHEL PARK,PA,15102,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Century Square Shop N Save,NA,Century Square Shop N Save,2381 MOUNTAIN VIEW DR ,WEST MIFFLIN,PA,15122,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Community Market #96 Bloomfield,NA,Community Market #96 Bloomfield,4401 LIBERTY AVE ,PITTSBURGH,PA,15224,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Community Mrkt Natrona Heights,NA,Community Mrkt Natrona Heights,1710 PACIFIC AVE ,NATRONA HEIGHTS,PA,15065,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Community Supermarket Verona,NA,Community Supermarket Verona,1117 MILLTOWN RD ,VERONA,PA,15147,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #14 Village Square,NA,Giant Eagle #14 Village Square,7000 OXFORD DR ,BETHEL PARK,PA,15102,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #15,NA,Giant Eagle #15,1701 Lincoln Hwy ,North Versailles,PA,15137,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #1691,NA,Giant Eagle #1691,400 NORTHTOWNE SQ ,GIBSONIA,PA,15044,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #24 South Fayette,NA,Giant Eagle #24 South Fayette,3239 WASHINGTON PIKE ,BRIDGEVILLE,PA,15017,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #29  West Mifflin,NA,Giant Eagle #29  West Mifflin,1356 Hoffman Blvd ,West Mifflin,PA,15122,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #43,NA,Giant Eagle #43,155 TOWNE CENTRE DR ,WEXFORD,PA,15090,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #641,NA,Giant Eagle #641,Char. Valley Shopping Center 1025 Washington Pike,Bridgeville,PA,15017,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #68,NA,Giant Eagle #68,5990 University Blvd ,Coraopolis,PA,15108,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #74 Parkway Center,NA,Giant Eagle #74 Parkway Center,1165 McKinney Lane ,Pittsburgh,PA,15220,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #78 Penn Hills,NA,Giant Eagle #78 Penn Hills,230 RODI RD ,PITTSBURGH,PA,15235,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #91,NA,Giant Eagle #91,318-320 CEDAR AVE ,PITTSBURGH,PA,15212,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle #93 Brentwood,NA,Giant Eagle #93 Brentwood,600 TOWNE SQUARE WAY ,PITTSBURGH,PA,15227,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Bethel Park #4,NA,Giant Eagle Bethel Park #4,5055 LIBRARY RD ,BETHEL PARK,PA,15102,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Braddock Hills #77,NA,Giant Eagle Braddock Hills #77,254 YOST BLVD ,PITTSBURGH,PA,15221,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Camp Horne #52,NA,Giant Eagle Camp Horne #52,132 BEN AVON HEIGHTS RD ,PITTSBURGH,PA,15237,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Caste Village #31,NA,Giant Eagle Caste Village #31,5260 GROVE RD ,PITTSBURGH,PA,15236,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Century III #73,NA,Giant Eagle Century III #73,9901 MOUNTAIN VIEW DR ,WEST MIFFLIN,PA,15122,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Crafton #646,NA,Giant Eagle Crafton #646,51 WALSH RD ,PITTSBURGH,PA,15205,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle East Liberty #17,NA,Giant Eagle East Liberty #17,6320 Shakespeare St ,Pittsburgh,PA,15206,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Edgewood,NA,Giant Eagle Edgewood,1705 S BRADDOCK AVE ,PITTSBURGH,PA,15218,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Elizabeth,NA,Giant Eagle Elizabeth,800 MCKEESPORT RD ,ELIZABETH,PA,15037,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Exp Harmar #5103,NA,Giant Eagle Exp Harmar #5103,2611 FREEPORT RD ,PITTSBURGH,PA,15238,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Fox Chapel #72,NA,Giant Eagle Fox Chapel #72,910 Freeport Road ,Pittsburgh,PA,15238,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Frankstown Rd #69,NA,Giant Eagle Frankstown Rd #69,9001 FRANKSTOWN RD ,PITTSBURGH,PA,15235,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Greenfield #63,NA,Giant Eagle Greenfield #63,4250 MURRAY AVE ,PITTSBURGH,PA,15217,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Homestead #6379,NA,Giant Eagle Homestead #6379,420 WATERFRONT DR E ,HOMESTEAD,PA,15120,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Kennedy Twp.,NA,Giant Eagle Kennedy Twp.,1800 MCKEES ROCKS RD ,MC KEES ROCKS,PA,15136,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Leetsdale #37,NA,Giant Eagle Leetsdale #37,5 Quaker Village Shop Ctr ,Leetsdale,PA,15056,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Mckeesport #64,NA,Giant Eagle Mckeesport #64,3812 ONEIL BLVD ,MCKEESPORT,PA,15132,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Monroeville #60,NA,Giant Eagle Monroeville #60,4010 MONROEVILLE BLVD ,MONROEVILLE,PA,15146,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle North Hills #67,NA,Giant Eagle North Hills #67,8080 MCINTYRE SQUARE DR ,PITTSBURGH,PA,15237,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Northside #65,NA,Giant Eagle Northside #65,4110 BRIGHTON RD ,PITTSBURGH,PA,15212,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Pine Creek #45,NA,Giant Eagle Pine Creek #45,9805 Mcknight Road ,Pittsburgh,PA,15237,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Shadyside #40,NA,Giant Eagle Shadyside #40,5550 CENTRE AVE ,PITTSBURGH,PA,15232,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Shaler #18,NA,Giant Eagle Shaler #18,1671 BUTLER PLANK RD ,GLENSHAW,PA,15116,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle South Side #61,NA,Giant Eagle South Side #61,2021 WHARTON ST ,PITTSBURGH,PA,15203,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Squirrel Hill #38,NA,Giant Eagle Squirrel Hill #38,1901 MURRAY AVE ,PITTSBURGH,PA,15217,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Verona #695,NA,Giant Eagle Verona #695,200 ALLEGHENY RIVER BLVD ,VERONA,PA,15147,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle Virginia Manor #35,NA,Giant Eagle Virginia Manor #35,1717 Cochran Road ,Pittsburgh,PA,15220,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle West View #25,NA,Giant Eagle West View #25,1029 W VIEW PARK DR ,PITTSBURGH,PA,15229,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle White Oak #600,NA,Giant Eagle White Oak #600,2001 Lincoln Way ,White Oak,PA,15131,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Giant Eagle#47 Settlers Ridge,NA,Giant Eagle#47 Settlers Ridge,100 SETTLERS RIDGE CENTER DR ,PITTSBURGH,PA,15205,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Haymaker Village Shop N Save,NA,Haymaker Village Shop N Save,4548 BROADWAY BLVD ,MONROEVILLE,PA,15146,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Kuhn's Market Bellevue,NA,Kuhn's Market Bellevue,661 LINCOLN AVE ,BELLEVUE,PA,15202,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Kuhn's Market Turtle Creek,NA,Kuhn's Market Turtle Creek,700 Beulah Road ,Turtle Creek,PA,15145,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Kuhn's Markets South Hills,NA,Kuhn's Markets South Hills,3125 BANKSVILLE RD ,PITTSBURGH,PA,15216,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Kuhn's Quality Foods,NA,Kuhn's Quality Foods,1130 HIGHWOOD ST ,PITTSBURGH,PA,15212,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Kuhns Market- North Hills,NA,Kuhns Market- North Hills,4801 McKnight Rd ,Pittsburgh,PA,15237,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,"Las Palmas, LLC",NA,"Las Palmas, LLC",1616 BROADWAY AVE ,PITTSBURGH,PA,15216,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Murray Avenue Kosher,NA,Murray Avenue Kosher,1916 MURRAY AVE ,PITTSBURGH,PA,15217,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Pittsburgh Commissary,NA,Pittsburgh Commissary,79 SOLDIERS LN ,CORAOPOLIS,PA,15108,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Rochester Road Shop-N-Save,NA,Rochester Road Shop-N-Save,184 Rochester Rd ,West View,PA,15229,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Route 8 Shop-N-Save,NA,Route 8 Shop-N-Save,5375 WILLIAM FLYNN HWY ,GIBSONIA,PA,15044,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Save-A-Lot Wilkinsburg,NA,Save-A-Lot Wilkinsburg,725 ROSS AVE ,PITTSBURGH,PA,15221,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shaler Shop N Save,NA,Shaler Shop N Save,1620 Babcock Blvd ,Pittsburgh,PA,15209,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Castle Shannon,NA,Shop N Save Castle Shannon,799 CASTLE SHANNON BLVD ,PITTSBURGH,PA,15234,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Glenshaw,NA,Shop N Save Glenshaw,917 BUTLER ST ,PITTSBURGH,PA,15223,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Heidelberg,NA,Shop N Save Heidelberg,2100 Washington Pike ,Carnegie,PA,15106,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Holiday Park,NA,Shop N Save Holiday Park,2362 GOLDEN MILE HWY ,PITTSBURGH,PA,15239,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Imperial,NA,Shop N Save Imperial,600 MARKET PLACE DR ,OAKDALE,PA,15071,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Lawrenceville,NA,Shop N Save Lawrenceville,450 56TH ST ,PITTSBURGH,PA,15201,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Mckeesport,NA,Shop N Save Mckeesport,815 5TH AVE ,MCKEESPORT,PA,15132,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Mt. Washington,NA,Shop N Save Mt. Washington,125 VIRGINIA AVE ,MOUNT WASHINGTON,PA,15211,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Noblestown,NA,Shop N Save Noblestown,2103 NOBLESTOWN RD ,PITTSBURGH,PA,15205,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Olympia,NA,Shop N Save Olympia,4313 Walnut Street ,Mckeesport,PA,15132,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Penn Hills,NA,Shop N Save Penn Hills,2820 Universal Road ,PENN HILLS,PA,15235,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Shop N Save Russellton,NA,Shop N Save Russellton,908 Little Deer Creek Valley ,RUSSELLTON,PA,15076,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,"Shop N Save, Brownsville Road",NA,"Shop N Save, Brownsville Road",1119 BROWNSVILLE RD ,PITTSBURGH,PA,15210,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Village Shop N Save,NA,Village Shop N Save,1886 Homeville Rd ,West Mifflin,PA,15122,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart #2281 West Mifflin,NA,Wal-Mart #2281 West Mifflin,2351 Century Dr ,West Mifflin,PA,15122,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart #2300 North Fayette,NA,Wal-Mart #2300 North Fayette,250 SUMMIT PARK DR ,PITTSBURGH,PA,15275,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart N. Versailles #2588,NA,Wal-Mart N. Versailles #2588,100 Wal-Mart Drive ,N. Versailles,PA,15137,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart Natrona Heights #3738,NA,Wal-Mart Natrona Heights #3738,4015 FREEPORT RD ,NATRONA HEIGHTS,PA,15065,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart Store # 5040,NA,Wal-Mart Store # 5040,2200 WASHINGTON PIKE ,CARNEGIE,PA,15106,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart Store #4644,NA,Wal-Mart Store #4644,7500 University Boulevard ,Moon Township,PA,15108,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wal-Mart Tarentum #3838,NA,Wal-Mart Tarentum #3838,2010 Village Center Dr ,Tarentum,PA,15084,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
+NA,PA WIC,wicresults.json,Wilkins Shop N Save,NA,Wilkins Shop N Save,3335 William Penn Highway ,Pittsburgh,PA,15235,NA,NA,NA,NA,NA,NA,na,NA,NA,0,no type;no phone;no date/time info,NA,NA,1,NA,NA,0
