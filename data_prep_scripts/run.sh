@@ -8,6 +8,9 @@ echo "Current Time : $current_time"
 new_fileName=$file_name.$current_time.csv
 echo "New FileName: " "$new_fileName"
 
+python data_prep_scripts/prep_source_scripts/source_py_scripts.py
+Rscript data_prep_scripts/prep_source_scripts/source_r_scripts.R
+
 Rscript data_prep_scripts/auto_agg_clean_data.R food-data/Cleaned_data_files/ | \
 	Rscript data_prep_scripts/auto_text_process_name.R | \
 	Rscript data_prep_scripts/auto_geocode_wrapper.R $mapbox_key | \
