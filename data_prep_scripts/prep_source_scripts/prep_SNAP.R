@@ -1,7 +1,7 @@
 ## script to clean up original PA SNAP source (by fitting to schema); data pulled from USDA website
 
 ## load libs / set up
-library(tidyverse)
+library(dplyr)
 write_loc <- "food-data/Cleaned_data_files/"
 
 ## ----------------------- read in data_model
