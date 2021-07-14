@@ -3,16 +3,16 @@ import numpy as np
 import os
 import re
 import requests
-import time 
+import time
 
 source = 'https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Child_Nutrition/FeatureServer'
 in_path = source + '/0/query?outFields=*&where=1%3D1&f=geojson'
-out_dir = '../food-data/Cleaned_data_files'
+out_dir = '../../food-data/Cleaned_data_files'
 out_path = os.path.join(out_dir, 'cleaned_summer_meal_sites_api.csv')
 
-final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 'address', 'city', 
-              'state', 'zip_code', 'county', 'location_description', 'phone', 'url', 'latitude', 
-              'longitude', 'latlng_source', 'date_from', 'date_to', 'SNAP', 'WIC', 'FMNP', 
+final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 'address', 'city',
+              'state', 'zip_code', 'county', 'location_description', 'phone', 'url', 'latitude',
+              'longitude', 'latlng_source', 'date_from', 'date_to', 'SNAP', 'WIC', 'FMNP',
               'fresh_produce', 'food_bucks', 'free_distribution', 'open_to_spec_group', 'data_issues']
 
 ### Summer Meal Sites ###
@@ -38,10 +38,10 @@ df['latitude'] = df['Latitude']
 df['longitude'] = df['Longitude']
 df['date_from'] = df['Start_Date'].apply(lambda x: time.strftime('%B %d %Y', time.localtime(x/1000)) if x != None else None)
 df['date_to'] = df['End_Date'].apply(lambda x: time.strftime('%B %d %Y', time.localtime(x/1000)) if x != None else None)
-                                           
+
 
 ## add into to location description
-df["location_description"] = None 
+df["location_description"] = None
 for row in range(len(df)):
     res = ''
     if df['Site_Street2'][row] != '':
@@ -55,8 +55,8 @@ for row in range(len(df)):
     if df['Site_Instructions'][row] != '':
         res = res + 'Site Instructions: ' + df['Site_Instructions'][row]
     df['location_description'][row] = res
-        
-        
+
+
 # Set some fields directly
 df['source_org'] = 'Allegheny County'
 df['source_file'] = source #os.path.basename(in_path)
@@ -83,7 +83,7 @@ handled_cols = df.columns[~df.isna().all()] # i.e. columns that aren't all NA
 for col in handled_cols:
     df.loc[df[col].isna(), 'data_issues'] += '{} missing;'.format(col)
 
-# Detect some specific data issues 
+# Detect some specific data issues
 # df.loc[((df['latitude'] == 0) & (df['longitude'] == 0)), 'data_issues'] += 'latlng is (0,0);'
 
 # Write out to CSV

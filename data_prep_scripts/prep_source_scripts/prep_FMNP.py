@@ -12,10 +12,10 @@ import requests
 
 
 source = 'https://services5.arcgis.com/n3KaqXoFYDuIhfyz/ArcGIS/rest/services/FMNPMarkets/FeatureServer'
-## api end point for Allegheny county, see source for more info 
+## api end point for Allegheny county, see source for more info
 in_path = source + '/0/query?where=FarmMarketCounty+%3D+%27Allegheny%27&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token='
 
-out_dir = '../food-data/Cleaned_data_files'
+out_dir = '../../food-data/Cleaned_data_files'
 out_path = os.path.join(out_dir,'FMNPMarkets.csv')
 
 month_lengths = {'January': 31,
@@ -36,7 +36,7 @@ final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 
               'longitude', 'latlng_source', 'date_from', 'date_to', 'SNAP', 'WIC', 'FMNP',
               'fresh_produce', 'food_bucks', 'free_distribution', 'open_to_spec_group', 'data_issues']
 
-## get Market data 
+## get Market data
 raw_dat = requests.get(in_path).json()
 get_entries = []
 for i in range(len(raw_dat['features'])):
@@ -54,7 +54,7 @@ for v in range(len(df)):
         track_vendors = []
         for i in range(len(j['features'])):
             track_vendors.append(pd.json_normalize(j['features'][i]['attributes']))
-    
+
         track_vendors = pd.concat(track_vendors).reset_index(drop = True)
         get_vendor_info.append(track_vendors)
 
@@ -63,9 +63,9 @@ vendor_df = vendor_df[['FarmMarketID', 'VendorSchedule']].drop_duplicates()
 vendor_df = vendor_df[~(vendor_df['VendorSchedule']== '')]
 ## get Vendor schedule for different days of week (if same day will only take first value, assume operating hours among vendors are similar enough within a market day)
 vendor_df['day'] = vendor_df['VendorSchedule'].str.extract(r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)')
-vendor_df = vendor_df.groupby(['FarmMarketID', 'day']).first().groupby('FarmMarketID')['VendorSchedule'].apply(lambda x: "%s" % '; '.join(x)).reset_index() 
+vendor_df = vendor_df.groupby(['FarmMarketID', 'day']).first().groupby('FarmMarketID')['VendorSchedule'].apply(lambda x: "%s" % '; '.join(x)).reset_index()
 
-## join vendor info to market info 
+## join vendor info to market info
 df = df.merge(vendor_df, how = 'left', on = 'FarmMarketID')
 
 ## set up df to be aligned with schema
@@ -131,4 +131,3 @@ for col in handled_cols:
 
 # Write out to CSV
 df.to_csv(out_path, index = False)
-
