@@ -2,7 +2,7 @@
 ## script to clean up original PA WIC source (by fitting to schema); data pulled from PA WIC website
 
 ## load libs / set up
-library(tidyverse)
+library(dplyr)
 write_loc <- "food-data/Cleaned_data_files/"
 
 ## ----------------------- read in data_model
