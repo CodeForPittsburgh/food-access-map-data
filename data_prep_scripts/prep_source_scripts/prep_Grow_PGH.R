@@ -1,7 +1,7 @@
 # script to clean up original Grow PGH (by fitting to schema); data provided by Grow PGH via Rayden Sorock 06-25-2021
 
 ## load libs / set up
-library(tidyverse)
+library(dplyr)
 read_loc1 <- "food-data/PFPC_data_files/" ## original file source
 write_loc <- "food-data/Cleaned_data_files/" 
 
