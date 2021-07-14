@@ -11,7 +11,7 @@ files = ["prep_FMNP.py", "prep_Greater_Pittsburgh_Community_Food_Bank.py",
         "prep_USDA_Food_And_Nutrition.py"]
 for filename in tqdm(files):
     with open(filename, "rb") as source_file:
-        code = compile(source_file.read(), "prep_FMNP.py", "exec")
+        code = compile(source_file.read(), filename, "exec")
     exec(code)
 
 # with open("prep_Greater_Pittsburgh_Community_Food_Bank.py", "rb") as source_file:
