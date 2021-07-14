@@ -10,7 +10,7 @@ import urllib.request, json
 
 #for reading in with csv
 # in_dir = '../food-data/PFPC_data_files'
-out_dir = '../food-data/Cleaned_data_files'
+out_dir = '../../food-data/Cleaned_data_files'
 
 # in_path = os.path.join(in_dir,'%5BPUBLIC%5D_COVID19_Food_Access.csv')
 out_path = os.path.join(out_dir,'greater_pittsburgh_community_food_bank.csv')
