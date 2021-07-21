@@ -7,7 +7,7 @@ import time
 
 source = 'https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Child_Nutrition/FeatureServer'
 in_path = source + '/0/query?outFields=*&where=1%3D1&f=geojson'
-out_dir = '../../food-data/Cleaned_data_files'
+out_dir = 'food-data/Cleaned_data_files'
 out_path = os.path.join(out_dir, 'cleaned_summer_meal_sites_api.csv')
 
 final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 'address', 'city',
