@@ -3,8 +3,8 @@ import numpy as np
 import os
 import re
 
-in_dir = '../../food-data/PFPC_data_files'
-out_dir = '../../food-data/Cleaned_data_files'
+in_dir = 'food-data/PFPC_data_files'
+out_dir = 'food-data/Cleaned_data_files'
 
 final_cols = ['id', 'source_org', 'source_file', 'original_id', 'type', 'name', 'address', 'city',
               'state', 'zip_code', 'county', 'location_description', 'phone', 'url', 'latitude',
