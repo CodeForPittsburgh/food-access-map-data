@@ -15,7 +15,7 @@ source = 'https://services5.arcgis.com/n3KaqXoFYDuIhfyz/ArcGIS/rest/services/FMN
 ## api end point for Allegheny county, see source for more info
 in_path = source + '/0/query?where=FarmMarketCounty+%3D+%27Allegheny%27&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token='
 
-out_dir = '../../food-data/Cleaned_data_files'
+out_dir = 'food-data/Cleaned_data_files'
 out_path = os.path.join(out_dir,'FMNPMarkets.csv')
 
 month_lengths = {'January': 31,
