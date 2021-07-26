@@ -46,10 +46,10 @@ df = pd.json_normalize(data['features'])
 df.columns = [x.replace('attributes.', '').replace('geometry.', '') for x in df.columns]
 df = df.rename(columns={'x':'X', 'y':'Y'})
 # Keep only active sites
-df = df[df['STATUS'] == 'active']
+df = df[df['STATUS'] == 'active'].reset_index()
 
 df['source_org'] = 'Greater Pittsburgh Community Food Bank'
-df['source_file'] = '%5BPUBLIC%5D_COVID19_Food_Access.csv'
+df['source_file'] = 'https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer' #%5BPUBLIC%5D_COVID19_Food_Access.csv'
 df['original_id'] = df['globalid'].str.strip('{}')
 df['type'] = 'food bank site'
 df['name'] = df['SITE_name']
@@ -91,8 +91,32 @@ public_notes = df['PublicNotes'].str.replace('\(none\)', '').astype(str).str.rep
 time = df['Time'].str.replace('\(none\)', '').astype(str).str.strip(',').str.replace('nan', '').str.strip(', ').str.strip('.')
 SITE_specific_location =  df['SITE_specific_location'].str.replace("\(none\)", '').astype(str).str.replace('nan', '').str.strip(',').str.strip(', ').str.strip('.')
 pop_served = df['Population_Served'].astype(str).str.replace('nan', '').str.strip(',').str.strip(', ').str.strip('.')
-df['location_description'] = (pop_served + ', ' + SITE_specific_location + ', '
- + public_notes + ', ' + time + ', ' + df['SITE_address2'].astype(str).str.replace('nan', '')).str.strip(',').str.strip(', ').str.replace(', , ,', ',').str.replace(', ,', ',')
+
+# df['location_description'] = (pop_served + ', ' + SITE_specific_location + ', '
+#  + public_notes + ', ' + time + ', ' + df['SITE_address2'].astype(str).str.replace('nan', '')).str.strip(',').str.strip(', ').str.replace(', , ,', ',').str.replace(', ,', ',')
+
+# for loop to only concat pieces of location description if exist
+track_new_loc_description = []
+for i in range(len(df)):
+    if pop_served[i] not in ['none_of_the_above', '', None]:
+        res = 'Population Served: ' + pop_served[i] + '\n'
+    else:
+        res = 'Population Served: Contact for more details' +'\n'
+    
+    if  SITE_specific_location[i] not in ['', None]:
+        res = res + 'Site Info: ' + SITE_specific_location[i] + '\n'
+    # else:
+    #     res = res + 'Site Info: ' + df['SITE_address2'][i] + SITE_specific_location[i] + '\n'
+  
+    if time[i] not in [None, '']:
+        res = res +  'Time: ' +  time[i] + '\n'
+  
+    if public_notes[i] not in [None, '']: 
+        res = res + 'Additional Info: ' +  public_notes[i] #+  '\n'
+        
+    track_new_loc_description.append(res)
+
+df['location_description'] = track_new_loc_description
 
 # Reorder and add any missing columns
 df = df.reindex(columns = final_cols)
