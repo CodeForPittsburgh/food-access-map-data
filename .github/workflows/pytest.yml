@@ -15,6 +15,16 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.6.13
+      - name: Install Libpostal
+        run: |
+          sudo apt-get install curl autoconf automake libtool pkg-config
+          git clone https://github.com/openvenues/libpostal
+          cd libpostal
+          ./bootstrap.sh
+          ./configure --datadir=/home/runner/work/food-access-map-data/food-access-map-data
+          make -j4
+          sudo make install
+          sudo ldconfig
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
