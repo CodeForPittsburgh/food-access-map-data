@@ -14,6 +14,8 @@ if len(args) != 2:
 path = args[1]
 
 df_list = []
+
+schema = sdi.get_schema('schema.xlsx')
 #TODO: Change this from a list of dfs to a list of dictionaries, with the path + filename given as one value, and the df given as another value
 for filename in os.listdir(path):
 	df_list.append(pd.read_csv(path + filename))
