@@ -100,7 +100,12 @@ fresh_access_market <- fresh_access_market %>%
 just_harvest_data <- list(empty_schema, fresh_corners, fresh_access_market) %>% 
   bind_rows() %>% 
   mutate(source_org = "Just Harvest",
-         source_file = "Just Harvest Google Sheets")
+         source_file = "Just Harvest Google Sheets",
+         WIC = NA,
+         FMNP = NA,
+         fresh_produce = 1,
+         food_bucks = NA, 
+         free_distribution = NA)
 
 #just_harvest_data
 
