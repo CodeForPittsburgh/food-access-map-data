@@ -4,6 +4,7 @@
 library(dplyr)
 library(stringr)
 library(readr)
+library(readxl)
 
 read_loc1 <- "food-data/PFPC_data_files/" ## original file source
 write_loc <- "food-data/Cleaned_data_files/" 
