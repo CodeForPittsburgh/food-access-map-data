@@ -40,6 +40,7 @@ jobs:
       run: |
         git add food-data/processed-datasets/.
         git add food-data/Cleaned_data_files/.
+        git status
         git config --global user.name 'CodeForPittsburgh'
         git config --global user.email 'CodeForPittsburgh@users.noreply.github.com'
         git commit -m "newly updated merged datasets"
