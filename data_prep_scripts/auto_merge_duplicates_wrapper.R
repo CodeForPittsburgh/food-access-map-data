@@ -23,6 +23,7 @@ input_file <- file('stdin', 'r')
 sfp <- read.csv(sfp_filepath)
 md <- read.csv(input_file)
 md$merged_record = '0'
+md$timestamp = as.character(Sys.time())
 
 source("data_prep_scripts/merge_duplicates_functions.R")
 md <- merge_all_duplicates_in_dataframe(md, sfp)

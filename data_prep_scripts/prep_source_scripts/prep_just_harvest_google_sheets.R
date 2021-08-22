@@ -23,21 +23,21 @@ empty_schema <- df_schema %>%
 schema_cols <- df_schema %>% 
   pull(field)
 
-#for ellie to set up authentication for codeforpittsburgh@gmail.com account
-#run this line
-googlesheets4::gs4_auth()
-#enter "0" to set up new account authentication
-#follow in-browser instructions
+#telling google we don't need to authenticate
+gs4_deauth()
 
-gs_path <- "https://docs.google.com/spreadsheets/d/1DuzaXafd-2eH5oBlL8JVGZLi_f7Ccj2npqyPoGiusQM/edit?ts=60d28fc9#gid=820493315"  
+#read in sheets path
+gs_path <- "https://docs.google.com/spreadsheets/d/1LT1lssZFVcUH-07a9XhbzalpvV_mrSb3dNOd3ln20xQ/"  
 
 #get sheet names from google sheets document
 jh_sheet_names <- sheet_names(gs_path)
-
-#jh_sheet_names
+jh_sheet_names
 
 #read in fresh corners sheet
-fresh_corners <- read_sheet(gs_path, sheet = jh_sheet_names[1]) %>% 
+fresh_corners_sheet <- jh_sheet_names %>% 
+  keep(str_detect(., "Fresh Corners"))
+
+fresh_corners <- read_sheet(gs_path, sheet = fresh_corners_sheet) %>% 
   rename(name = `Corner Store`,
          address = Address,
          city = City,
@@ -54,10 +54,11 @@ fresh_corners <- read_sheet(gs_path, sheet = jh_sheet_names[1]) %>%
 #glimpse(fresh_corners)
 
 #read in fresh access market sheet
-# read_sheet(gs_path, sheet = jh_sheet_names[2]) %>% 
-#   View()
 
-fresh_access_market <- read_sheet(gs_path, sheet = jh_sheet_names[2]) %>% 
+fresh_access_market_sheet <- jh_sheet_names %>% 
+  keep(str_detect(., "Fresh Access Mar"))
+
+fresh_access_market <- read_sheet(gs_path, sheet = fresh_access_market_sheet) %>% 
   rename(name = Market,
          SNAP = `Participates in Food Bucks SNAP Incentive program`) %>%
   mutate(zip_code = as.character(zip_code)) %>% 
@@ -82,7 +83,7 @@ fresh_access_market <- read_sheet(gs_path, sheet = jh_sheet_names[2]) %>%
   mutate(county = "Allegheny") %>% 
   select(any_of(schema_cols))
 
-#identify data issues
+#identify data issues in fresh access market data
 fresh_access_market <- fresh_access_market %>% 
   mutate(missing_address = case_when(is.na(address) ~ "missing address",
                                      TRUE ~ NA_character_),
@@ -95,17 +96,20 @@ fresh_access_market <- fresh_access_market %>%
         sep = "; ",
         na.rm = TRUE)
 
-#combine
+#combine schema, fresh corners, fresh access market data
 just_harvest_data <- list(empty_schema, fresh_corners, fresh_access_market) %>% 
   bind_rows() %>% 
   mutate(source_org = "Just Harvest",
-         source_file = "Just Harvest Google Sheets")
-
+         source_file = "Just Harvest Google Sheets",
+         WIC = NA,
+         FMNP = NA,
+         fresh_produce = 1,
+         food_bucks = NA, 
+         free_distribution = NA)
 
 #just_harvest_data
 
 #glimpse(food_data)
 
 just_harvest_data %>%
-   write_csv("food-data/Cleaned_data_files/just_harvest.csv")
-
+  write_csv("food-data/Cleaned_data_files/just_harvest.csv")

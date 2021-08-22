@@ -3,6 +3,7 @@
 
 ## load libs / set up
 library(dplyr)
+library(readxl)
 write_loc <- "food-data/Cleaned_data_files/"
 
 ## ----------------------- read in data_model

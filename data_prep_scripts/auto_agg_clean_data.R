@@ -21,6 +21,7 @@
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(readr))
 suppressPackageStartupMessages(library(purrr))
+suppressPackageStartupMessages(library(stringr))
 
 ## get input for file location passed from the command line
 args <- commandArgs(trailingOnly=TRUE)
@@ -36,8 +37,13 @@ read_clean_data_sources <- function(read_loc) {
   
   ## assign uid
   all_datasets <- all_datasets %>% mutate(id = 1:n())
-
- 
+  
+  ## clean up open_to_spec_group
+  all_datasets <- all_datasets %>% mutate(open_to_spec_group = ifelse(str_detect(open_to_spec_group, "children|students|young"), "youth populations", open_to_spec_group),
+                                          open_to_spec_group = ifelse(open_to_spec_group %in% c('0', NA), 'open to all', open_to_spec_group),# assume everything is open unless know otherwise so change NA to open
+                                          open_to_spec_group = ifelse(open_to_spec_group == 'none_of_the_above', 'contact for more details', open_to_spec_group),# did not match GPCFB filter group, user should contact to learn more about which population this site it serves
+                                          open_to_spec_group = str_replace_all(open_to_spec_group, "_", " ")) 
+    
   ## write out as stdout
   write.csv(all_datasets, stdout(), row.names = FALSE)
 }
