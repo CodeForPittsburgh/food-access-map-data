@@ -20,13 +20,13 @@ if [ "$no_error" == "True" ]; then
 	Rscript data_prep_scripts/auto_agg_clean_data.R food-data/Cleaned_data_files/ | \
 #Text process the name field in an effort to assign type (e.g. for large chain grocery stores etc)
 		Rscript data_prep_scripts/auto_text_process_name.R | \
-#For addresses missing coordinate information, add these via Mapbox Geocoding API
+#For addresses missing latitude and longitude, add these via Mapbox Geocoding API
 		Rscript data_prep_scripts/auto_geocode_wrapper.R $mapbox_key | \
 #Standardize addresses 
 		python data_prep_scripts/auto_clean_addresses_wrapper.py | \
 #Identify duplicate entries
 		python data_prep_scripts/auto_id_duplicates_wrapper.py | \
-#Merge idenitified duplicates, outputing final result into "merged_datasets.csv"		
+#Merge duplicate rows, resolving conflicts on critical information by prioritizing some data sources, outputing final result into "merged_datasets.csv"		
 		Rscript data_prep_scripts/auto_merge_duplicates_wrapper.R "data_prep_scripts/source_field_prioritization_sample_data.csv" > food-data/processed-datasets/merged_datasets.csv
 
 #Copy merged_datasets.csv to timestamped historical copy of csv. 
