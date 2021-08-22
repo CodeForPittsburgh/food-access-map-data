@@ -11,7 +11,7 @@ echo "New FileName: " "$new_fileName"
 python data_prep_scripts/prep_source_scripts/source_py_scripts.py
 Rscript data_prep_scripts/prep_source_scripts/source_r_scripts.R
 
-no_error=`python data_prep_scripts/auto_check_source_data_integrity_wrapper food-data/Cleaned_data_files/`
+no_error=`python data_prep_scripts/auto_check_source_data_integrity_wrapper.py food-data/Cleaned_data_files/`
 
 if [ "$no_error" == "True" ]; then
 	Rscript data_prep_scripts/auto_agg_clean_data.R food-data/Cleaned_data_files/ | \
