@@ -62,9 +62,9 @@ dat_cleaned = dat.copy(deep = True)
 dat_cleaned['address'] = dat_cleaned['address'].apply(lambda x: ' '.join([abbreviate(w) for w in x.split()]))
 
 def convert_number_street_names(street):
-    if re.match(r'.*(\d+)(rd|th|st).*', street) is None:
+    if re.match(r'.*(\d+)(rd|th|st|nd).*', street) is None:
         return street
-    return num2words(re.match(r'.*(\d+)(rd|th|st).*', street)[1], lang="en", to="ordinal")
+    return num2words(re.match(r'.*(\d+)(rd|th|st|nd).*', street)[1], lang="en", to="ordinal")
 
 #convert street numbers from number to letters
 dat_cleaned['address'] = dat_cleaned['address'].apply((lambda x: ' '.join([convert_number_street_names(w).capitalize() for w in x.split()])))
