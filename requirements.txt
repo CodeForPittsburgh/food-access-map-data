@@ -22,3 +22,4 @@ usaddress==0.5.10
 pytest==6.2.1
 requests==2.26.0
 openpyxl==3.0.7
+dedupe==2.0.0
