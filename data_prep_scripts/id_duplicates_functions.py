@@ -32,7 +32,7 @@ def initialize_deduper(data):
                 ]
     deduper = dedupe.Dedupe(variables)
     
-    path = r'data_prep_scripts\/deduper_training_data\/training.json'
+    path = r'data_prep_scripts/deduper_training_data/training.json'
     with open(path) as training_file:
         deduper.prepare_training(data, training_file=training_file, sample_size=15000, blocked_proportion=0.9)
     deduper.train(index_predicates=False)
