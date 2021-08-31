@@ -1,12 +1,23 @@
 # What is the Food Access Map?
-This project's goal is to create an internal and public-facing resource (e.g. an interactive map) for people looking to find healthy, affordable food. [Pittsburgh Food Policy Council](https://www.pittsburghfoodpolicy.org), an umbrella organization for food-related nonprofits, is the project sponsor. More information about the need for this project can be found [here](https://docs.google.com/presentation/d/1hk3n8cwbKtqxZjHni3JJlvjSSUeCv4dbVIdjq3FiTp8/edit#slide=id.g58c466d72b_0_179). 
+This project's goal is to create an internal and public-facing resource (e.g. an interactive map) for people looking to find healthy, affordable food. [Pittsburgh Food Policy Council](https://www.pittsburghfoodpolicy.org), an umbrella organization for food-related nonprofits, is the project sponsor. More information about the need for this project can be found [here](https://docs.google.com/presentation/d/1hk3n8cwbKtqxZjHni3JJlvjSSUeCv4dbVIdjq3FiTp8/edit#slide=id.g58c466d72b_0_179).
 
 There are many food-related nonprofits in the Pittsburgh area, and each maintains datasets about different food access programs and where they are offered (for example, Greater Pittsburgh Food Bank maintains a list of food pantries). The data processing part of this project gathers data from various sources and merges the datasets into a common format.
 
 # Where is the Map located?
 
-The map is located at the following address: 
+The map is located at the following address:
 https://www.arcgis.com/apps/instant/nearby/index.html?appid=6315c774b49540689eac60bce9e0c8bd
+
+# How does the map work?
+
+The map relies on the following steps to provide results
+
+1. Raw data is manually gathered from various providers at the federal and local level and saved in the [Github repository](https://github.com/CodeForPittsburgh/food-access-map-data).
+2. A [Github Action](https://github.com/CodeForPittsburgh/food-access-map-data/actions) is used to kick off a virtual machine containing the [various scripts](https://github.com/CodeForPittsburgh/food-access-map-data/tree/master/data_prep_scripts) which then clean, transform, deduplicate, and collate the multiple  data sources into a single file for use by the map.
+3. A separate [Koop](https://koopjs.github.io/) application hosted on a Heroku server is notified when the github action is complete.  It then fetches the published file and exposes it in a familiar fashion to the ESRI frontend.
+4. The [ESRI frontend](https://www.arcgis.com/apps/instant/nearby/index.html?appid=6315c774b49540689eac60bce9e0c8bd) ( the map everyone sees ) is an application that is hosted on ESRI's servers.  It is based on an app template (called [Nearby](https://www.arcgis.com/home/item.html?id=9d3f21cfd9b14589968f7e5be91b52c8)) that ESRI provides, and it is configured to consume the data provided by the Koop application in step 3.
+
+![System Diagram](/documentation/workflow_2.png)
 
 # How You Can Help
 Volunteers can help in a number of ways, including developing code, fixing bugs, and improving project documentation. A list of outstanding issues can be found on the [issues page](https://github.com/CodeForPittsburgh/food-access-map-data/issues), but if you can't find an issue you think you can work on, don't hesitate to ask one of us for help figuring out how you can contribute!
@@ -17,7 +28,7 @@ Python: Some of the data processing scripts are written in Python.
 R: Some of the data processing scripts are written in R.
 
 
-There are multiple ways to access and manipulate the data, but for simplicity’s sake, this README will recommend a Python or R. 
+There are multiple ways to access and manipulate the data, but for simplicity’s sake, this README will recommend a Python or R.
 # Get the Data
 ## Python
 This project uses [Python3](https://www.python.org/), [pipenv](https://pypi.org/project/pipenv/) and [pytest](https://docs.pytest.org/en/6.2.x/).
@@ -41,7 +52,7 @@ When you're done with the virtual environment, you can leave it using
 ```$ exit```
 
 ## R
-It is recommended to use the RStudio IDE to interact with the data. 
+It is recommended to use the RStudio IDE to interact with the data.
 
 1. Download/Install R
 2. Download RStudio
@@ -98,4 +109,3 @@ These labels are listed in merged_datasets.csv and are used to denote particular
 [https://education.rstudio.com/learn/beginner/](https://education.rstudio.com/learn/beginner/)
 ## Introduction To Github
 [https://guides.github.com/](https://guides.github.com/)
-
