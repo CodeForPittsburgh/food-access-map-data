@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - '**'        # i.e. "Every branch"
-  pull_request:
+  pull_request_target:
     branches:
       - '**'        # i.e. "Every branch"
   workflow_dispatch:
@@ -22,6 +22,6 @@ jobs:
     - name: Get current directory
       run: pwd
     - name: Run testthat
-      env: 
+      env:
         mapbox_key: ${{ secrets.MAPBOX_API_KEY }}
       run: Rscript run_tests.R $mapbox_key
