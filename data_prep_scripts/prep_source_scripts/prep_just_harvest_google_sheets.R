@@ -27,7 +27,7 @@ schema_cols <- df_schema %>%
 gs4_deauth()
 
 #read in sheets path
-gs_path <- "https://docs.google.com/spreadsheets/d/1LT1lssZFVcUH-07a9XhbzalpvV_mrSb3dNOd3ln20xQ/"  
+gs_path <- "https://docs.google.com/spreadsheets/d/1QwWXDMzNc7X-krErCwuzTHgXfiru-U99jJeJ6nk9hko/"
 
 #get sheet names from google sheets document
 jh_sheet_names <- sheet_names(gs_path)
