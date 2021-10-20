@@ -14,6 +14,9 @@ wget -q -O - --method POST \
 --body-data '{"county":"2","zip":"","miles":"5"}' \
 'https://www.pawic.com/FindWICStores.aspx/FindStores' | jq -r '.d' | jq > food-data/new-datasets/wicresults.json
 
+tail food-data/new-datasets/wicresults.json
+echo 'TESTING YO'
+
 #Prepare source scripts -- scripts that obtain the requisite data from APIs, Googlesheets, and Repository CSVs.
 python data_prep_scripts/prep_source_scripts/source_py_scripts.py
 Rscript data_prep_scripts/prep_source_scripts/source_r_scripts.R
