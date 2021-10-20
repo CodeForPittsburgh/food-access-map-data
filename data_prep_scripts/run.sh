@@ -12,7 +12,7 @@ wget -q -O - --method POST \
 --header 'Accept: application/json, text/javascript, /; q=0.01' \
 --header 'Content-Type: application/json; charset=UTF-8' \
 --body-data '{"county":"2","zip":"","miles":"5"}' \
-'https://www.pawic.com/FindWICStores.aspx/FindStores' | jq -r '.d' | jq > food-data/new-datasets/wicresults.json
+'https://www.pawic.com/FindWICStores.aspx/FindStores' | jq -r '.d' | jq > food-data/new-datasets/thiccresults.json
 
 tail food-data/new-datasets/wicresults.json
 echo 'TESTING YO'
