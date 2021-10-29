@@ -42,16 +42,28 @@ fresh_corners <- read_sheet(gs_path, sheet = fresh_corners_sheet) %>%
          address = Address,
          city = City,
          zip_code = Zip,
-         SNAP = `Participates in Food Bucks SNAP Incentive Program`) %>% 
+         food_bucks = `Participates in Food Bucks SNAP Incentive Program`) %>% 
   mutate(zip_code = as.character(zip_code)) %>% 
   select(-c(Area, Notes)) %>% 
-  mutate(SNAP = case_when(SNAP == "yes" ~ 1,
+  mutate(food_bucks = case_when(food_bucks== "yes" ~ 1,
                           TRUE ~ 0)) %>% 
   select(any_of(schema_cols)) %>% 
   mutate(state = "PA",
          county = "Allegheny")
 
 #glimpse(fresh_corners)
+
+# read in bridgeway capital sheet
+bridgeway_cap_sheet <- jh_sheet_names %>%
+  keep(str_detect(., "Bridgeway Capital "))
+
+bridgeway <- read_sheet(gs_path, sheet = bridgeway_cap_sheet) %>%
+  filter(tolower(Tag) %in% c("healthy food available", "fresh produce available")) %>%
+  rename(name = `Store Name`,
+         address = Address,
+         city = City,
+         state = State,
+         zip_code = Zip)
 
 #read in fresh access market sheet
 
@@ -60,10 +72,10 @@ fresh_access_market_sheet <- jh_sheet_names %>%
 
 fresh_access_market <- read_sheet(gs_path, sheet = fresh_access_market_sheet) %>% 
   rename(name = Market,
-         SNAP = `Participates in Food Bucks SNAP Incentive program`) %>%
+         food_bucks = `Participates in Food Bucks SNAP Incentive program`) %>%
   mutate(zip_code = as.character(zip_code)) %>% 
   separate(Season, into = c("date_from", "date_to"), sep = "-") %>% 
-  mutate(SNAP = case_when(SNAP == "yes" ~ 1,
+  mutate(food_bucks = case_when(food_bucks == "yes" ~ 1,
                           TRUE ~ 0)) %>% 
   #put all other data into "location_description"
   mutate(location_description = str_c("Street 1: ", street_one,
@@ -104,7 +116,7 @@ just_harvest_data <- list(empty_schema, fresh_corners, fresh_access_market) %>%
          WIC = NA,
          FMNP = NA,
          fresh_produce = 1,
-         food_bucks = NA, 
+         SNAP = NA,
          free_distribution = NA)
 
 #just_harvest_data
