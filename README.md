@@ -103,6 +103,13 @@ These labels are listed in merged_datasets.csv and are used to denote particular
 * free_distribution - Whether the site offers free food assistance
 * open_to_spec_group - Whether the site is only open to special groups
 
+# Adding new datasets
+New datasets can be added as they are discovered. A prep script can be added to this [directory](https://github.com/CodeForPittsburgh/food-access-map-data/tree/master/data_prep_scripts/prep_source_scripts). 
+
+New datasets need to correspond to the project-wide schema set in [schema.xlsx](https://github.com/CodeForPittsburgh/food-access-map-data/blob/master/schema.xlsx). Cleaned data should be saved in .csv format [here](https://github.com/CodeForPittsburgh/food-access-map-data/tree/master/food-data/Cleaned_data_files).
+
+Any new prep script also needs to be added to the source_r_scripts.R or source_python_scripts.py files in the same prep_source_scripts directory. The source scripts control what prep scripts are run to update the full dataset.
+
 # Extra Resources
 
 ## For An Introduction to R and RStudio
