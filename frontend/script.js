@@ -12,7 +12,7 @@ var convIcon = new FoodIcon({
   iconUrl:
     "https://raw.githubusercontent.com/CodeForPittsburgh/food-access-map/master/app/images/convenience_store.png"
 });
-var freshIcon = new FoodIcon({
+var growIcon = new FoodIcon({
   iconUrl:
     "https://github.com/CodeForPittsburgh/food-access-map/blob/master/app/images/fresh_access.png?raw=true"
 });
@@ -28,6 +28,14 @@ var farmerIcon = new FoodIcon({
   iconUrl:
     "https://github.com/CodeForPittsburgh/food-access-map/blob/master/app/images/farmers_market.png?raw=true"
 });
+// var summerIcon = new FoodIcon({
+//   iconUrl:
+//     "https://this-page-intentionally-left-blank.org/"
+// });
+// var bankIcon = new FoodIcon({
+//   iconUrl:
+//     "https://this-page-intentionally-left-blank.org/"
+// });
 
 function getIcon(type) {
   if (type === "supermarket") {
@@ -36,12 +44,18 @@ function getIcon(type) {
   if (type === "convenience store") {
     return convIcon;
   }
-  if (type === "fresh access") {
-    return freshIcon;
+  if (type === "Grow PGH Garden") {
+    return growIcon;
   }
-  if (type === "farmers market") {
+  if (type === "farmer's market") {
     return farmerIcon;
   }
+//   if (type === "summer meal site") {
+//     return summerIcon;
+//   }
+//   if (type === "food bank site") {
+//     return bankIcon;
+//   }
 
   return otherIcon;
 }
