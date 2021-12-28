@@ -110,6 +110,11 @@ New datasets need to correspond to the project-wide schema set in [schema.xlsx](
 
 Any new prep script also needs to be added to the source_r_scripts.R or source_python_scripts.py files in the same prep_source_scripts directory. The source scripts control what prep scripts are run to update the full dataset.
 
+# Training the Deduplication Data Sets
+Because we are combining multiple data sets, we utilize a deduplication process to identify and resolve possible duplicates.
+
+The "training set", which is used to train the deduplication program in what is and is not likely to be a duplicate, is located [here](https://github.com/CodeForPittsburgh/food-access-map-data/tree/master/data_prep_scripts/deduper_training_data). Adding to the training data primarily consists of added cases of address strings that are duplicates, as well as cases of address strings that aren't. To train new data, you can utilize the IPython Notebook located [here](https://github.com/CodeForPittsburgh/food-access-map-data/blob/master/data_prep_scripts/Train_new_deduplication_data.ipynb). 
+
 # Extra Resources
 
 ## For An Introduction to R and RStudio
