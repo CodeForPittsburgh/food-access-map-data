@@ -6,7 +6,7 @@ There are many food-related nonprofits in the Pittsburgh area, and each maintain
 # Where is the Map located?
 
 The map is located at the following address:
-https://www.arcgis.com/apps/instant/nearby/index.html?appid=6315c774b49540689eac60bce9e0c8bd
+http://codeforpittsburgh.github.io/FoodAccessMap/
 
 # How does the map work?
 
