@@ -14,7 +14,7 @@ The map relies on the following steps to provide results
 
 1. Raw data is manually gathered from various providers at the federal and local level and saved in the [Github repository](https://github.com/CodeForPittsburgh/food-access-map-data).
 2. A [Github Action](https://github.com/CodeForPittsburgh/food-access-map-data/actions) is used to kick off a virtual machine containing the [various scripts](https://github.com/CodeForPittsburgh/food-access-map-data/tree/master/data_prep_scripts) which then clean, transform, deduplicate, and collate the multiple  data sources into a single file for use by the map.
-3. The map is hosted on another [Code for Pittsburgh Github repo] (https://github.com/CodeForPittsburgh/CodeForPittsburgh.github.io/tree/master/FoodAccessMap).
+3. The map is hosted on another [Code for Pittsburgh Github repo](https://github.com/CodeForPittsburgh/CodeForPittsburgh.github.io/tree/master/FoodAccessMap).
 
 # How You Can Help
 Volunteers can help in a number of ways, including developing code, fixing bugs, and improving project documentation. A list of outstanding issues can be found on the [issues page](https://github.com/CodeForPittsburgh/food-access-map-data/issues), but if you can't find an issue you think you can work on, don't hesitate to ask one of us for help figuring out how you can contribute!
