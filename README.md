@@ -7,6 +7,8 @@ There are many food-related nonprofits in the Pittsburgh area, and each maintain
 
 The map is located at the following address:
 http://codeforpittsburgh.github.io/FoodAccessMap/
+Code for the map is located at a different repo:
+https://github.com/CodeForPittsburgh/CodeForPittsburgh.github.io/tree/master/FoodAccessMap
 
 # How does the map work?
 
