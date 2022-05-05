@@ -204,18 +204,18 @@
     },
     {
       "StoreName": "Giant Eagle #641",
-      "StreetAddrLine1": "Char. Valley Shopping Center",
-      "StreetAddrLine2": "1025 Washington Pike",
+      "StreetAddrLine1": "1025 Washington Pike",
+      "StreetAddrLine2": "Char. Valley Shopping Center",
       "City": "Bridgeville",
       "State": "PA",
       "ZipCode": "15017",
       "ZipPlus4": "",
       "PhoneNr": "(412) 221-1422",
       "Distance": 0,
-      "FormattedStreetAddr": "Char. Valley Shopping Center<br/>1025 Washington Pike",
+      "FormattedStreetAddr": "1025 Washington Pike<br/>Char. Valley Shopping Center",
       "CityStateZip": "Bridgeville, PA 15017",
       "DistanceWithText": "",
-      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=Char.%20Valley%20Shopping%20Center%20Bridgeville,%20PA%2015017",
+      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=1025%20Washington%20Pike%20Bridgeville,%20PA%2015017",
       "PhoneNumberWithParen": "(412) 221-1422",
       "PhoneNumberWithDash": "412-221-1422",
       "PhoneNumberLink": "tel:+1-412-221-1422"
@@ -1049,24 +1049,6 @@
       "PhoneNumberLink": "tel:+1-724-443-8420"
     },
     {
-      "StoreName": "Save-A-Lot Wilkinsburg",
-      "StreetAddrLine1": "725 ROSS AVE",
-      "StreetAddrLine2": "",
-      "City": "PITTSBURGH",
-      "State": "PA",
-      "ZipCode": "15221",
-      "ZipPlus4": "2328",
-      "PhoneNr": "(412) 242-3204",
-      "Distance": 0,
-      "FormattedStreetAddr": "725 ROSS AVE",
-      "CityStateZip": "PITTSBURGH, PA 15221-2328",
-      "DistanceWithText": "",
-      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=725%20ROSS%20AVE%20PITTSBURGH,%20PA%2015221-2328",
-      "PhoneNumberWithParen": "(412) 242-3204",
-      "PhoneNumberWithDash": "412-242-3204",
-      "PhoneNumberLink": "tel:+1-412-242-3204"
-    },
-    {
       "StoreName": "Shaler Shop N Save",
       "StreetAddrLine1": "1620 Babcock Blvd",
       "StreetAddrLine2": "",
@@ -1392,18 +1374,18 @@
     },
     {
       "StoreName": "Wal-Mart Natrona Heights #3738",
-      "StreetAddrLine1": "4015 FREEPORT RD",
+      "StreetAddrLine1": "100 Highlands Mall",
       "StreetAddrLine2": "",
-      "City": "NATRONA HEIGHTS",
+      "City": "Natrona Heights",
       "State": "PA",
       "ZipCode": "15065",
-      "ZipPlus4": "1912",
+      "ZipPlus4": "1971",
       "PhoneNr": "(724) 226-6949",
       "Distance": 0,
-      "FormattedStreetAddr": "4015 FREEPORT RD",
-      "CityStateZip": "NATRONA HEIGHTS, PA 15065-1912",
+      "FormattedStreetAddr": "100 Highlands Mall",
+      "CityStateZip": "Natrona Heights, PA 15065-1971",
       "DistanceWithText": "",
-      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=4015%20FREEPORT%20RD%20NATRONA%20HEIGHTS,%20PA%2015065-1912",
+      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=100%20Highlands%20Mall%20Natrona%20Heights,%20PA%2015065-1971",
       "PhoneNumberWithParen": "(724) 226-6949",
       "PhoneNumberWithDash": "724-226-6949",
       "PhoneNumberLink": "tel:+1-724-226-6949"
@@ -1481,5 +1463,5 @@
       "PhoneNumberLink": "tel:+1-412-829-2900"
     }
   ],
-  "timestamp": "2021.12.29-15.35.29"
+  "timestamp": "2022.05.05-13.14.15"
 }
