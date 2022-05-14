@@ -18,6 +18,10 @@ if (length(args)==0) {
   sfp_filepath <- args[1]
 }
 
+#Clear Merge Log
+merge_log <- file.path(here::here('merge.log'))
+close( file( merge_log, open="w" ) )
+
 input_file <- file('stdin', 'r')
 
 sfp <- read.csv(sfp_filepath)
