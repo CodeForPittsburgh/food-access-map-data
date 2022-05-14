@@ -3,6 +3,7 @@ library("readr")
 library(logging)
 library(logger)
 library(pander)
+library(here)
 
 test_that("Merge_duplicates creates hybrid id's for merged rows",  {
     df <- read_csv("test-data/test_merge_two_rows_no_conflicts_input.csv")
