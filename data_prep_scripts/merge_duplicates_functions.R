@@ -2,7 +2,6 @@
 #Contains all functions to be used by auto_merge_duplicates.R
 library(logger)
 library(pander)
-library(here)
 
 formatter_data_frame <- function(df, ...) {
   pander::pander_return(df, style = 'simple')
@@ -29,8 +28,7 @@ get_source_field_priority <- function(source_name, field_name) {
 #  Otherwise, return merged row
 merge_duplicates <- function(rows_to_merge, source_field_prioritization) {
   #Log which rows will be merged.
-  here::i_am("merge_duplicates_functions.R")
-  f <- file.path(here::here('merge.log'))
+  f <- file.path("data_prep_scripts/merge.log")
   logger::log_appender(appender_file(f))
   logger::log_info("Merging the following rows:")
   logger::log_info(rows_to_merge)

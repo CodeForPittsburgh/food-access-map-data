@@ -19,7 +19,7 @@ if (length(args)==0) {
 }
 
 #Clear Merge Log
-merge_log <- file.path(here::here('merge.log'))
+merge_log <- file.path("data_prep_scripts/merge.log")
 close( file( merge_log, open="w" ) )
 
 input_file <- file('stdin', 'r')
