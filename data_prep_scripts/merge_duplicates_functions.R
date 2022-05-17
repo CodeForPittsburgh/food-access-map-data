@@ -29,7 +29,6 @@ get_source_field_priority <- function(source_name, field_name) {
 merge_duplicates <- function(rows_to_merge, source_field_prioritization) {
   #Log which rows will be merged.
   f <- file.path("merge.log")
-  print(f)
   logger::log_appender(appender_file(f))
   logger::log_info("Merging the following rows:")
   logger::log_info(rows_to_merge)
