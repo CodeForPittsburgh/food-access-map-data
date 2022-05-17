@@ -394,3 +394,399 @@ INFO [2022-05-15 13:28:09]  **90**          0         2022-05-15 13:28:09
 INFO [2022-05-15 13:28:09]  **617**         0         2022-05-15 13:28:09 
 INFO [2022-05-15 13:28:09] 
 INFO [2022-05-15 13:28:09] Merging the following rows:
+INFO [2022-05-17 13:50:32] Merging the following rows:
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;                       file_name                       id 
+INFO [2022-05-17 13:50:32] -------- --------------------------------------------------- ----
+INFO [2022-05-17 13:50:32]  **18**   food-data/Cleaned_data_files//cleaned_growpgh.csv   18 
+INFO [2022-05-17 13:50:32]  **56**   food-data/Cleaned_data_files//cleaned_growpgh.csv   57 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;     source_org                    source_file                
+INFO [2022-05-17 13:50:32] -------- ----------------- ------------------------------------------
+INFO [2022-05-17 13:50:32]  **18**   Grow Pittsburgh   GP_garden_directory_listing-20210322.csv 
+INFO [2022-05-17 13:50:32]  **56**   Grow Pittsburgh   GP_garden_directory_listing-20210322.csv 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;   original_id        type                  name           
+INFO [2022-05-17 13:50:32] -------- ------------- ----------------- -------------------------
+INFO [2022-05-17 13:50:32]  **18**                 Grow PGH Garden   GARFIELD COMMUNITY FARM 
+INFO [2022-05-17 13:50:32]  **56**                 Grow PGH Garden   GARFIELD COMMUNITY FARM 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;               address                   city      state   zip_code 
+INFO [2022-05-17 13:50:32] -------- ---------------------------------- ------------ ------- ----------
+INFO [2022-05-17 13:50:32]  **18**            527 Edlam Way             Pittsburgh    PA      15224   
+INFO [2022-05-17 13:50:32]  **56**   Cornwall Street & Wicklow Street   Pittsburgh    PA      15224   
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;   county   location_description        phone      
+INFO [2022-05-17 13:50:32] -------- -------- ----------------------- ----------------
+INFO [2022-05-17 13:50:32]  **18**               community-farm         4129797764   
+INFO [2022-05-17 13:50:32]  **56**            commercial-urban-farm   (412) 215 6398 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;               url                latitude   longitude    latlng_source  
+INFO [2022-05-17 13:50:32] -------- ------------------------------ ---------- ----------- -----------------
+INFO [2022-05-17 13:50:32]  **18**     http://garfieldfarm.com       40.47      -79.94     Grow Pittsburgh 
+INFO [2022-05-17 13:50:32]  **56**   http://www.garfieldfarm.com/    40.47      -79.93     Grow Pittsburgh 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;   date_from   date_to   open_to_spec_group 
+INFO [2022-05-17 13:50:32] -------- ----------- --------- --------------------
+INFO [2022-05-17 13:50:32]  **18**                            open to all     
+INFO [2022-05-17 13:50:32]  **56**                            open to all     
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;           data_issues           food_bucks   SNAP   WIC   FMNP 
+INFO [2022-05-17 13:50:32] -------- ----------------------------- ------------ ------ ----- ------
+INFO [2022-05-17 13:50:32]  **18**   no date/time;no county info       0         0      0     0   
+INFO [2022-05-17 13:50:32]  **56**   no date/time;no county info       0         0      0     0   
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;   fresh_produce   free_distribution   group_id   merged_record 
+INFO [2022-05-17 13:50:32] -------- --------------- ------------------- ---------- ---------------
+INFO [2022-05-17 13:50:32]  **18**         1                 0              1             0       
+INFO [2022-05-17 13:50:32]  **56**         1                 0              1             0       
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;        timestamp      
+INFO [2022-05-17 13:50:32] -------- ---------------------
+INFO [2022-05-17 13:50:32]  **18**   2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32]  **56**   2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Merging the following rows:
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                               file_name                            
+INFO [2022-05-17 13:50:32] ---------- -----------------------------------------------------------------
+INFO [2022-05-17 13:50:32]   **41**           food-data/Cleaned_data_files//cleaned_growpgh.csv        
+INFO [2022-05-17 13:50:32]  **1165**   food-data/Cleaned_data_files//cleaned_summer_meal_sites_api.csv 
+INFO [2022-05-17 13:50:32]  **1178**   food-data/Cleaned_data_files//cleaned_summer_meal_sites_api.csv 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;     id       source_org    
+INFO [2022-05-17 13:50:32] ---------- ------ ------------------
+INFO [2022-05-17 13:50:32]   **41**     42    Grow Pittsburgh  
+INFO [2022-05-17 13:50:32]  **1165**   1167   Allegheny County 
+INFO [2022-05-17 13:50:32]  **1178**   1180   Allegheny County 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                                              source_file                                            
+INFO [2022-05-17 13:50:32] ---------- --------------------------------------------------------------------------------------------------
+INFO [2022-05-17 13:50:32]   **41**                                GP_garden_directory_listing-20210322.csv                             
+INFO [2022-05-17 13:50:32]  **1165**   https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Child_Nutrition/FeatureServer 
+INFO [2022-05-17 13:50:32]  **1178**   https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Child_Nutrition/FeatureServer 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    original_id         type       
+INFO [2022-05-17 13:50:32] ---------- ------------- ------------------
+INFO [2022-05-17 13:50:32]   **41**                  Grow PGH Garden  
+INFO [2022-05-17 13:50:32]  **1165**        0        summer meal site 
+INFO [2022-05-17 13:50:32]  **1178**        0        summer meal site 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                     name                           address        
+INFO [2022-05-17 13:50:32] ---------- ----------------------------------------- ----------------------
+INFO [2022-05-17 13:50:32]   **41**       PITTSBURGH SCIENCE AND TECHNOLOGY      107 Thackeray Avenue 
+INFO [2022-05-17 13:50:32]  **1165**   PITTSBURGH SCIENCE & TECHNOLOGY ACADEMY   107 Thackeray Avenue 
+INFO [2022-05-17 13:50:32]  **1178**   PITTSBURGH SCIENCE & TECHNOLOGY ACADEMY   107 Thackeray Avenue 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;       city      state   zip_code    county   
+INFO [2022-05-17 13:50:32] ---------- ------------ ------- ---------- -----------
+INFO [2022-05-17 13:50:32]   **41**    Pittsburgh    PA      15260               
+INFO [2022-05-17 13:50:32]  **1165**   Pittsburgh    PA      15260     Allegheny 
+INFO [2022-05-17 13:50:32]  **1178**   Pittsburgh    PA      15260     Allegheny 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                                              location_description                                            
+INFO [2022-05-17 13:50:32] ---------- -----------------------------------------------------------------------------------------------------------
+INFO [2022-05-17 13:50:32]   **41**                                                  school-garden                                               
+INFO [2022-05-17 13:50:32]  **1165**   Service Type: Grab and Go; Site Hours: Call the school at (412) 529-7620 for updated meal service times.; 
+INFO [2022-05-17 13:50:32]  **1178**          Site Hours: Monday through Friday this site serves breakfast and lunch from 9:30-10:30 am.;        
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    phone   url   latitude   longitude    latlng_source     date_from 
+INFO [2022-05-17 13:50:32] ---------- ------- ----- ---------- ----------- ------------------ -----------
+INFO [2022-05-17 13:50:32]   **41**                   40.44      -79.96     Grow Pittsburgh              
+INFO [2022-05-17 13:50:32]  **1165**                  40.44      -79.96     Allegheny County             
+INFO [2022-05-17 13:50:32]  **1178**                  40.44      -79.96     Allegheny County             
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    date_to   open_to_spec_group 
+INFO [2022-05-17 13:50:32] ---------- --------- --------------------
+INFO [2022-05-17 13:50:32]   **41**                 open to all     
+INFO [2022-05-17 13:50:32]  **1165**             youth populations  
+INFO [2022-05-17 13:50:32]  **1178**             youth populations  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                                 data_issues                              
+INFO [2022-05-17 13:50:32] ---------- -----------------------------------------------------------------------
+INFO [2022-05-17 13:50:32]   **41**                         no date/time;no county info                      
+INFO [2022-05-17 13:50:32]  **1165**   latitude missing;longitude missing;date_from missing;date_to missing; 
+INFO [2022-05-17 13:50:32]  **1178**   latitude missing;longitude missing;date_from missing;date_to missing; 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    food_bucks   SNAP   WIC   FMNP   fresh_produce   free_distribution 
+INFO [2022-05-17 13:50:32] ---------- ------------ ------ ----- ------ --------------- -------------------
+INFO [2022-05-17 13:50:32]   **41**        0         0      0     0           1                 0         
+INFO [2022-05-17 13:50:32]  **1165**       0         0      0     0          NA                 1         
+INFO [2022-05-17 13:50:32]  **1178**       0         0      0     0          NA                 1         
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    group_id   merged_record        timestamp      
+INFO [2022-05-17 13:50:32] ---------- ---------- --------------- ---------------------
+INFO [2022-05-17 13:50:32]   **41**       2             0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32]  **1165**      2             0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32]  **1178**      2             0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Merging the following rows:
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                        file_name                        id  
+INFO [2022-05-17 13:50:32] ---------- --------------------------------------------------- ------
+INFO [2022-05-17 13:50:32]   **88**    food-data/Cleaned_data_files//cleaned_growpgh.csv    89  
+INFO [2022-05-17 13:50:32]  **1208**     food-data/Cleaned_data_files//FMNPMarkets.csv     1210 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;      source_org    
+INFO [2022-05-17 13:50:32] ---------- -----------------
+INFO [2022-05-17 13:50:32]   **88**    Grow Pittsburgh 
+INFO [2022-05-17 13:50:32]  **1208**    FMNP Markets   
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                                            source_file                                          
+INFO [2022-05-17 13:50:32] ---------- ----------------------------------------------------------------------------------------------
+INFO [2022-05-17 13:50:32]   **88**                              GP_garden_directory_listing-20210322.csv                           
+INFO [2022-05-17 13:50:32]  **1208**   https://services5.arcgis.com/n3KaqXoFYDuIhfyz/ArcGIS/rest/services/FMNPMarkets/FeatureServer 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    original_id        type                        name                
+INFO [2022-05-17 13:50:32] ---------- ------------- ----------------- ------------------------------------
+INFO [2022-05-17 13:50:32]   **88**                  Grow PGH Garden   PITTSBURGH URBAN GARDENING PROJECT 
+INFO [2022-05-17 13:50:32]  **1208**      3479       farmer's market     PITTSBUGH URBAN GRADEN PROJECT   
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;          address            city      state   zip_code    county   
+INFO [2022-05-17 13:50:32] ---------- --------------------- ------------ ------- ---------- -----------
+INFO [2022-05-17 13:50:32]   **88**    1612 Steuben Street   Pittsburgh    PA      15205               
+INFO [2022-05-17 13:50:32]  **1208**   1612 Steuben Street    Crafton      PA      15205     Allegheny 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    location_description   phone                  url                
+INFO [2022-05-17 13:50:32] ---------- ---------------------- ------- -----------------------------------
+INFO [2022-05-17 13:50:32]   **88**       community-farm              http://pittsburghurbangardens.com 
+INFO [2022-05-17 13:50:32]  **1208**                                                                    
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    latitude   longitude    latlng_source    date_from   date_to 
+INFO [2022-05-17 13:50:32] ---------- ---------- ----------- ----------------- ----------- ---------
+INFO [2022-05-17 13:50:32]   **88**     40.44      -80.06     Grow Pittsburgh                       
+INFO [2022-05-17 13:50:32]  **1208**    40.44      -80.06      FMNP Markets                         
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    open_to_spec_group 
+INFO [2022-05-17 13:50:32] ---------- --------------------
+INFO [2022-05-17 13:50:32]   **88**       open to all     
+INFO [2022-05-17 13:50:32]  **1208**      open to all     
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;                                   data_issues                                
+INFO [2022-05-17 13:50:32] ---------- ---------------------------------------------------------------------------
+INFO [2022-05-17 13:50:32]   **88**                           no date/time;no county info                        
+INFO [2022-05-17 13:50:32]  **1208**   location_description missing;SNAP missing;WIC missing;food_bucks missing; 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    food_bucks   SNAP   WIC   FMNP   fresh_produce   free_distribution 
+INFO [2022-05-17 13:50:32] ---------- ------------ ------ ----- ------ --------------- -------------------
+INFO [2022-05-17 13:50:32]   **88**        0         0      0     0           1                 0         
+INFO [2022-05-17 13:50:32]  **1208**       NA        NA    NA     1           1                 0         
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]   &nbsp;    group_id   merged_record        timestamp      
+INFO [2022-05-17 13:50:32] ---------- ---------- --------------- ---------------------
+INFO [2022-05-17 13:50:32]   **88**       3             0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32]  **1208**      3             0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Merging the following rows:
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;                        file_name                       id  
+INFO [2022-05-17 13:50:32] --------- --------------------------------------------------- -----
+INFO [2022-05-17 13:50:32]  **90**    food-data/Cleaned_data_files//cleaned_growpgh.csv   91  
+INFO [2022-05-17 13:50:32]  **617**   food-data/Cleaned_data_files//cleaned_PA_SNAP.csv   618 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;              source_org            
+INFO [2022-05-17 13:50:32] --------- ---------------------------------
+INFO [2022-05-17 13:50:32]  **90**            Grow Pittsburgh         
+INFO [2022-05-17 13:50:32]  **617**   USDA Food and Nutrition Service 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;                                              source_file                                            
+INFO [2022-05-17 13:50:32] --------- --------------------------------------------------------------------------------------------------
+INFO [2022-05-17 13:50:32]  **90**                                GP_garden_directory_listing-20210322.csv                             
+INFO [2022-05-17 13:50:32]  **617**   https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/Store_Locations/FeatureServer 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;    original_id         type                    name            
+INFO [2022-05-17 13:50:32] --------- ------------- ------------------- ---------------------------
+INFO [2022-05-17 13:50:32]  **90**                   Grow PGH Garden    CLAIRTON COMMUNITY GARDEN 
+INFO [2022-05-17 13:50:32]  **617**     122804      convenience store    CLAIRTON MINI MART INC   
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;           address             city     state   zip_code    county   
+INFO [2022-05-17 13:50:32] --------- ------------------------ ---------- ------- ---------- -----------
+INFO [2022-05-17 13:50:32]  **90**    300 Saint Clair Avenue   Clairton    PA      15025               
+INFO [2022-05-17 13:50:32]  **617**   540 Saint Clair Avenue   Clairton    PA      15025     ALLEGHENY 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;    location_description      phone       url   latitude   longitude 
+INFO [2022-05-17 13:50:32] --------- ---------------------- -------------- ----- ---------- -----------
+INFO [2022-05-17 13:50:32]  **90**      community-garden     412-414-1512          40.29      -79.88   
+INFO [2022-05-17 13:50:32]  **617**                                                40.29      -79.89   
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;             latlng_source            date_from   date_to 
+INFO [2022-05-17 13:50:32] --------- --------------------------------- ----------- ---------
+INFO [2022-05-17 13:50:32]  **90**            Grow Pittsburgh                               
+INFO [2022-05-17 13:50:32]  **617**   USDA Food and Nutrition Service                       
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;    open_to_spec_group              data_issues               food_bucks 
+INFO [2022-05-17 13:50:32] --------- -------------------- ------------------------------------ ------------
+INFO [2022-05-17 13:50:32]  **90**       open to all          no date/time;no county info           0      
+INFO [2022-05-17 13:50:32]  **617**      open to all       no type;no phone;no date/time info       NA     
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;    SNAP   WIC   FMNP   fresh_produce   free_distribution   group_id 
+INFO [2022-05-17 13:50:32] --------- ------ ----- ------ --------------- ------------------- ----------
+INFO [2022-05-17 13:50:32]  **90**     0      0     0           1                 0              4     
+INFO [2022-05-17 13:50:32]  **617**    1     NA     NA         NA                 0              4     
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Table: Table continues below
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32]  &nbsp;    merged_record        timestamp      
+INFO [2022-05-17 13:50:32] --------- --------------- ---------------------
+INFO [2022-05-17 13:50:32]  **90**          0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32]  **617**         0         2022-05-17 13:50:31 
+INFO [2022-05-17 13:50:32] 
+INFO [2022-05-17 13:50:32] Merging the following rows:
