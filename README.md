@@ -80,6 +80,7 @@ Data for the food access map:
 	+ **auto_clean_addresses_wrapper.py**  --	Cleans up addresses to a standardized format
 	+ **auto_id_duplicates_wrapper.py**  --		Identifies duplicate rows
 	+ **auto_merge_duplicates_wrapper.py**  --	Merges duplicate rows, resolving conflicts on critical information by prioritizing some data sources
+	+ **auto_set_flags.py** -- 			Sets flags for columns (such as fresh_produce) based on conditions in the row, such as their source 
 
 # Data Sources for Food Access Map
 
