@@ -4,7 +4,7 @@ library(logger)
 library(pander)
 
 formatter_data_frame <- function(df, ...) {
-  pander::pander_return(df, style = 'simple')
+  pander::pander_return(df, style = 'multiline',  split.table = Inf)
 }
 
 #Obtains field's relative priority for that source (i.e., whether other sources should be relied on for that field instead)
@@ -28,6 +28,7 @@ get_source_field_priority <- function(source_name, field_name) {
 #  Otherwise, return merged row
 merge_duplicates <- function(rows_to_merge, source_field_prioritization) {
   #Log which rows will be merged.
+  pander::panderOptions("table.split.cells", Inf)
   f <- file.path("merge.log")
   logger::log_appender(appender_file(f))
   logger::log_info("Merging the following rows:")
