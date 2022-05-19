@@ -73,7 +73,10 @@ merge_duplicates <- function(rows_to_merge, source_field_prioritization) {
 }
 
 merge_all_duplicates_in_dataframe <- function(df, source_field_prioritization) {
-  #Initialize Log -- overwrite previous log
+  #Erase previous log
+  f <- file.path("merge.log")
+  close( file( f, open="w" ) )
+  #Initialize Log
   logger::log_formatter(formatter_data_frame)
   #Collect all distinct group_id values
   group_ids <- unique(df$group_id)
