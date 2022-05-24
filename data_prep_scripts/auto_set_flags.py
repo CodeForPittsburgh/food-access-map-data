@@ -2,6 +2,7 @@
 import sys
 import pandas as pd
 from io import StringIO
+import math
 
 
 def set_fresh_produce_flag(row):
@@ -9,11 +10,12 @@ def set_fresh_produce_flag(row):
         return 1
     elif row['source_org'] == "Grow Pittsburgh":
         return 1
-    elif int(row['food_bucks']) == 1:
+    elif (not math.isnan(row['food_bucks'])) and (int(row['food_bucks']) == 1):
         return 1
-    elif int(row['WIC']) == 1:
+    elif (not math.isnan(row['WIC'])) and (int(row['WIC']) == 1):
         return 1
     return 0
+
 
 dat = pd.read_csv(StringIO(sys.stdin.read()))
 
