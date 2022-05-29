@@ -20,7 +20,8 @@ def check_has_source_orgs(data):
 
 
 
-
+#TODO: Chance this and check_has_source_orgs so that they take their required files as an array, and that sanity check as a whole also takes those parameters, so that it's easier to modify.
+#TODO: Modify the tests as well so that you have fewer rows you need. Maybe just three, for all test cases.
 def check_has_source_files(data):
     """
     Returns true if all listed source files are in data's "source_file" column
