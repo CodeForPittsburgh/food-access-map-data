@@ -1,60 +1,50 @@
 import pandas as pd
 import numpy as np
 
-def check_has_source_orgs(data):
+def check_has_all_categorical_values(data, column_name, category_array):
     """
-    Returns true if all source orgs are in data's "source_org" column
-    :param data:
+    This is for columns that contain a limited set of categories, such as source_file and source_orgs
+    :param data: The dataframe to be examined
+    :param column_name: Name of the column in the dataset to be examined
+    :param category_array: The valid values in the column.
+    :return: True if all valid values exist in dataset, False otherwise.
     """
-    source_orgs = ["Grow Pittsburgh",
-                   "USDA Food and Nutrition Service",
-                   "PA WIC",
-                   "Allegheny County",
-                   "FMNP Markets",
-                   "Greater Pittsburgh Community Food Bank",
-                   "Just Harvest"]
-    for source_org in source_orgs:
-        if not data["source_org"].contains(source_org):
+    unique_vals_in_column = data[column_name].unique()
+    for val in category_array:
+        if val not in unique_vals_in_column:
+            print(column_name + " does not contain value " + val)
             return False
     return True
 
-
-
-#TODO: Chance this and check_has_source_orgs so that they take their required files as an array, and that sanity check as a whole also takes those parameters, so that it's easier to modify.
-#TODO: Modify the tests as well so that you have fewer rows you need. Maybe just three, for all test cases.
-def check_has_source_files(data):
-    """
-    Returns true if all listed source files are in data's "source_file" column
-    :param data:
-    """
-    source_files = ["GP_garden_directory_listing-20210322.csv",
-                    "https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/Store_Locations/FeatureServer",
-                    "wicresults.json",
-                    "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Child_Nutrition/FeatureServer",
-                    "https://services5.arcgis.com/n3KaqXoFYDuIhfyz/ArcGIS/rest/services/FMNPMarkets/FeatureServer",
-                    "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer",
-                    "Just Harvest Google Sheets"]
-    for source_file in source_files:
-        if not data["source_file"].contains(source_file):
-            return False
-    return True
-
-def check_flag_columns_have_0s_and_1s(data):
+def check_flag_columns_have_0s_and_1s(data, flag_columns):
     """
     Returns True if all flag columns contain both 0s and 1s. False if they contain only one or neither.
     :param data:
+    :param flag_columns: Array of flag columns that will be examined to confirm is they contain 0s and 1s
+    :return: True if all flag columns contain 0s and 1s, false otherwise.
     """
-    flag_columns = ["food_bucks","SNAP","WIC","FMNP","fresh_produce","free_distribution"]
     for flag_column in flag_columns:
-        if not (data[flag_column].contains(0) and data[flag_column].contains(1)):
+        if 0 not in data[flag_column].unique() or 1 not in data[flag_column].unique():
+            print(flag_column + " does not contain both 0s and 1s")
             return False
     return True
 
 
 
-def sanity_check(data):
-    return(
-            check_flag_columns_have_0s_and_1s(data) and
-            check_has_source_orgs(data) and
-            check_has_source_files(data)
-           )
+def sanity_check(data, flag_columns, categories):
+    """
+    Runs all given sanity check functions
+    :param data: The dataframe to run the sanity checks on
+    :param flag_columns: Flag columns to check for in check_flag_columns_have_0s_and_1s
+    :param categories: A dictionary of categories and the expected values in each category
+    :return:
+    """
+    #If not all flag columns have 0s and 1s, sanity check fails
+    if not check_flag_columns_have_0s_and_1s(data, flag_columns):
+        return False
+    #If not all category values exist in the data, sanity check fails
+    #Iterate through each category and check the data contains all values for that category
+    for category in categories:
+        if not check_has_all_categorical_values(data, category, categories[category]):
+            return False
+    return True
