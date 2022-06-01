@@ -7,7 +7,7 @@ def check_has_all_categorical_values(data, column_name, category_array):
     :param data: The dataframe to be examined
     :param column_name: Name of the column in the dataset to be examined
     :param category_array: The valid values in the column.
-    :return: True if all valid values exist in dataset, False otherwise.
+    :returns: True if all valid values exist in dataset. False otherwise.
     """
     unique_vals_in_column = data[column_name].unique()
     for val in category_array:
@@ -21,7 +21,7 @@ def check_flag_columns_have_0s_and_1s(data, flag_columns):
     Returns True if all flag columns contain both 0s and 1s. False if they contain only one or neither.
     :param data:
     :param flag_columns: Array of flag columns that will be examined to confirm is they contain 0s and 1s
-    :return: True if all flag columns contain 0s and 1s, false otherwise.
+    :returns: True if all flag columns contain 0s and 1s. False otherwise.
     """
     for flag_column in flag_columns:
         if 0 not in data[flag_column].unique() or 1 not in data[flag_column].unique():
@@ -37,7 +37,7 @@ def sanity_check(data, flag_columns, categories):
     :param data: The dataframe to run the sanity checks on
     :param flag_columns: Flag columns to check for in check_flag_columns_have_0s_and_1s
     :param categories: A dictionary of categories and the expected values in each category
-    :return:
+    :returns: True if all sanity checks pass. False otherwise.
     """
     #If not all flag columns have 0s and 1s, sanity check fails
     if not check_flag_columns_have_0s_and_1s(data, flag_columns):
