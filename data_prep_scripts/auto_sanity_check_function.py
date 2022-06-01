@@ -12,7 +12,7 @@ def check_has_all_categorical_values(data, column_name, category_array):
     unique_vals_in_column = data[column_name].unique()
     for val in category_array:
         if val not in unique_vals_in_column:
-            print(column_name + " does not contain value " + val)
+            print("SANITY CHECK FAILURE: " + column_name + " does not contain value " + val)
             return False
     return True
 
@@ -25,7 +25,7 @@ def check_flag_columns_have_0s_and_1s(data, flag_columns):
     """
     for flag_column in flag_columns:
         if 0 not in data[flag_column].unique() or 1 not in data[flag_column].unique():
-            print(flag_column + " does not contain both 0s and 1s")
+            print("SANITY CHECK FAILURE: " + flag_column + " does not contain both 0s and 1s")
             return False
     return True
 

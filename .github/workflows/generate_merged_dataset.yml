@@ -16,16 +16,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
           python-version: '3.6'
-#     - name: Install Libpostal
-#       run: |
-#           sudo apt-get install curl autoconf automake libtool pkg-config
-#           git clone https://github.com/openvenues/libpostal
-#           cd libpostal
-#           ./bootstrap.sh
-#           ./configure --datadir=/home/runner/work/food-access-map-data/food-access-map-data
-#           make -j4
-#           sudo make install
-#           sudo ldconfig
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
@@ -36,12 +26,3 @@ jobs:
       env: 
         mapbox_key: ${{ secrets.MAPBOX_API_KEY }}
       run: bash 'data_prep_scripts/run.sh'
-    - name: git add 
-      run: |
-        git add food-data/processed-datasets/.
-        git add food-data/new-datasets/.
-        git config --global user.name 'CodeForPittsburgh'
-        git config --global user.email 'CodeForPittsburgh@users.noreply.github.com'
-        git commit -m "newly updated merged datasets"
-        git push
-      

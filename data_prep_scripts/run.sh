@@ -42,6 +42,18 @@ if [ "$no_error" == "True" ]; then
 #Copy merged_datasets.csv to timestamped historical copy of csv. 
 	cp food-data/processed-datasets/merged_datasets.csv food-data/processed-datasets/$new_fileName
 
+  #Run Sanity Check to ensure data exists in proper format
+  sanity_check_passed=`cat food-data/processed-datasets/merged_datasets.csv | python data_prep_scripts/auto_sanity_check_wrapper.py`
+  if [ "$sanity_check_passed" == "True"]; then
+    git add food-data/processed-datasets/.
+    git add food-data/new-datasets/.
+    git config --global user.name 'CodeForPittsburgh'
+    git config --global user.email 'CodeForPittsburgh@users.noreply.github.com'
+    git commit -m "newly updated merged datasets"
+    git push
+  else
+    echo 'ERROR: Sanity Check Failed. Check Print Statements'
+
 #If data integrity checker found errors, stop script and send failure message
 else
 	echo 'Data Integrity Checker Failed. Check Output.'
