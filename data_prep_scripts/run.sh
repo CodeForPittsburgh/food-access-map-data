@@ -44,7 +44,7 @@ if [ "$no_error" == "True" ]; then
 
   #Run Sanity Check to ensure data exists in proper format
   sanity_check_passed=`cat food-data/processed-datasets/merged_datasets.csv | python data_prep_scripts/auto_sanity_check_wrapper.py`
-  if [ "$sanity_check_passed" == "True"]; then
+  if [ "$sanity_check_passed" == "True" ]; then
     git add food-data/processed-datasets/.
     git add food-data/new-datasets/.
     git config --global user.name 'CodeForPittsburgh'
@@ -53,6 +53,7 @@ if [ "$no_error" == "True" ]; then
     git push
   else
     echo 'ERROR: Sanity Check Failed. Check Print Statements'
+  fi
 
 #If data integrity checker found errors, stop script and send failure message
 else
