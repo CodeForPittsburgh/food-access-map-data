@@ -26,4 +26,4 @@ categories["source_file"] = ["GP_garden_directory_listing-20210322.csv",
 flag_columns = ["food_bucks", "SNAP", "WIC", "FMNP", "fresh_produce", "free_distribution"]
 
 # auto_id_duplicates_wrapper
-sys.stdout.write(auto_sanity_check_function.sanity_check(dat, flag_columns, categories))
+sys.stdout.write(str(auto_sanity_check_function.sanity_check(dat, flag_columns, categories)))
