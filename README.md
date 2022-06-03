@@ -71,7 +71,7 @@ It is recommended to use the RStudio IDE to interact with the data.
 
 Data for the food access map:
 
-* `merged_datasets.csv` is the most current version of compiled PFPC data (last update 04/01/2020 w/ de-dup by fuzzystring turned off for now)
+* `merged_datasets.csv` is the most current version of compiled PFPC data 
 
 * To regenerate merged_datasets.csv with new data, run the "[Generate Merged Dataset](https://github.com/CodeForPittsburgh/food-access-map-data/actions/workflows/generate_merged_dataset.yml)" Github Action. This calls "data_prep_scripts/run.sh", which runs the following scripts in order.
 	+ **auto_agg_clean_data.R**   --		Reads in previously prepared data sources and aggregates them to a single data frame.
@@ -81,6 +81,8 @@ Data for the food access map:
 	+ **auto_id_duplicates_wrapper.py**  --		Identifies duplicate rows
 	+ **auto_merge_duplicates_wrapper.py**  --	Merges duplicate rows, resolving conflicts on critical information by prioritizing some data sources
 	+ **auto_set_flags.py** -- 			Sets flags for columns (such as fresh_produce) based on conditions in the row, such as their source 
+
+The end result of all of these steps is a new merged_datasets.csv, which the map points to for its data! 
 
 # Data Sources for Food Access Map
 
