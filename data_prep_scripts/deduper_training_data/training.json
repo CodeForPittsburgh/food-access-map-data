@@ -1,1 +1,212 @@
-{"distinct": [], "match": [{"__class__": "tuple", "__value__": [{"name": "KUHN S MARKET", "address": "700 Beulah Road", "LatLong": [40.426727, -79.835388]}, {"name": "KUHN'S MARKET TURTLE CREEK", "address": "700 Beulah Road", "LatLong": [40.42695, -79.83493]}]}, {"__class__": "tuple", "__value__": [{"name": "BRADDOCK FARM", "address": "1000 Braddock Avenue", "LatLong": [40.399024, -79.863161]}, {"name": "BRADDOCK FARM STAND", "address": "1000 Braddock Avenue", "LatLong": [40.398969, -79.86307099999999]}]}, {"__class__": "tuple", "__value__": [{"name": "BRADDOCK FARM", "address": "1000 Braddock Avenue", "LatLong": [40.399024, -79.863161]}, {"name": "BRADDOCK FARM STAND", "address": "1000 Braddock Avenue", "LatLong": [40.398969, -79.86307099999999]}]}, {"__class__": "tuple", "__value__": [{"name": "BRADDOCK FARM", "address": "1000 Braddock Avenue", "LatLong": [40.399024, -79.863161]}, {"name": "BRADDOCK FARM STAND", "address": "1000 Braddock Avenue", "LatLong": [40.398969, -79.86307099999999]}]}, {"__class__": "tuple", "__value__": [{"name": "BRADDOCK FARM", "address": "1000 Braddock Avenue", "LatLong": [40.399024, -79.863161]}, {"name": "BRADDOCK FARM STAND", "address": "1000 Braddock Avenue", "LatLong": [40.398969, -79.86307099999999]}]}, {"__class__": "tuple", "__value__": [{"name": "BRADDOCK FARM", "address": "1000 Braddock Avenue", "LatLong": [40.399024, -79.863161]}, {"name": "BRADDOCK FARM STAND", "address": "1000 Braddock Avenue", "LatLong": [40.398969, -79.86307099999999]}]}, {"__class__": "tuple", "__value__": [{"name": "HOMEWOOD FARMERS MARKET", "address": "7139 Frankstown Avenue", "LatLong": [40.457764000000005, -79.8968079]}, {"name": "HOMEWOOD FARMERS MARKET", "address": "7139 Fransktown Avenue", "LatLong": [40.457764000000005, -79.896808]}]}, {"__class__": "tuple", "__value__": [{"name": "GREEN TREE FARMER'S MARKET IN THE PARK", "address": "905 Greentree Road", "LatLong": [40.422939, -80.044937]}, {"name": "GREEN TREE FARMER'S MARKET IN THE PARK", "address": "895 Greentree Road", "LatLong": [40.4233586, -80.0444059]}]}, {"__class__": "tuple", "__value__": [{"name": "Northview Heights", "address": "441 Mt. Pleasant Road", "LatLong": [40.47895204, -80.00075696]}, {"name": "Northview Heights Recreation Center", "address": "524 Mt. Pleasant Road", "LatLong": [40.47789611, -80.00035647]}]}]}
+{
+  "distinct": [],
+  "match": [
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "KUHN S MARKET",
+          "address": "700 Beulah Road",
+          "LatLong": [
+            40.426727,
+            -79.835388
+          ],
+          "type": "supermarket"
+        },
+        {
+          "name": "KUHN'S MARKET TURTLE CREEK",
+          "address": "700 Beulah Road",
+          "LatLong": [
+            40.42695,
+            -79.83493
+          ],
+          "type": "supermarket"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "BRADDOCK FARM",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.399024,
+            -79.863161
+          ],
+          "type": "farmer's market"
+        },
+        {
+          "name": "BRADDOCK FARM STAND",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.398969,
+            -79.86307099999999
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "BRADDOCK FARM",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.399024,
+            -79.863161
+          ],
+          "type": "farmer's market"
+        },
+        {
+          "name": "BRADDOCK FARM STAND",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.398969,
+            -79.86307099999999
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "BRADDOCK FARM",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.399024,
+            -79.863161
+          ],
+          "type": "farmer's market"
+        },
+        {
+          "name": "BRADDOCK FARM STAND",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.398969,
+            -79.86307099999999
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "BRADDOCK FARM",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.399024,
+            -79.863161
+          ],
+          "type": "farmer's market"
+        },
+        {
+          "name": "BRADDOCK FARM STAND",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.398969,
+            -79.86307099999999
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "BRADDOCK FARM",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.399024,
+            -79.863161
+          ],
+          "type": "farmer's market"
+        },
+        {
+          "name": "BRADDOCK FARM STAND",
+          "address": "1000 Braddock Avenue",
+          "LatLong": [
+            40.398969,
+            -79.86307099999999
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "HOMEWOOD FARMERS MARKET",
+          "address": "7139 Frankstown Avenue",
+          "LatLong": [
+            40.457764000000005,
+            -79.8968079
+          ],
+          "type": "farmer's market"
+        },
+        {
+          "name": "HOMEWOOD FARMERS MARKET",
+          "address": "7139 Fransktown Avenue",
+          "LatLong": [
+            40.457764000000005,
+            -79.896808
+          ],
+          "type": " "
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "GREEN TREE FARMER'S MARKET IN THE PARK",
+          "address": "905 Greentree Road",
+          "LatLong": [
+            40.422939,
+            -80.044937
+          ],
+          "type": " "
+        },
+        {
+          "name": "GREEN TREE FARMER'S MARKET IN THE PARK",
+          "address": "895 Greentree Road",
+          "LatLong": [
+            40.4233586,
+            -80.0444059
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "Northview Heights",
+          "address": "441 Mt. Pleasant Road",
+          "LatLong": [
+            40.47895204,
+            -80.00075696
+          ],
+          "type": " "
+        },
+        {
+          "name": "Northview Heights Recreation Center",
+          "address": "524 Mt. Pleasant Road",
+          "LatLong": [
+            40.47789611,
+            -80.00035647
+          ],
+          "type": " "
+        }
+      ]
+    }
+  ]
+}
