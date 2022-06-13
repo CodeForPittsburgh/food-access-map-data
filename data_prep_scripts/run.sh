@@ -35,12 +35,27 @@ if [ "$no_error" == "True" ]; then
 #Identify duplicate entries
 		python data_prep_scripts/auto_id_duplicates_wrapper.py | \
 #Merge duplicate rows, resolving conflicts on critical information by prioritizing some data sources, outputing final result into "merged_datasets.csv"		
-		Rscript data_prep_scripts/auto_merge_duplicates_wrapper.R "data_prep_scripts/source_field_prioritization_sample_data.csv" > food-data/processed-datasets/merged_datasets.csv
+		Rscript data_prep_scripts/auto_merge_duplicates_wrapper.R "data_prep_scripts/source_field_prioritization_sample_data.csv" |
+#Set any flags not previously set in the logic
+    python data_prep_scripts/auto_set_flags.py > food-data/processed-datasets/merged_datasets.csv
 
 #Copy merged_datasets.csv to timestamped historical copy of csv. 
 	cp food-data/processed-datasets/merged_datasets.csv food-data/processed-datasets/$new_fileName
 
+  #Run Sanity Check to ensure data exists in proper format
+  sanity_check_passed=`cat food-data/processed-datasets/merged_datasets.csv | python data_prep_scripts/auto_sanity_check_wrapper.py`
+  if [ "$sanity_check_passed" == "True" ]; then
+    git add food-data/processed-datasets/. ;
+    git add food-data/new-datasets/. ;
+    git config --global user.name 'CodeForPittsburgh' ;
+    git config --global user.email 'CodeForPittsburgh@users.noreply.github.com' ;
+    git commit -m "newly updated merged datasets" ;
+    git push ;
+  else
+    echo 'ERROR: Sanity Check Failed. Check Print Statements' ;
+  fi
+
 #If data integrity checker found errors, stop script and send failure message
 else
-	echo 'Data Integrity Checker Failed. Check Output.'
+	echo 'Data Integrity Checker Failed. Check Output.' ;
 fi
