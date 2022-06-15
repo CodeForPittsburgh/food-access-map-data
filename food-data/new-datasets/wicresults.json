@@ -1049,6 +1049,24 @@
       "PhoneNumberLink": "tel:+1-724-443-8420"
     },
     {
+      "StoreName": "Save-A-Lot",
+      "StreetAddrLine1": "725 ROSS AVE",
+      "StreetAddrLine2": "",
+      "City": "PITTSBURGH",
+      "State": "PA",
+      "ZipCode": "15221",
+      "ZipPlus4": "2328",
+      "PhoneNr": "(412) 242-3204",
+      "Distance": 0,
+      "FormattedStreetAddr": "725 ROSS AVE",
+      "CityStateZip": "PITTSBURGH, PA 15221-2328",
+      "DistanceWithText": "",
+      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=725%20ROSS%20AVE%20PITTSBURGH,%20PA%2015221-2328",
+      "PhoneNumberWithParen": "(412) 242-3204",
+      "PhoneNumberWithDash": "412-242-3204",
+      "PhoneNumberLink": "tel:+1-412-242-3204"
+    },
+    {
       "StoreName": "Shaler Shop N Save",
       "StreetAddrLine1": "1620 Babcock Blvd",
       "StreetAddrLine2": "",
@@ -1463,5 +1481,5 @@
       "PhoneNumberLink": "tel:+1-412-829-2900"
     }
   ],
-  "timestamp": "2022.05.19-01.45.50"
+  "timestamp": "2022.06.02-13.03.10"
 }

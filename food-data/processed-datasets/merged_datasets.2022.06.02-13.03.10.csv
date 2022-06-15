@@ -1,4 +1,3 @@
-
 file_name,id,source_org,source_file,original_id,type,name,address,city,state,zip_code,county,location_description,phone,url,latitude,longitude,latlng_source,date_from,date_to,open_to_spec_group,data_issues,food_bucks,SNAP,WIC,FMNP,fresh_produce,free_distribution,group_id,merged_record,timestamp
 food-data/Cleaned_data_files//cleaned_growpgh.csv,1,Grow Pittsburgh,GP_garden_directory_listing-20210322.csv,,Grow PGH Garden,ANGORA GARDENS,3 Muse Lane,White Oak,PA,15131.0,,community-farm,412.675.8556,http://www.angoragardens.com,40.342338,-79.788348,Grow Pittsburgh,,,open to all,no date/time;no county info,0.0,0.0,0.0,0.0,1,0.0,,0,2022-06-02 13:04:17
 food-data/Cleaned_data_files//cleaned_growpgh.csv,2,Grow Pittsburgh,GP_garden_directory_listing-20210322.csv,,Grow PGH Garden,EVERYBODY'S GARDEN,301 West Elizabeth Street,Pittsburgh,PA,15207.0,,other,,,40.406546,-79.945442,Grow Pittsburgh,,,open to all,no date/time;no county info,0.0,0.0,0.0,0.0,1,0.0,,0,2022-06-02 13:04:17
@@ -1377,7 +1376,6 @@ Site Info: Marion Elementary<div>Rostraver Elementary</div><div>Belle Vernon Are
 Time: 11-12:00 M-F
 Additional Info: <span style=""color: rgb(32, 33, 36); font-size: 8pt; letter-spacing: 0.15pt;"">The Belle Vernon Area
 School District has recently received approval for all students to receive free
-
 breakfasts and lunches. Food is provided for students on days that they are not in school.  Parents must fill out sign up sheet: </span><div><font color=""#202124""><span style=""font-size: 10.6667px; letter-spacing: 0.2px;""><br /></span></font></div><div><font color=""#202124""><span style=""font-size: 10.6667px; letter-spacing: 0.2px;"">URL  :  https://docs.google.com/forms/d/1xaC7zYM_JeQuggpZXUiRaG1ja8HIs0a6q3obByUa7BE/viewform?edit_requested=true</span></font></div>",,https://docs.google.com/forms/d/e/1FAIpQLSdM-P5bbUGEy8GlDuTMXo7SADzwj78F88mSfkZ5831iXpoHoA/viewform,40.117464,-79.82388,Greater Pittsburgh Community Food Bank,,,youth populations,phone missing;,0.0,0.0,0.0,0.0,0,1.0,,0,2022-06-02 13:04:17
 food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1346,Greater Pittsburgh Community Food Bank,https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer,a4bbf4ca-b1a4-40c5-8169-5d0818960a70,food bank site,BELLE VERNON SD - ROSTRAVER APARTMENTS,Rostraver Apartments - Both Stops,Belle Vernon,PA,15012.0,,"Population Served: children only
 Site Info: both stops
@@ -1621,6 +1619,7 @@ food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1414,Gr
 
 
 
+
 Site Info: Drive up ..… Open your trunk… We'll load the box...…. Drive away! 
 
 Come and Be blessed!
@@ -1637,7 +1636,6 @@ Site Info: Enter  through the gate at the back of the former ""Assumption School
 Time: The last Saturday of every month.<div><br /></div><div>11:00 am to 12:00 pm</div>
 Additional Info: Free Grab & Go Lunches.
 
-
 We will provide a meal and a small bag of food to anyone in need",412 -766 - 6660,https://www.assumptionchurch.org/post/new-ministry-marys-gate,40.4974328373089,-80.05727375389871,Greater Pittsburgh Community Food Bank,,,open to all,,0.0,0.0,0.0,0.0,0,1.0,,0,2022-06-02 13:04:17
 food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1416,Greater Pittsburgh Community Food Bank,https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer,f5d2d714-4356-495d-80d6-1e0cb2deda82,food bank site,WEST VIEW HUB FOOD PANTRY,435 Perry Highway,West View,PA,15229.0,,"Population Served: No restrictions
 Site Info: In the Dollar General plaza, across from Isaly's.<div><br /></div><div>We have moved our food pantry operations to the location right next to the Hub, where Schorr's bakery used to be. <br /></div>
@@ -1653,7 +1651,6 @@ Site Info: We will be hosting a Drive-Up Food Distribution on Wednesday, June 9,
 
 You must make a reservation below in advance of the event: <div><br /></div><div>URL : https://www.pittsburghfoodbank.org/get-help/drive-up/reservations/ </div><div><br /></div><div> (Reservations allow us to serve you better by controlling traffic and making sure we have the right amount of food.)</div>
 Time: Wednesday, June 9, 2021 (12 p.m. – 2 p.m.) <div><br /></div><div> The Food Bank will be able to serve up to 1,200 vehicles at this distribution.</div>
-
 Additional Info: Each reservation will receive one share (50 pounds of food). There are no exceptions. For one car to get multiple shares of food, the car must have more than one family or household and each household must complete a separate reservation. The same car and license plate can be used up to three times for the same event. <div><br /></div><div>A single share of food may come in one or more pre-packed boxes and/or bags. When you arrive, stay in your vehicle at all times. After entering “distribution row”, put your vehicle in park and unlock your trunk or backseat for food to be loaded. A volunteer will load the food into your vehicle. This helps us keep you safe during the pandemic and adhere to social distancing guidelines.</div>",Phone: 412-460-3663,https://www.pittsburghfoodbank.org/get-help/drive-up/johnstown/,40.2957824552865,-78.8337646947761,Greater Pittsburgh Community Food Bank,,,open to all,,0.0,0.0,0.0,0.0,0,1.0,,0,2022-06-02 13:04:17
 food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1419,Greater Pittsburgh Community Food Bank,https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer,3da9328b-61df-4a16-8644-a234b1d12d2c,food bank site,"ROSEDALE UNITED METHODIST CHURCH, 5501 THIRD STREET VERONA, PA 15147",5501 Third Street,Verona,PA,15147.0,,"Population Served: You must live in either: <div> - Verona, </div><div>- Oakmont,</div><div> - Penn Hills, </div><div>- Plum or Blawnox</div>
 Time: Distribution every Wednesday <div>**Closed the 5th Wednesday of any month</div><div><br /></div><div> HOURS:</div><div> 5:00pm to 7:30pm </div><div>*Doors open @4:30pm</div>
@@ -1663,7 +1660,6 @@ food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1420,Gr
 Time: Food pantry is open every 1st Saturday of the month through December.<div><br /></div><div>Hours are 10:00 AM to NOON. </div><div><br /></div><div>Remaining dates for pick-up are as followed: </div><div><br /></div><div>• June 5, 2021</div><div>• July 3, 2021 </div><div>• August 7, 2021 </div><div>• September 4, 2021 </div><div>• October 2, 2021 </div><div>• November 6, 2021 </div><div>• December 4, 2021<br /></div><div><br /></div>
 Additional Info: If you are unable to pick up for yourself, please complete a proxy form and make arrangements for your proxy to pick up your food during distribution. <div><br /></div><div>They will need your photo ID, if you are registered, with all paperwork and verifications complete for 2021.</div><div><br /></div><div>For additional information please contact: </div><div><br /></div><div>Hazelwood YMCA Food Pantry at: (412)421-5648 </div><div><br /></div><div>Or Call </div><div><br /></div><div>Greater Pittsburgh Community Food Bank at: 412-460-3663</div>",(412) 421-5648,https://www.pittsburghfoodbank.org/agency/hazelwood-ymca-food-pantry/,40.4070439497325,-79.9417378071211,Greater Pittsburgh Community Food Bank,,,open to all,,0.0,0.0,0.0,0.0,0,1.0,,0,2022-06-02 13:04:17
 food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1421,Greater Pittsburgh Community Food Bank,https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer,7002d9cf-4044-4401-8b92-593729ee5584,food bank site,"PATHWAY CHURCH 279 BRADEN SCHOOL RD., BEAVER FALLS, PA 15010",279 Braden School Road,Beaver Falls,PA,15010.0,,"Population Served: Currently, there is no required proof of eligibility and anyone is eligible for food.
-
 
 The Food Bank will be able to serve up to 500 vehicles at this distribution
 Site Info: The start time (11 a.m.) is the soonest you will be allowed to enter the distribution line. The distribution will end promptly at 1 p.m. Drive-up service will be discontinued at that time. You must arrive in the vehicle used to make your reservation. As long as you arrive in your vehicle with a reservation between the start and end time of the event, you will receive food.
@@ -1677,7 +1673,6 @@ Time: We will be hosting a Drive-Up Food Distribution on Saturday, June 12<div>�
 Make a reservation on-line: </div><div> URL:  https://www.pittsburghfoodbank.org/get-help/drive-up/reservations/ </div><div><br /></div><div> (Reservations allow us to serve you better by controlling traffic and making sure we have the right amount of food.)<br /></div></div>
 Additional Info: Each reservation will receive one share (50 pounds of food). There are no exceptions.
 If you are carpooling to the distribution, each household in the vehicle needs to complete their own reservation to receive food.  
-
 
 A single share of food may come in one or more pre-packed boxes and/or bags. When you arrive, stay in your vehicle at all times. After entering distribution area, put your vehicle in park and unlock your trunk or backseat for food to be loaded.  A volunteer will load the food into your vehicle. This helps us keep you safe during the pandemic and adhere to social distancing guidelines",(412) 460-3663,https://www.pittsburghfoodbank.org/get-help/drive-up/beaver-falls/,40.7595687414628,-80.3615768321012,Greater Pittsburgh Community Food Bank,,,open to all,,0.0,0.0,0.0,0.0,0,1.0,,0,2022-06-02 13:04:17
 food-data/Cleaned_data_files//greater_pittsburgh_community_food_bank.csv,1422,Greater Pittsburgh Community Food Bank,https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/COVID19_Food_Access_(PUBLIC)/FeatureServer,78e09f34-c44a-42af-8f4d-6fa7aaa72c03,food bank site,"CHRIST LUTHERAN CHURCH, 917 EVERGREEN AVE MILLVALE, PA, 15209",917 Evergreen Avenue,Millvale,PA,15209.0,,"Population Served: All are welcome!
