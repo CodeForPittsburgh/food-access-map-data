@@ -10,7 +10,7 @@ jobs:
       with:
         r-version: '3.5.3' # The R version to download (if necessary) and use.
     - name: Install Packages
-      run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr", "stringr", "httr", "jsonlite", "janitor", "tidyr", "readxl", "googlesheets4"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
+      run: Rscript -e 'install.packages(c("dplyr", "readr", "remotes","purrr", "stringr", "httr", "jsonlite", "janitor", "tidyr", "readxl", "googlesheets4", "logging", "logger", "pander", "here"), Ncpus = 2, repos = "https://demo.rstudiopm.com/cran/__linux__/centos7/latest", dependencies = TRUE)'
     - uses: actions/checkout@v2
     - name: Install Python 3
       uses: actions/setup-python@v2
