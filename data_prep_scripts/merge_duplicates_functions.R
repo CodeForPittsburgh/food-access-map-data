@@ -1,5 +1,11 @@
 #Merge_duplicates_functions.R
 #Contains all functions to be used by auto_merge_duplicates.R
+library(logger)
+library(pander)
+
+formatter_data_frame <- function(df, ...) {
+  pander::pander_return(df, style = 'multiline',  split.table = Inf)
+}
 
 #Obtains field's relative priority for that source (i.e., whether other sources should be relied on for that field instead)
 #returns a number indicating the priority
@@ -21,6 +27,14 @@ get_source_field_priority <- function(source_name, field_name) {
 #  After all members in pair have been merged, the merged row will be compared with the next row, if another row exists
 #  Otherwise, return merged row
 merge_duplicates <- function(rows_to_merge, source_field_prioritization) {
+  #Log which rows will be merged.
+  pander::panderOptions("table.split.cells", Inf)
+  f <- file.path("merge.log")
+  logger::log_appender(appender_file(f))
+  logger::log_info("Merging the following rows:")
+  logger::log_info(rows_to_merge)
+  
+  
   #browser() #Browser function for debugging
   flag_columns <- colnames(source_field_prioritization)[-1]   #Get names of flag columns(excluding source field column) 
   if(!is.data.frame((rows_to_merge))) {
@@ -59,6 +73,11 @@ merge_duplicates <- function(rows_to_merge, source_field_prioritization) {
 }
 
 merge_all_duplicates_in_dataframe <- function(df, source_field_prioritization) {
+  #Erase previous log
+  f <- file.path("merge.log")
+  close( file( f, open="w" ) )
+  #Initialize Log
+  logger::log_formatter(formatter_data_frame)
   #Collect all distinct group_id values
   group_ids <- unique(df$group_id)
   group_ids <- group_ids[!is.na(group_ids)] #Remove the NA value

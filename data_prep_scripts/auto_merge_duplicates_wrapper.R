@@ -13,10 +13,14 @@ args = commandArgs(trailingOnly=TRUE)
 
 # test if there is at least one argument: if not, return an error
 if (length(args)==0) {
-  stop("Source Field Prioriotization csv must be called as first argument", call.=FALSE)
+  stop("Source Field Prioritization csv must be called as first argument", call.=FALSE)
 } else if (length(args)==1) {
   sfp_filepath <- args[1]
 }
+
+#Clear Merge Log
+merge_log <- file.path("data_prep_scripts/merge.log")
+close( file( merge_log, open="w" ) )
 
 input_file <- file('stdin', 'r')
 
