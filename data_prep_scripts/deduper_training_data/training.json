@@ -1,5 +1,29 @@
 {
-  "distinct": [],
+  "distinct": [
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "PITTSBURGH URBAN GARDENING PROJECT",
+          "address": "1612 Steuben Street",
+          "LatLong": [
+            40.44,
+            -80.06
+          ],
+          "type": "Grow PGH Garden"
+        },
+        {
+          "name": "PITTSBUGH URBAN GRADEN PROJECT",
+          "address": "1612 Steuben Street",
+          "LatLong": [
+            40.44,
+            -80.06
+          ],
+          "type": "farmer's market"
+        }
+      ]
+    }
+  ],
   "match": [
     {
       "__class__": "tuple",
