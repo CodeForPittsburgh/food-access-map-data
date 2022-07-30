@@ -35,7 +35,7 @@ if [ "$no_error" == "True" ]; then
 #Identify duplicate entries
 		python data_prep_scripts/auto_id_duplicates_wrapper.py | \
 #Merge duplicate rows, resolving conflicts on critical information by prioritizing some data sources, outputing final result into "merged_datasets.csv"		
-		Rscript data_prep_scripts/auto_merge_duplicates_wrapper.R "data_prep_scripts/source_field_prioritization_sample_data.csv" |
+		Rscript data_prep_scripts/auto_merge_duplicates_wrapper.R "data_prep_scripts/source_field_prioritization.csv" |
 #Set any flags not previously set in the logic
     python data_prep_scripts/auto_set_flags.py > food-data/processed-datasets/merged_datasets.csv
 
