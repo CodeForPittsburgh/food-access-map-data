@@ -959,24 +959,6 @@
       "PhoneNumberLink": "tel:+1-412-369-8781"
     },
     {
-      "StoreName": "Las Palmas, LLC",
-      "StreetAddrLine1": "1616 BROADWAY AVE",
-      "StreetAddrLine2": "",
-      "City": "PITTSBURGH",
-      "State": "PA",
-      "ZipCode": "15216",
-      "ZipPlus4": "3247",
-      "PhoneNr": "(412) 388-5018",
-      "Distance": 0,
-      "FormattedStreetAddr": "1616 BROADWAY AVE",
-      "CityStateZip": "PITTSBURGH, PA 15216-3247",
-      "DistanceWithText": "",
-      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=1616%20BROADWAY%20AVE%20PITTSBURGH,%20PA%2015216-3247",
-      "PhoneNumberWithParen": "(412) 388-5018",
-      "PhoneNumberWithDash": "412-388-5018",
-      "PhoneNumberLink": "tel:+1-412-388-5018"
-    },
-    {
       "StoreName": "Murray Avenue Kosher",
       "StreetAddrLine1": "1916 MURRAY AVE",
       "StreetAddrLine2": "",
@@ -1319,24 +1301,6 @@
       "PhoneNumberLink": "tel:+1-412-881-4447"
     },
     {
-      "StoreName": "Village Shop N Save",
-      "StreetAddrLine1": "1886 Homeville Rd",
-      "StreetAddrLine2": "",
-      "City": "West Mifflin",
-      "State": "PA",
-      "ZipCode": "15122",
-      "ZipPlus4": "3696",
-      "PhoneNr": "(412) 466-1112",
-      "Distance": 0,
-      "FormattedStreetAddr": "1886 Homeville Rd",
-      "CityStateZip": "West Mifflin, PA 15122-3696",
-      "DistanceWithText": "",
-      "Directions": "http://maps.google.com?saddr=Current+Location&daddr=1886%20Homeville%20Rd%20West%20Mifflin,%20PA%2015122-3696",
-      "PhoneNumberWithParen": "(412) 466-1112",
-      "PhoneNumberWithDash": "412-466-1112",
-      "PhoneNumberLink": "tel:+1-412-466-1112"
-    },
-    {
       "StoreName": "Wal-Mart #2281 West Mifflin",
       "StreetAddrLine1": "2351 Century Dr",
       "StreetAddrLine2": "",
@@ -1481,5 +1445,5 @@
       "PhoneNumberLink": "tel:+1-412-829-2900"
     }
   ],
-  "timestamp": "2022.06.22-22.40.02"
+  "timestamp": "2022.07.30-16.13.37"
 }
